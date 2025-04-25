@@ -1,0 +1,2 @@
+# StudentSync
+School assignemnent
