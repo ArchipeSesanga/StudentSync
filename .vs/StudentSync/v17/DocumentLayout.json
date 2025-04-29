@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\",
+  "WorkspaceRootPath": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62B5487E-7CB0-46EE-886C-632C92BF8A95}|StudentSync.csproj|c:\\users\\archipe sesanga\\documents\\github\\assignement\\studentsync\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{62B5487E-7CB0-46EE-886C-632C92BF8A95}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{62B5487E-7CB0-46EE-886C-632C92BF8A95}|StudentSync.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62B5487E-7CB0-46EE-886C-632C92BF8A95}|StudentSync.csproj|c:\\users\\archipe sesanga\\documents\\github\\assignement\\studentsync\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62B5487E-7CB0-46EE-886C-632C92BF8A95}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62B5487E-7CB0-46EE-886C-632C92BF8A95}|StudentSync.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,23 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -45,18 +53,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T06:06:14.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "WhenOpened": "2025-04-26T06:06:14.965Z"
             }
           ]
         }
