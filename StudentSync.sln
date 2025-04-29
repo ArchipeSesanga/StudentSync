@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSync", "StudentSync.csproj", "{62B5487E-7CB0-46EE-886C-632C92BF8A95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSync", "StudentSync\StudentSync.csproj", "{32D50D18-551A-4727-B75F-DE2BBE2DEA2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{62B5487E-7CB0-46EE-886C-632C92BF8A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{62B5487E-7CB0-46EE-886C-632C92BF8A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{62B5487E-7CB0-46EE-886C-632C92BF8A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{62B5487E-7CB0-46EE-886C-632C92BF8A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D50D18-551A-4727-B75F-DE2BBE2DEA2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D50D18-551A-4727-B75F-DE2BBE2DEA2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D50D18-551A-4727-B75F-DE2BBE2DEA2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D50D18-551A-4727-B75F-DE2BBE2DEA2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
