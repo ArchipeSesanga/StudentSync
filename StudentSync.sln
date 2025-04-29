@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSync", "StudentSync\StudentSync.csproj", "{32D50D18-551A-4727-B75F-DE2BBE2DEA2A}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSync", "StudentSync.csproj", "{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{32D50D18-551A-4727-B75F-DE2BBE2DEA2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32D50D18-551A-4727-B75F-DE2BBE2DEA2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32D50D18-551A-4727-B75F-DE2BBE2DEA2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32D50D18-551A-4727-B75F-DE2BBE2DEA2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E80C7681-B2E8-421C-BF56-46C65A3A675E}
 	EndGlobalSection
 EndGlobal
