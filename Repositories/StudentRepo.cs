@@ -1,6 +1,7 @@
-﻿using ASPNETCore_DB.Interfaces;
+﻿using StudentSync.Interfaces;
 using StudentSync.Data;
 using StudentSync.Models;
+
 
 
 namespace StudentSync.Repositories
@@ -81,6 +82,7 @@ namespace StudentSync.Repositories
             }
             return isExist;
         }
+       
 
     }
 }

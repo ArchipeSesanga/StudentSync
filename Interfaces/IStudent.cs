@@ -1,6 +1,6 @@
 ﻿using StudentSync.Models;
 
-namespace ASPNETCore_DB.Interfaces
+namespace StudentSync.Interfaces
 {
     public interface IStudent
     {
