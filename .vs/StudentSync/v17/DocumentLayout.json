@@ -1,56 +1,60 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\",
+  "WorkspaceRootPath": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\archipe sesanga\\documents\\github\\assignement\\studentsync\\repositories\\dbinitializerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\babalwa\\documents\\github\\studentsync\\interfaces\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:interfaces\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\babalwa\\documents\\github\\studentsync\\repositories\\dbinitializerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:repositories\\dbinitializerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\archipe sesanga\\documents\\github\\assignement\\studentsync\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\babalwa\\documents\\github\\studentsync\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\archipe sesanga\\documents\\github\\assignement\\studentsync\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\babalwa\\documents\\github\\studentsync\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\archipe sesanga\\documents\\github\\assignement\\studentsync\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\babalwa\\documents\\github\\studentsync\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\archipe sesanga\\documents\\github\\assignement\\studentsync\\data\\sqlitedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\babalwa\\documents\\github\\studentsync\\data\\sqlitedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:data\\sqlitedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\archipe sesanga\\documents\\github\\assignement\\studentsync\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\babalwa\\documents\\github\\studentsync\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\archipe sesanga\\documents\\github\\assignement\\studentsync\\data\\logindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\babalwa\\documents\\github\\studentsync\\data\\logindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:data\\logindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\archipe sesanga\\documents\\github\\assignement\\studentsync\\repositories\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\babalwa\\documents\\github\\studentsync\\repositories\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:repositories\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\archipe sesanga\\documents\\github\\assignement\\studentsync\\interfaces\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\babalwa\\documents\\github\\studentsync\\interfaces\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:interfaces\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\archipe sesanga\\documents\\github\\assignement\\studentsync\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\babalwa\\documents\\github\\studentsync\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Archipe Sesanga\\Downloads\\ASPNETCore_DB\\Models\\Student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\archipe sesanga\\documents\\github\\assignement\\studentsync\\migrations\\20250429155321_createidentityschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\babalwa\\documents\\github\\studentsync\\migrations\\20250429155321_createidentityschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:migrations\\20250429155321_createidentityschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\archipe sesanga\\documents\\github\\assignement\\studentsync\\migrations\\20250429155321_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\babalwa\\documents\\github\\studentsync\\migrations\\20250429155321_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:migrations\\20250429155321_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -61,20 +65,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-29T17:45:35.545Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IStudent.cs",
+              "DocumentMoniker": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Interfaces\\IStudent.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IStudent.cs",
+              "ToolTip": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Interfaces\\IStudent.cs",
+              "RelativeToolTip": "Interfaces\\IStudent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:02:30.436Z",
               "EditorCaption": ""
             },
             {
@@ -87,89 +103,84 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DBInitializerRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Repositories\\DBInitializerRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Repositories\\DBInitializerRepo.cs",
               "RelativeDocumentMoniker": "Repositories\\DBInitializerRepo.cs",
-              "ToolTip": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Repositories\\DBInitializerRepo.cs",
+              "ToolTip": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Repositories\\DBInitializerRepo.cs",
               "RelativeToolTip": "Repositories\\DBInitializerRepo.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwB8AAAAJAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T18:02:14.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SQLiteDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Data\\SQLiteDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Data\\SQLiteDBContext.cs",
               "RelativeDocumentMoniker": "Data\\SQLiteDBContext.cs",
-              "ToolTip": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Data\\SQLiteDBContext.cs",
+              "ToolTip": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Data\\SQLiteDBContext.cs",
               "RelativeToolTip": "Data\\SQLiteDBContext.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T18:04:04.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T18:04:04.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\appsettings.json",
+              "ToolTip": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-29T17:54:38.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T17:54:38.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Program.cs",
+              "ToolTip": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwC8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T17:49:35.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "Models\\Student.cs",
-              "ToolTip": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Models\\Student.cs",
-              "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T18:05:15.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T17:49:35.719Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "LoginDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Data\\LoginDBContext.cs",
-              "RelativeDocumentMoniker": "Data\\LoginDBContext.cs",
-              "ToolTip": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Data\\LoginDBContext.cs",
-              "RelativeToolTip": "Data\\LoginDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T18:38:02.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T18:05:15.597Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "LoginDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Data\\LoginDBContext.cs",
+              "RelativeDocumentMoniker": "Data\\LoginDBContext.cs",
+              "ToolTip": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Data\\LoginDBContext.cs",
+              "RelativeToolTip": "Data\\LoginDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T18:38:02.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "StudentRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Repositories\\StudentRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Repositories\\StudentRepo.cs",
               "RelativeDocumentMoniker": "Repositories\\StudentRepo.cs",
-              "ToolTip": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Repositories\\StudentRepo.cs",
+              "ToolTip": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Repositories\\StudentRepo.cs",
               "RelativeToolTip": "Repositories\\StudentRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -177,11 +188,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IDBInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Interfaces\\IDBInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Interfaces\\IDBInitializer.cs",
               "RelativeDocumentMoniker": "Interfaces\\IDBInitializer.cs",
-              "ToolTip": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Interfaces\\IDBInitializer.cs",
+              "ToolTip": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Interfaces\\IDBInitializer.cs",
               "RelativeToolTip": "Interfaces\\IDBInitializer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -189,11 +200,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -201,23 +212,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\Archipe Sesanga\\Downloads\\ASPNETCore_DB\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\ASPNETCore_DB\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Archipe Sesanga\\Downloads\\ASPNETCore_DB\\Models\\Student.cs",
               "ToolTip": "C:\\Users\\Archipe Sesanga\\Downloads\\ASPNETCore_DB\\Models\\Student.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ASPNETCore_DB\\Models\\Student.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Archipe Sesanga\\Downloads\\ASPNETCore_DB\\Models\\Student.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T18:05:07.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "20250429155321_CreateIdentitySchema.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20250429155321_CreateIdentitySchema.Designer.cs",
-              "ToolTip": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.Designer.cs",
+              "ToolTip": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.Designer.cs",
               "RelativeToolTip": "Migrations\\20250429155321_CreateIdentitySchema.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -225,11 +236,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "20250429155321_CreateIdentitySchema.cs",
-              "DocumentMoniker": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.cs",
+              "DocumentMoniker": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.cs",
               "RelativeDocumentMoniker": "Migrations\\20250429155321_CreateIdentitySchema.cs",
-              "ToolTip": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.cs",
+              "ToolTip": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.cs",
               "RelativeToolTip": "Migrations\\20250429155321_CreateIdentitySchema.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\StudentSync.csproj": {}
+    "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\StudentSync.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\StudentSync.csproj": {
+    "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\StudentSync.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\StudentSync.csproj",
+        "projectUniqueName": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\StudentSync.csproj",
         "projectName": "StudentSync",
-        "projectPath": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\StudentSync.csproj",
-        "packagesPath": "C:\\Users\\Archipe Sesanga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Archipe Sesanga\\Documents\\GitHub\\Assignement\\StudentSync\\obj\\",
+        "projectPath": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\StudentSync.csproj",
+        "packagesPath": "C:\\Users\\Babalwa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Archipe Sesanga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Babalwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net6.0": {
@@ -111,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
