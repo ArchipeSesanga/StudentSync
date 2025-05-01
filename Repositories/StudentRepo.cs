@@ -1,5 +1,5 @@
-﻿using ASPNETCore_DB.Interfaces;
-using StudentSync.Data;
+﻿using StudentSync.Data;
+using StudentSync.Interfaces;
 using StudentSync.Models;
 
 
@@ -21,12 +21,7 @@ namespace StudentSync.Repositories
             return student;
         }
 
-        public bool Delete(Student student)
-        {
-            _context.Remove(student);
-            _context.SaveChanges();
-            return IsExist(student.StudentNumber);
-        }
+
 
         public Student Details(string id)
         {
@@ -45,7 +40,7 @@ namespace StudentSync.Repositories
         {
             var student = _context.Students
                .ToList();
-            if(!string.IsNullOrEmpty(searchString)) 
+            if (!String.IsNullOrEmpty(searchString))
             {
                 student = student.Where(s => s.StudentNumber.Contains(searchString)).ToList();
             }
