@@ -5,30 +5,23 @@ using Microsoft.EntityFrameworkCore;
 
 namespace StudentSync.Controllers
 {
-    
     public class ConsumerController : Controller
     {
         private readonly IConsumer _consumerRepo;
+
         public ConsumerController(IConsumer consumerRepo)
         {
-            try
-            {
-                _consumerRepo = consumerRepo;
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Constructor not initialized - IConsumer consumerRepo");
-            }
-
+            _consumerRepo = consumerRepo ?? throw new ArgumentNullException(nameof(consumerRepo), "Constructor not initialized - IConsumer consumerRepo");
         }
+
         public IActionResult Index(string sortOrder, string currentFilter, string searchString, int? pageNumber)
         {
-            pageNumber = pageNumber ?? 1;
+            pageNumber ??= 1;
             int pageSize = 3;
 
             ViewData["CurrentSort"] = sortOrder;
-            ViewData["StudentNumberSortParm"] = String.IsNullOrEmpty(sortOrder) ? "number_desc" : "";
-            ViewData["NameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            ViewData["StudentNumberSortParm"] = string.IsNullOrEmpty(sortOrder) ? "number_desc" : "";
+            ViewData["NameSortParm"] = string.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
             ViewData["DateSortParm"] = sortOrder == "Date" ? "date_desc" : "Date";
 
             if (searchString != null)
@@ -42,33 +35,24 @@ namespace StudentSync.Controllers
 
             ViewData["CurrentFilter"] = searchString;
 
-            ViewResult viewResult = View();
+            var consumers = _consumerRepo.GetConsumer(searchString, sortOrder);
 
-            try
+            if (consumers == null || !consumers.Any())
             {
-                viewResult = View(PaginatedList<Consumer>.Create(_consumerRepo.GetConsumer(searchString, sortOrder).AsNoTracking(), pageNumber ?? 1, pageSize));
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("No consumer records detected");
+                ViewBag.Message = "No consumer records found.";
+                return View();
             }
 
-            return viewResult;
+            var paginatedList = PaginatedList<Consumer>.Create(consumers.AsNoTracking(), pageNumber.Value, pageSize);
+            return View(paginatedList);
         }
+
         public IActionResult Details(string id)
         {
-            ViewResult viewDetail = View();
-            try
-            {
-                viewDetail = View(_consumerRepo.Details(id));
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Consumer detail not found");
-            }
-
-
-            return viewDetail;
+            var consumer = _consumerRepo.Details(id);
+            if (consumer == null)
+                return NotFound("Consumer detail not found");
+            return View(consumer);
         }
 
         [HttpGet]
@@ -81,96 +65,54 @@ namespace StudentSync.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create([Bind("ConsumerID, FirstName, Surname, EnrollmentDate, Email")] Consumer consumer)
         {
-            try
+            if (ModelState.IsValid)
             {
-                if (ModelState.IsValid)
-                {
-                    _consumerRepo.Create(consumer);
-                }
+                _consumerRepo.Create(consumer);
+                return RedirectToAction(nameof(Index));
             }
-            catch (Exception ex)
-            {
-                throw new Exception("Consumer could not be created");
-            }
-            return RedirectToAction(nameof(Index));
+
+            return View(consumer);
         }
 
         [HttpGet]
         public IActionResult Edit(string id)
         {
-            ViewResult viewDetail = View();
-            try
-            {
-                viewDetail = View(_consumerRepo.Details(id));
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Consumer detail not found");
-            }
-            return viewDetail;
+            var consumer = _consumerRepo.Details(id);
+            if (consumer == null)
+                return NotFound("Consumer detail not found");
+
+            return View(consumer);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Consumer consumer)
         {
-            try
+            if (ModelState.IsValid)
             {
-                if (ModelState.IsValid)
-                {
-                    _consumerRepo.Edit(consumer);
-                }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Consumer detail could not be edited");
+                _consumerRepo.Edit(consumer);
+                return RedirectToAction(nameof(Index));
             }
 
-            return RedirectToAction(nameof(Index));
+            return View(consumer);
         }
 
         [HttpGet]
         public IActionResult Delete(string id)
         {
-            ViewResult viewDetail = View();
-            try
-            {
-                viewDetail = View(_consumerRepo.Details(id));
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("consumer detail not found");
-            }
-            return viewDetail;
+            var consumer = _consumerRepo.Details(id);
+            if (consumer == null)
+                return NotFound("Consumer detail not found");
+
+            return View(consumer);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Delete([Bind("ConsumerID, FirstName, Surname, EnrollmentDate, Email")] Consumer consumer)
         {
-            try
-            {
-                _consumerRepo.Delete(consumer);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Student could not be deleted");
-            }
-
+            _consumerRepo.Delete(consumer);
             return RedirectToAction(nameof(Index));
         }
-
-        private class PaginatedList<T>
-        {
-            internal static string? Create(IQueryable<Consumer> consumers, int v, int pageSize)
-            {
-                throw new NotImplementedException();
-            }
-        }
-    }
-
-    internal class CustomExceptionFilter
-    {
     }
 }
-

@@ -2,7 +2,7 @@
 using StudentSync.Interfaces;
 using StudentSync.Models;
 using SQLitePCL;
-
+using System.Linq;
 
 namespace StudentSync.Repositories
 {
@@ -31,7 +31,7 @@ namespace StudentSync.Repositories
 
         private bool IsExist(int consumerId)
         {
-            throw new NotImplementedException();
+            return _context.Consumers.Any(x => x.ConsumerId == consumerId.ToString());
         }
 
         public Consumer Details(string id)
@@ -90,27 +90,49 @@ namespace StudentSync.Repositories
 
         Consumer IConsumer.Create(Consumer consumer)
         {
-            throw new NotImplementedException();
+            _context.Add(consumer);
+            _context.SaveChanges();
+            return consumer;
         }
 
         bool IConsumer.Delete(Consumer consumer)
         {
-            throw new NotImplementedException();
+            _context.Remove(consumer);
+            _context.SaveChanges();
+            return !_context.Consumers.Any(x => x.ConsumerId == consumer.ConsumerId);
         }
 
         Consumer IConsumer.Details(string id)
         {
-            throw new NotImplementedException();
+            return _context.Consumers?.FirstOrDefault(x => x.ConsumerId == id);
         }
 
         Consumer IConsumer.Edit(Consumer consumer)
         {
-            throw new NotImplementedException();
+            _context.Update(consumer);
+            _context.SaveChanges();
+            return consumer;
         }
 
         IQueryable<Consumer> IConsumer.GetConsumer(string searchString, string sortOrder)
         {
-            throw new NotImplementedException();
+            var consumers = _context.Consumers.AsQueryable();
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                consumers = consumers.Where(s => s.ConsumerId.Contains(searchString));
+            }
+
+            consumers = sortOrder switch
+            {
+                "number_desc" => consumers.OrderByDescending(s => s.ConsumerId),
+                "name_desc" => consumers.OrderByDescending(s => s.Surname),
+                "Date" => consumers.OrderBy(s => s.EnrollmentDate),
+                "date_desc" => consumers.OrderByDescending(s => s.EnrollmentDate),
+                _ => consumers.OrderBy(s => s.Surname),
+            };
+
+            return consumers;
         }
 
         bool IConsumer.IsExist(string id)

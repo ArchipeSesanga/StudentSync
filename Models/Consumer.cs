@@ -2,7 +2,7 @@
 
 namespace StudentSync.Models
 {
-    public class Consumer
+    public class Consumer 
     {
 
         [Key]
@@ -42,7 +42,6 @@ namespace StudentSync.Models
         public string? Email { get; set; }
 
         [Display(Name = "Profile Image")]
-
         public string? Photo { get; set; }
 
 

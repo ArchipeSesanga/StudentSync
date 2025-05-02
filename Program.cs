@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using StudentSync.Data;
 using StudentSync.Interfaces;
+using StudentSync.Models;
 using StudentSync.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,6 +23,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 // Register custom services
 builder.Services.AddScoped<IStudent, StudentRepo>();
 builder.Services.AddScoped<IDBInitializer, DBInitializerRepo>();
+builder.Services.AddScoped<IConsumer, ConsumerRepo>();
+
 
 var app = builder.Build();
 
@@ -85,5 +88,6 @@ using (var scope = app.Services.CreateScope())
     var dbInitializer = services.GetRequiredService<IDBInitializer>();
     dbInitializer.Initialize(dbContext);
 }
+
 
 app.Run();

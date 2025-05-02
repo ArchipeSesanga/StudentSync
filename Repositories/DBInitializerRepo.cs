@@ -10,25 +10,37 @@ namespace StudentSync.Repositories
         {
             context.Database.EnsureCreated();
 
-            if (context.Students.Any())
+            // Seed Students
+            if (!context.Students.Any())
             {
-                return;   // DB has been seeded
+                var students = new Student[]
+                {
+                    new Student { StudentNumber = "2021000001", FirstName = "Liam", Surname = "Peters", EnrollmentDate = DateTime.Parse("2021-02-03") },
+                    new Student { StudentNumber = "2012000002", FirstName = "Sophia", Surname = "Green", EnrollmentDate = DateTime.Parse("2021-02-01") },
+                    new Student { StudentNumber = "2021000003", FirstName = "Noah", Surname = "Kim", EnrollmentDate = DateTime.Parse("2021-02-04") }
+                };
+                foreach (Student s in students)
+                {
+                    context.Students.Add(s);
+                }
+                context.SaveChanges();
             }
 
-            var students = new Student[]
+            // Seed Consumers
+            if (!context.Consumers.Any())
             {
-                new Student{StudentNumber="2021000001",FirstName="Alexander",Surname = "May",
-                EnrollmentDate=DateTime.Parse("2021-02-03")},
-                            new Student{StudentNumber="2012000002",
-                FirstName="Meredith",Surname="Alonso",EnrollmentDate=DateTime.Parse("2021-02-01")},
-                            new Student{StudentNumber="2021000003",
-                FirstName="Arturo",Surname="Anand",EnrollmentDate=DateTime.Parse("2021-02-04")}
-            };
-            foreach (Student s in students)
-            {
-                context.Students.Add(s);
+                var consumers = new Consumer[]
+                {
+                    new Consumer { ConsumerId = "0123456789", Name = "Ethan", Surname = "Williams", EnrollmentDate = DateTime.Parse("2021-02-03"), Email = "Qwe@gmail.com"},
+                    new Consumer { ConsumerId = "0223456789", Name = "Ava", Surname = "Brown", EnrollmentDate = DateTime.Parse("2021-02-01"), Email = "tyu@gmail.com" },
+                    new Consumer { ConsumerId = "0333456789", Name = "Mason", Surname = "Nguyen", EnrollmentDate = DateTime.Parse("2021-02-04"), Email = "asd@gmail.com" }
+                };
+                foreach (Consumer c in consumers)
+                {
+                    context.Consumers.Add(c);
+                }
+                context.SaveChanges();
             }
-            context.SaveChanges();
         }
     }
 }

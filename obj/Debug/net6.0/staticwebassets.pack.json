@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/obj/Debug/net6.0/scopedcss/projectbundle/StudentSync.bundle.scp.css",
-      "PackagePath": "staticwebassets/StudentSync.ckoioytq35.bundle.scp.css"
+      "PackagePath": "staticwebassets/StudentSync.bundle.scp.css"
     },
     {
       "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/css/site.css",
@@ -243,10 +243,6 @@
     {
       "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
-    },
-    {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.StudentSync.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj/Debug/net6.0/staticwebassets/msbuild.StudentSync.Microsoft.AspNetCore.StaticWebAssets.props",
