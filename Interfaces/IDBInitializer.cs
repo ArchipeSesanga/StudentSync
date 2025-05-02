@@ -4,6 +4,6 @@ namespace StudentSync.Interfaces
 {
     public interface IDBInitializer
     {
-        void Initialize(StudentDBContext context);
+        void Initialize(SQLiteDBContext context);
     }
 }

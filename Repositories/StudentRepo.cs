@@ -7,9 +7,9 @@ namespace StudentSync.Repositories
 {
     public class StudentRepo : IStudent
     {
-        private readonly StudentDBContext _context;
+        private readonly SQLiteDBContext _context;
 
-        public StudentRepo(StudentDBContext context)
+        public StudentRepo(SQLiteDBContext context)
         {
             _context = context;
         }

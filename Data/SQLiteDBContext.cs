@@ -3,15 +3,16 @@ using StudentSync.Models;
 
 namespace StudentSync.Data
 {
-    public class StudentDBContext : DbContext
+    public class SQLiteDBContext : DbContext
     {
         // Constructor with strongly-typed DbContextOptions
-        public StudentDBContext(DbContextOptions<StudentDBContext> options) : base(options)
+        public SQLiteDBContext(DbContextOptions<SQLiteDBContext> options) : base(options)
         {
         }
 
         // DbSet property for Students table
         public DbSet<Student> Students { get; set; }
+        public DbSet<Consumer> Consumers { get; set; }
 
         // Configure the model (optional step for further customization)
         protected override void OnModelCreating(ModelBuilder modelBuilder)
