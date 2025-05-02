@@ -12,8 +12,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<LoginDBContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddDbContext<SQLiteDBContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("SQLiteConnection")));
+builder.Services.AddDbContext<StudentDBContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<IDBInitializer, DBInitializerRepo>();
 
@@ -82,7 +82,7 @@ using (var scope = app.Services.CreateScope())
     }
 
     // Seed Student table
-    var dbContext = services.GetRequiredService<SQLiteDBContext>();
+    var dbContext = services.GetRequiredService<StudentDBContext>();
     var dbInitializer = services.GetRequiredService<IDBInitializer>();
     dbInitializer.Initialize(dbContext);
 }

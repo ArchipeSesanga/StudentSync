@@ -11,11 +11,11 @@ namespace StudentSync.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-    private readonly SQLiteDBContext _context;
+    private readonly StudentDBContext _context;
     private readonly IDBInitializer _seedDatabase;
     private readonly UserManager<IdentityUser> _userManager;
 
-    public HomeController(ILogger<HomeController> logger, SQLiteDBContext context, IDBInitializer seedDatabase, UserManager<IdentityUser> userManager) 
+    public HomeController(ILogger<HomeController> logger, StudentDBContext context, IDBInitializer seedDatabase, UserManager<IdentityUser> userManager) 
     {
         _logger = logger;
         _context = context;
