@@ -13,7 +13,7 @@ builder.Services.AddDbContext<LoginDBContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddDbContext<SQLiteDBContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlite(builder.Configuration.GetConnectionString("sqlitedatabase")));
 
 builder.Services.AddScoped<IDBInitializer, DBInitializerRepo>();
 
