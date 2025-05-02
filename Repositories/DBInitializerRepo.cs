@@ -6,7 +6,7 @@ namespace StudentSync.Repositories
 {
     public class DBInitializerRepo : IDBInitializer
     {
-        public void Initialize(SQLiteDBContext context)
+        public void Initialize(ApplicationDbContext context)
         {
             context.Database.EnsureCreated();
 

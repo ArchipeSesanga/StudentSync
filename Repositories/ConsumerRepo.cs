@@ -8,9 +8,9 @@ namespace StudentSync.Repositories
 {
     public class ConsumerRepo : IConsumer
     {
-        private readonly SQLiteDBContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public ConsumerRepo(SQLiteDBContext context)
+        public ConsumerRepo(ApplicationDbContext context)
         {
             _context = context;
         }

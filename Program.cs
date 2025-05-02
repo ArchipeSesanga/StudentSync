@@ -9,20 +9,19 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<LoginDBContext>(options =>
+// Register the unified ApplicationDbContext
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddDbContext<SQLiteDBContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("sqlitedatabase")));
-
-builder.Services.AddScoped<IDBInitializer, DBInitializerRepo>();
-
+// Identity + Roles using the same database
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
         options.SignIn.RequireConfirmedAccount = false)
     .AddRoles<IdentityRole>()
-    .AddEntityFrameworkStores<LoginDBContext>();
-builder.Services.AddScoped<IStudent, StudentRepo>();
+    .AddEntityFrameworkStores<ApplicationDbContext>();
 
+// Register custom services
+builder.Services.AddScoped<IStudent, StudentRepo>();
+builder.Services.AddScoped<IDBInitializer, DBInitializerRepo>();
 
 var app = builder.Build();
 
@@ -47,12 +46,12 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-// Seed Roles, Admin, and Students
+// Seed roles, admin, and student data
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
 
-    // Roles
+    // Create roles
     var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
     var roles = new[] { "Admin", "Student", "Consumer" };
 
@@ -64,7 +63,7 @@ using (var scope = app.Services.CreateScope())
         }
     }
 
-    // Admin user
+    // Create default admin user
     var userManager = services.GetRequiredService<UserManager<IdentityUser>>();
     string email = "admin@gmail.com";
     string password = "Test!1234";
@@ -81,8 +80,8 @@ using (var scope = app.Services.CreateScope())
         await userManager.AddToRoleAsync(user, "Admin");
     }
 
-    // Seed Student table
-    var dbContext = services.GetRequiredService<SQLiteDBContext>();
+    // Seed Students and Consumers
+    var dbContext = services.GetRequiredService<ApplicationDbContext>();
     var dbInitializer = services.GetRequiredService<IDBInitializer>();
     dbInitializer.Initialize(dbContext);
 }
