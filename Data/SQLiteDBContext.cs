@@ -22,8 +22,8 @@ namespace StudentSync.Data
                 .HasKey(s => s.StudentNumber); // Optional, to ensure 'StudentNumber' is the PK
 
             // Additional configuration if needed
-            modelBuilder.Entity<Student>()
-                .Property(s => s.StudentNumber)
+            modelBuilder.Entity<Consumer>()
+                .Property(s => s.ConsumerId)
                 .IsRequired() // Make sure the StudentNumber is required
                 .HasMaxLength(10); // Optionally, set length restrictions
             // Add more model configurations as needed

@@ -890,7 +890,6 @@ C:/Users/Dintle/Videos/Assignment/StudentSync/obj/Debug/net6.0/ref/StudentSync.d
 /Users/archipesesanga/Development/ArkepiosRepos/StudentSync/bin/Debug/net6.0/appsettings.Development.json
 /Users/archipesesanga/Development/ArkepiosRepos/StudentSync/bin/Debug/net6.0/appsettings.json
 /Users/archipesesanga/Development/ArkepiosRepos/StudentSync/bin/Debug/net6.0/StudentSync.staticwebassets.runtime.json
-/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/bin/Debug/net6.0/StudentSync.staticwebassets.endpoints.json
 /Users/archipesesanga/Development/ArkepiosRepos/StudentSync/bin/Debug/net6.0/StudentSync
 /Users/archipesesanga/Development/ArkepiosRepos/StudentSync/bin/Debug/net6.0/StudentSync.deps.json
 /Users/archipesesanga/Development/ArkepiosRepos/StudentSync/bin/Debug/net6.0/StudentSync.runtimeconfig.json
@@ -1174,9 +1173,7 @@ C:/Users/Dintle/Videos/Assignment/StudentSync/obj/Debug/net6.0/ref/StudentSync.d
 /Users/archipesesanga/Development/ArkepiosRepos/StudentSync/obj/Debug/net6.0/scopedcss/projectbundle/StudentSync.bundle.scp.css
 /Users/archipesesanga/Development/ArkepiosRepos/StudentSync/obj/Debug/net6.0/staticwebassets.build.json
 /Users/archipesesanga/Development/ArkepiosRepos/StudentSync/obj/Debug/net6.0/staticwebassets.development.json
-/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/obj/Debug/net6.0/staticwebassets.build.endpoints.json
 /Users/archipesesanga/Development/ArkepiosRepos/StudentSync/obj/Debug/net6.0/staticwebassets/msbuild.StudentSync.Microsoft.AspNetCore.StaticWebAssets.props
-/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/obj/Debug/net6.0/staticwebassets/msbuild.StudentSync.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 /Users/archipesesanga/Development/ArkepiosRepos/StudentSync/obj/Debug/net6.0/staticwebassets/msbuild.build.StudentSync.props
 /Users/archipesesanga/Development/ArkepiosRepos/StudentSync/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.StudentSync.props
 /Users/archipesesanga/Development/ArkepiosRepos/StudentSync/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.StudentSync.props
@@ -1484,3 +1481,6 @@ C:/Users/Babalwa/Documents/GitHub/StudentSync/obj/Debug/net6.0/refint/StudentSyn
 C:/Users/Babalwa/Documents/GitHub/StudentSync/obj/Debug/net6.0/StudentSync.pdb
 C:/Users/Babalwa/Documents/GitHub/StudentSync/obj/Debug/net6.0/StudentSync.genruntimeconfig.cache
 C:/Users/Babalwa/Documents/GitHub/StudentSync/obj/Debug/net6.0/ref/StudentSync.dll
+/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/bin/Debug/net6.0/StudentSync.staticwebassets.endpoints.json
+/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/obj/Debug/net6.0/staticwebassets.build.endpoints.json
+/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/obj/Debug/net6.0/staticwebassets/msbuild.StudentSync.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
