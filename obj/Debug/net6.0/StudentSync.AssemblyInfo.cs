@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentSync")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7be0d50675eabd523cfb8051a6f6e43e771b372")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+132fee23dceeec9c974861a7438d522f73b4d0ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentSync")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentSync")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

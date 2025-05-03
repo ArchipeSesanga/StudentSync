@@ -139,22 +139,49 @@ namespace StudentSync.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Student student)
         {
+            string photoName = HttpContext.Request.Form["photoName"];
+
+            if (HttpContext.Request.Form.Files.Count > 0)
+            {
+                var files = HttpContext.Request.Form.Files;
+                string webRootPath = _webHostEnvironment.WebRootPath;
+                string upload = webRootPath + WebConstants.ImagePath;
+                string fileName = Guid.NewGuid().ToString();
+                string extension = Path.GetExtension(files[0].FileName);
+
+                var oldFile = Path.Combine(upload, photoName);
+
+                if (System.IO.File.Exists(oldFile))
+                {
+                    System.IO.File.Delete(oldFile);
+                }
+
+                using (var fileStream = new FileStream(Path.Combine(upload, fileName + extension),
+                FileMode.Create))
+                {
+                    files[0].CopyTo(fileStream);
+                }
+
+                student.Photo = fileName + extension;
+            }
+            else
+            {
+                student.Photo = photoName;
+            }
+
             try
             {
-                if (ModelState.IsValid)
-                {
-                    _studentRepo.Edit(student);
-                }
+                _studentRepo.Edit(student);
             }
             catch (Exception ex)
             {
-                throw new Exception("Student detail could not be edited");
+                throw new Exception("Student record not saved.");
             }
-
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index");
         }
+    }
 
        
 
-    }
+    
 }
