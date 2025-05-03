@@ -2,6 +2,7 @@
 using StudentSync.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Hosting;
 
 namespace StudentSync.Controllers
 {
@@ -9,17 +10,24 @@ namespace StudentSync.Controllers
     public class StudentController : Controller
     {
         private readonly IStudent _studentRepo;
-        public StudentController(IStudent studentRepo)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public StudentController(IStudent studentRepo, IHttpContextAccessor httpContextAccessor,
+            IWebHostEnvironment webHostEnvironment)
         {
             try
             {
                 _studentRepo = studentRepo;
+                _httpContextAccessor = httpContextAccessor;
+                _webHostEnvironment = webHostEnvironment;
             }
             catch (Exception ex)
             {
                 throw new Exception("Constructor not initialized - IStudent studentRepo");
             }
 
+            _httpContextAccessor = httpContextAccessor;
+            _webHostEnvironment = webHostEnvironment;
         }
         public IActionResult Index(string sortOrder, string currentFilter, string searchString, int? pageNumber)
         {
@@ -74,13 +82,30 @@ namespace StudentSync.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            return View();
+            Student student = new Student();
+            string fileName = "default.PNG";
+            student.Photo = fileName;
+            return View(student);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create([Bind("StudentNumber, FirstName, Surname, EnrollmentDate")] Student student)
+        public IActionResult Create( Student student)
         {
+
+            var files = HttpContext.Request.Form.Files;
+            string webRootPath = _webHostEnvironment.WebRootPath;
+            string upload = webRootPath + WebConstants.ImagePath;
+            string fileName = Guid.NewGuid().ToString();
+            string extension = Path.GetExtension(files[0].FileName);
+
+            using (var fileStream = new FileStream(Path.Combine(upload, fileName + extension),
+                FileMode.Create))
+            {
+                files[0].CopyTo(fileStream);
+            }
+            student.Photo = fileName + extension;
+
             try
             {
                 if (ModelState.IsValid)
@@ -92,7 +117,7 @@ namespace StudentSync.Controllers
             {
                 throw new Exception("Student could not be created");
             }
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index");
         }
 
         [HttpGet]

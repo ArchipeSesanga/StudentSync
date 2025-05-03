@@ -13,6 +13,8 @@ builder.Services.AddControllersWithViews();
 // Register the unified ApplicationDbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+//add the IFttpContextAccessor to the IoC container
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 // Identity + Roles using the same database
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>

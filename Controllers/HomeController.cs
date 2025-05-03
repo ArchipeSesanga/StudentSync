@@ -19,7 +19,7 @@ public class HomeController : Controller
     {
         _logger = logger;
         _context = context;
-        _seedDatabase = seedDatabase;
+        _seedDatabase = seedDatabase;                                
         _userManager = userManager;
     }
 

@@ -15,9 +15,9 @@ namespace StudentSync.Repositories
             {
                 var students = new Student[]
                 {
-                    new Student { StudentNumber = "2021000001", FirstName = "Liam", Surname = "Peters", EnrollmentDate = DateTime.Parse("2021-02-03") },
-                    new Student { StudentNumber = "2012000002", FirstName = "Sophia", Surname = "Green", EnrollmentDate = DateTime.Parse("2021-02-01") },
-                    new Student { StudentNumber = "2021000003", FirstName = "Noah", Surname = "Kim", EnrollmentDate = DateTime.Parse("2021-02-04") }
+                    new Student { StudentNumber = "2021000001", FirstName = "Liam", Surname = "Peters", EnrollmentDate = DateTime.Parse("2021-02-03"), Photo="DefaultPic.png", Email="DefaultEmail@gmail.com" },
+                    new Student { StudentNumber = "2012000002", FirstName = "Sophia", Surname = "Green", EnrollmentDate = DateTime.Parse("2021-02-01"), Photo="DefaultPic.png", Email="DefaultEmail@gmail.com" },
+                    new Student { StudentNumber = "2021000003", FirstName = "Noah", Surname = "Kim", EnrollmentDate = DateTime.Parse("2021-02-04"), Photo="DefaultPic.png", Email="DefaultEmail@gmail.com" }
                 };
                 foreach (Student s in students)
                 {
