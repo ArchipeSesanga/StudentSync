@@ -46,15 +46,21 @@
                 </div>
                 <div class="col-md-6">
                     <div class="right-element">
-                        <partial name="_LoginPartial" />
-                         <a  asp-area="" asp-controller="" asp-action="" class="cart for-buy"><i class="icon icon-clipboard"></i><span>Cart:(0
-                             $)</span></a>
-                        
+                        <ul>
+                            <li>
+                                <partial name="_LoginPartial"/>
+                            </li>
+                        </ul>
+                     
+                        <a asp-area="" asp-controller="" asp-action="" class="cart for-buy"><i class="icon icon-clipboard"></i>
+                            <span>Cart:(0
+                                $)</span></a>
+
 
                         <div class="action-menu">
 
                             <div class="search-bar">
-                                 <a  asp-area="" asp-controller="" asp-action="" class="search-button search-toggle" data-selector="#header-wrap">
+                                <a asp-area="" asp-controller="" asp-action="" class="search-button search-toggle" data-selector="#header-wrap">
                                     <i class="icon icon-search"></i>
                                 </a>
                                 <form role="search" method="get" class="search-box">

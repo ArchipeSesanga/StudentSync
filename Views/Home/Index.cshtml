@@ -1,5 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    Layout = "_Layout";
 }
 
 
@@ -11,6 +12,9 @@
         </div>
         <div class="col-md-4">
             <a asp-controller="Home" asp-action="Index" class="btn btn-success btn-lg w-100">StudentSync</a>
+        </div>
+        <div class="col-md-4">
+            <a asp-controller="Admin" asp-action="Login" class="text-center text-danger w-100">Login as an Admin</a>
         </div>
     </div>
 </div>
