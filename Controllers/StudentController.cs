@@ -136,7 +136,7 @@ namespace StudentSync.Controllers
             return View();
         }
 
-        [HttpPost]
+        [HttpGet]
         public IActionResult Register(Student student)
         {
             return View();
