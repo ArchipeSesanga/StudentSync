@@ -1,4 +1,5 @@
-﻿using StudentSync.Interfaces;
+﻿using Microsoft.AspNetCore.Identity;
+using StudentSync.Interfaces;
 using StudentSync.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -9,16 +10,15 @@ namespace StudentSync.Controllers
     public class StudentController : Controller
     {
         private readonly IStudent _studentRepo;
-        public StudentController(IStudent studentRepo)
+        private readonly UserManager<IdentityUser> _userManager;
+        private readonly SignInManager<IdentityUser> _signInManager;
+        public StudentController(IStudent studentRepo, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
         {
-            try
-            {
+            
                 _studentRepo = studentRepo;
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Constructor not initialized - IStudent studentRepo");
-            }
+                _userManager = userManager;
+                _signInManager = signInManager;
+           
 
         }
         public IActionResult Index(string sortOrder, string currentFilter, string searchString, int? pageNumber)
@@ -42,7 +42,7 @@ namespace StudentSync.Controllers
 
             ViewData["CurrentFilter"] = searchString;
 
-            ViewResult viewResult = View();
+            ViewResult viewResult;
 
             try
             {
@@ -127,9 +127,59 @@ namespace StudentSync.Controllers
             }
 
             return RedirectToAction(nameof(Index));
+        }//End Method
+
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
         }
 
-       
+        [HttpPost]
+        public IActionResult Register(Student student)
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(LoginViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
 
+            var user = await _userManager.FindByEmailAsync(model.Email);
+
+            if (user == null)
+            {
+                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                return View(model);
+            }
+
+            // ✅ Check if user is in the Student role
+            if (!await _userManager.IsInRoleAsync(user, "Student"))
+            {
+                ModelState.AddModelError(string.Empty, "Access denied. Only students can log in here.");
+                return View(model);
+            }
+
+            var result = await _signInManager.PasswordSignInAsync(user.UserName, model.Password, model.RememberMe, false);
+
+            if (result.Succeeded)
+            {
+                return RedirectToAction("Dashboard", "Student");
+            }
+
+            ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+            return View(model);
+        }
+
+
+
+        public IActionResult Dashboard()
+        {
+           // throw new NotImplementedException();
+           return View();
+        }
     }
 }
