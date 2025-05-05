@@ -35,6 +35,15 @@ namespace StudentSync.Repositories
             _context.SaveChanges();
             return student;
         }
+        public void Delete(string id)
+        {
+            var student = _context.Students.FirstOrDefault(s => s.StudentNumber == id);
+            if (student != null)
+            {
+                _context.Students.Remove(student);
+                _context.SaveChanges();
+            }
+        }
 
         public IQueryable<Student> GetStudents(string searchString, string sortOrder)
         {

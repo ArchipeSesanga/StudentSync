@@ -1,1563 +1,1559 @@
 {
   "Files": [
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/obj/Debug/net6.0/scopedcss/projectbundle/StudentSync.bundle.scp.css",
-      "PackagePath": "staticwebassets/StudentSync.ckoioytq35.bundle.scp.css"
+      "Id": "C:\\Assignment\\StudentSync\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\StudentSync.bundle.scp.css",
+      "PackagePath": "staticwebassets\\StudentSync.bundle.scp.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/.browserslistrc",
-      "PackagePath": "staticwebassets/adminElements/.browserslistrc"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\.browserslistrc",
+      "PackagePath": "staticwebassets\\adminElements\\.browserslistrc"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/.gitignore",
-      "PackagePath": "staticwebassets/adminElements/.gitignore"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\.gitignore",
+      "PackagePath": "staticwebassets\\adminElements\\.gitignore"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/.travis.yml",
-      "PackagePath": "staticwebassets/adminElements/.travis.yml"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\.travis.yml",
+      "PackagePath": "staticwebassets\\adminElements\\.travis.yml"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/404.html",
-      "PackagePath": "staticwebassets/adminElements/404.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\404.html",
+      "PackagePath": "staticwebassets\\adminElements\\404.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/LICENSE",
-      "PackagePath": "staticwebassets/adminElements"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\LICENSE",
+      "PackagePath": "staticwebassets\\adminElements"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/PRO_UPGRADE.txt",
-      "PackagePath": "staticwebassets/adminElements/PRO_UPGRADE.txt"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\PRO_UPGRADE.txt",
+      "PackagePath": "staticwebassets\\adminElements\\PRO_UPGRADE.txt"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/README.md",
-      "PackagePath": "staticwebassets/adminElements/README.md"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\README.md",
+      "PackagePath": "staticwebassets\\adminElements\\README.md"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/blank.html",
-      "PackagePath": "staticwebassets/adminElements/blank.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\blank.html",
+      "PackagePath": "staticwebassets\\adminElements\\blank.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/buttons.html",
-      "PackagePath": "staticwebassets/adminElements/buttons.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\buttons.html",
+      "PackagePath": "staticwebassets\\adminElements\\buttons.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/cards.html",
-      "PackagePath": "staticwebassets/adminElements/cards.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\cards.html",
+      "PackagePath": "staticwebassets\\adminElements\\cards.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/charts.html",
-      "PackagePath": "staticwebassets/adminElements/charts.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\charts.html",
+      "PackagePath": "staticwebassets\\adminElements\\charts.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/css/sb-admin-2.css",
-      "PackagePath": "staticwebassets/adminElements/css/sb-admin-2.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\css\\sb-admin-2.css",
+      "PackagePath": "staticwebassets\\adminElements\\css\\sb-admin-2.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/css/sb-admin-2.min.css",
-      "PackagePath": "staticwebassets/adminElements/css/sb-admin-2.min.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\css\\sb-admin-2.min.css",
+      "PackagePath": "staticwebassets\\adminElements\\css\\sb-admin-2.min.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/forgot-password.html",
-      "PackagePath": "staticwebassets/adminElements/forgot-password.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\forgot-password.html",
+      "PackagePath": "staticwebassets\\adminElements\\forgot-password.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/gulpfile.js",
-      "PackagePath": "staticwebassets/adminElements/gulpfile.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\gulpfile.js",
+      "PackagePath": "staticwebassets\\adminElements\\gulpfile.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/index.html",
-      "PackagePath": "staticwebassets/adminElements/index.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\index.html",
+      "PackagePath": "staticwebassets\\adminElements\\index.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/js/demo/chart-area-demo.js",
-      "PackagePath": "staticwebassets/adminElements/js/demo/chart-area-demo.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\js\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\adminElements\\js\\demo\\chart-area-demo.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/js/demo/chart-bar-demo.js",
-      "PackagePath": "staticwebassets/adminElements/js/demo/chart-bar-demo.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\js\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\adminElements\\js\\demo\\chart-bar-demo.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/js/demo/chart-pie-demo.js",
-      "PackagePath": "staticwebassets/adminElements/js/demo/chart-pie-demo.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\js\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\adminElements\\js\\demo\\chart-pie-demo.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/js/demo/datatables-demo.js",
-      "PackagePath": "staticwebassets/adminElements/js/demo/datatables-demo.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\js\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\adminElements\\js\\demo\\datatables-demo.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/js/sb-admin-2.js",
-      "PackagePath": "staticwebassets/adminElements/js/sb-admin-2.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\js\\sb-admin-2.js",
+      "PackagePath": "staticwebassets\\adminElements\\js\\sb-admin-2.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/js/sb-admin-2.min.js",
-      "PackagePath": "staticwebassets/adminElements/js/sb-admin-2.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\js\\sb-admin-2.min.js",
+      "PackagePath": "staticwebassets\\adminElements\\js\\sb-admin-2.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/login.html",
-      "PackagePath": "staticwebassets/adminElements/login.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\login.html",
+      "PackagePath": "staticwebassets\\adminElements\\login.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/package-lock.json",
-      "PackagePath": "staticwebassets/adminElements/package-lock.json"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\package-lock.json",
+      "PackagePath": "staticwebassets\\adminElements\\package-lock.json"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/package.json",
-      "PackagePath": "staticwebassets/adminElements/package.json"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\package.json",
+      "PackagePath": "staticwebassets\\adminElements\\package.json"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/register.html",
-      "PackagePath": "staticwebassets/adminElements/register.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\register.html",
+      "PackagePath": "staticwebassets\\adminElements\\register.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/_buttons.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/_buttons.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\_buttons.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/_cards.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/_cards.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\_cards.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\_cards.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/_charts.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/_charts.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\_charts.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\_charts.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/_dropdowns.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/_dropdowns.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\_dropdowns.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\_dropdowns.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/_error.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/_error.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\_error.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\_error.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/_footer.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/_footer.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\_footer.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/_global.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/_global.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\_global.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\_global.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/_login.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/_login.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\_login.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\_login.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/_mixins.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/_mixins.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\_mixins.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/_navs.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/_navs.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\_navs.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\_navs.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/_utilities.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/_utilities.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\_utilities.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/_variables.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/_variables.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\_variables.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/navs/_global.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/navs/_global.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\navs\\_global.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\navs\\_global.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/navs/_sidebar.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/navs/_sidebar.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\navs\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\navs\\_sidebar.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/navs/_topbar.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/navs/_topbar.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\navs\\_topbar.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\navs\\_topbar.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/sb-admin-2.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/sb-admin-2.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\sb-admin-2.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\sb-admin-2.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/utilities/_animation.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/utilities/_animation.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\utilities\\_animation.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\utilities\\_animation.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/utilities/_background.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/utilities/_background.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\utilities\\_background.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/utilities/_border.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/utilities/_border.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\utilities\\_border.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\utilities\\_border.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/utilities/_display.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/utilities/_display.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\utilities\\_display.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/utilities/_progress.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/utilities/_progress.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\utilities\\_progress.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\utilities\\_progress.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/utilities/_rotate.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/utilities/_rotate.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\utilities\\_rotate.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\utilities\\_rotate.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/scss/utilities/_text.scss",
-      "PackagePath": "staticwebassets/adminElements/scss/utilities/_text.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\scss\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\adminElements\\scss\\utilities\\_text.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/tables.html",
-      "PackagePath": "staticwebassets/adminElements/tables.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\tables.html",
+      "PackagePath": "staticwebassets\\adminElements\\tables.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/utilities-animation.html",
-      "PackagePath": "staticwebassets/adminElements/utilities-animation.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\utilities-animation.html",
+      "PackagePath": "staticwebassets\\adminElements\\utilities-animation.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/utilities-border.html",
-      "PackagePath": "staticwebassets/adminElements/utilities-border.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\utilities-border.html",
+      "PackagePath": "staticwebassets\\adminElements\\utilities-border.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/utilities-color.html",
-      "PackagePath": "staticwebassets/adminElements/utilities-color.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\utilities-color.html",
+      "PackagePath": "staticwebassets\\adminElements\\utilities-color.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/adminElements/utilities-other.html",
-      "PackagePath": "staticwebassets/adminElements/utilities-other.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\adminElements\\utilities-other.html",
+      "PackagePath": "staticwebassets\\adminElements\\utilities-other.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/css/Admin-Login.css",
-      "PackagePath": "staticwebassets/css/Admin-Login.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\css\\Admin-Login.css",
+      "PackagePath": "staticwebassets\\css\\Admin-Login.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/css/ajax-loader.gif",
-      "PackagePath": "staticwebassets/css/ajax-loader.gif"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\css\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\css\\ajax-loader.gif"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/css/consumer-style.css",
-      "PackagePath": "staticwebassets/css/consumer-style.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\css\\consumer-style.css",
+      "PackagePath": "staticwebassets\\css\\consumer-style.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/css/normalize.css",
-      "PackagePath": "staticwebassets/css/normalize.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/css/vendor.css",
-      "PackagePath": "staticwebassets/css/vendor.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\css\\vendor.css",
+      "PackagePath": "staticwebassets\\css\\vendor.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/favicon.ico",
-      "PackagePath": "staticwebassets/favicon.ico"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/icomoon/Read Me.txt",
-      "PackagePath": "staticwebassets/icomoon/Read Me.txt"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\icomoon\\Read Me.txt",
+      "PackagePath": "staticwebassets\\icomoon\\Read Me.txt"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/icomoon/fonts/icomoon.eot",
-      "PackagePath": "staticwebassets/icomoon/fonts/icomoon.eot"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\icomoon\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\icomoon\\fonts\\icomoon.eot"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/icomoon/fonts/icomoon.svg",
-      "PackagePath": "staticwebassets/icomoon/fonts/icomoon.svg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\icomoon\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\icomoon\\fonts\\icomoon.svg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/icomoon/fonts/icomoon.ttf",
-      "PackagePath": "staticwebassets/icomoon/fonts/icomoon.ttf"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\icomoon\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\icomoon\\fonts\\icomoon.ttf"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/icomoon/fonts/icomoon.woff",
-      "PackagePath": "staticwebassets/icomoon/fonts/icomoon.woff"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\icomoon\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\icomoon\\fonts\\icomoon.woff"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/icomoon/icomoon.css",
-      "PackagePath": "staticwebassets/icomoon/icomoon.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\icomoon\\icomoon.css",
+      "PackagePath": "staticwebassets\\icomoon\\icomoon.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/icomoon/selection.json",
-      "PackagePath": "staticwebassets/icomoon/selection.json"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\icomoon\\selection.json",
+      "PackagePath": "staticwebassets\\icomoon\\selection.json"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/app-store.jpg",
-      "PackagePath": "staticwebassets/images/app-store.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\app-store.jpg",
+      "PackagePath": "staticwebassets\\images\\app-store.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/chocolat/close.png",
-      "PackagePath": "staticwebassets/images/chocolat/close.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\chocolat\\close.png",
+      "PackagePath": "staticwebassets\\images\\chocolat\\close.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/chocolat/fullscreen-black.png",
-      "PackagePath": "staticwebassets/images/chocolat/fullscreen-black.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\chocolat\\fullscreen-black.png",
+      "PackagePath": "staticwebassets\\images\\chocolat\\fullscreen-black.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/chocolat/fullscreen.png",
-      "PackagePath": "staticwebassets/images/chocolat/fullscreen.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\chocolat\\fullscreen.png",
+      "PackagePath": "staticwebassets\\images\\chocolat\\fullscreen.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/chocolat/left.png",
-      "PackagePath": "staticwebassets/images/chocolat/left.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\chocolat\\left.png",
+      "PackagePath": "staticwebassets\\images\\chocolat\\left.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/chocolat/loader.gif",
-      "PackagePath": "staticwebassets/images/chocolat/loader.gif"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\chocolat\\loader.gif",
+      "PackagePath": "staticwebassets\\images\\chocolat\\loader.gif"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/chocolat/right.png",
-      "PackagePath": "staticwebassets/images/chocolat/right.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\chocolat\\right.png",
+      "PackagePath": "staticwebassets\\images\\chocolat\\right.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/client-image1.png",
-      "PackagePath": "staticwebassets/images/client-image1.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\client-image1.png",
+      "PackagePath": "staticwebassets\\images\\client-image1.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/client-image2.png",
-      "PackagePath": "staticwebassets/images/client-image2.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\client-image2.png",
+      "PackagePath": "staticwebassets\\images\\client-image2.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/client-image3.png",
-      "PackagePath": "staticwebassets/images/client-image3.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\client-image3.png",
+      "PackagePath": "staticwebassets\\images\\client-image3.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/client-image4.png",
-      "PackagePath": "staticwebassets/images/client-image4.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\client-image4.png",
+      "PackagePath": "staticwebassets\\images\\client-image4.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/client-image5.png",
-      "PackagePath": "staticwebassets/images/client-image5.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\client-image5.png",
+      "PackagePath": "staticwebassets\\images\\client-image5.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/curly-divider.svg",
-      "PackagePath": "staticwebassets/images/curly-divider.svg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\curly-divider.svg",
+      "PackagePath": "staticwebassets\\images\\curly-divider.svg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/default.png",
-      "PackagePath": "staticwebassets/images/default.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\default.png",
+      "PackagePath": "staticwebassets\\images\\default.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/device.png",
-      "PackagePath": "staticwebassets/images/device.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\device.png",
+      "PackagePath": "staticwebassets\\images\\device.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/google-play.jpg",
-      "PackagePath": "staticwebassets/images/google-play.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\google-play.jpg",
+      "PackagePath": "staticwebassets\\images\\google-play.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/img/undraw_posting_photo.svg",
-      "PackagePath": "staticwebassets/images/img/undraw_posting_photo.svg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\img\\undraw_posting_photo.svg",
+      "PackagePath": "staticwebassets\\images\\img\\undraw_posting_photo.svg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/img/undraw_profile.svg",
-      "PackagePath": "staticwebassets/images/img/undraw_profile.svg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\img\\undraw_profile.svg",
+      "PackagePath": "staticwebassets\\images\\img\\undraw_profile.svg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/img/undraw_profile_1.svg",
-      "PackagePath": "staticwebassets/images/img/undraw_profile_1.svg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\img\\undraw_profile_1.svg",
+      "PackagePath": "staticwebassets\\images\\img\\undraw_profile_1.svg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/img/undraw_profile_2.svg",
-      "PackagePath": "staticwebassets/images/img/undraw_profile_2.svg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\img\\undraw_profile_2.svg",
+      "PackagePath": "staticwebassets\\images\\img\\undraw_profile_2.svg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/img/undraw_profile_3.svg",
-      "PackagePath": "staticwebassets/images/img/undraw_profile_3.svg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\img\\undraw_profile_3.svg",
+      "PackagePath": "staticwebassets\\images\\img\\undraw_profile_3.svg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/img/undraw_rocket.svg",
-      "PackagePath": "staticwebassets/images/img/undraw_rocket.svg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\img\\undraw_rocket.svg",
+      "PackagePath": "staticwebassets\\images\\img\\undraw_rocket.svg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/item.png",
-      "PackagePath": "staticwebassets/images/item.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\item.png",
+      "PackagePath": "staticwebassets\\images\\item.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/item1.png",
-      "PackagePath": "staticwebassets/images/item1.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\item1.png",
+      "PackagePath": "staticwebassets\\images\\item1.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/item3.png",
-      "PackagePath": "staticwebassets/images/item3.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\item3.png",
+      "PackagePath": "staticwebassets\\images\\item3.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/item4.png",
-      "PackagePath": "staticwebassets/images/item4.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\item4.png",
+      "PackagePath": "staticwebassets\\images\\item4.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/item5.png",
-      "PackagePath": "staticwebassets/images/item5.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\item5.png",
+      "PackagePath": "staticwebassets\\images\\item5.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/leaf.png",
-      "PackagePath": "staticwebassets/images/leaf.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\leaf.png",
+      "PackagePath": "staticwebassets\\images\\leaf.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/main-banner1.jpg",
-      "PackagePath": "staticwebassets/images/main-banner1.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\main-banner1.jpg",
+      "PackagePath": "staticwebassets\\images\\main-banner1.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/main-banner2.jpg",
-      "PackagePath": "staticwebassets/images/main-banner2.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\main-banner2.jpg",
+      "PackagePath": "staticwebassets\\images\\main-banner2.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/main-logo.png",
-      "PackagePath": "staticwebassets/images/main-logo.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\main-logo.png",
+      "PackagePath": "staticwebassets\\images\\main-logo.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/ns-arrow-right.svg",
-      "PackagePath": "staticwebassets/images/ns-arrow-right.svg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\ns-arrow-right.svg",
+      "PackagePath": "staticwebassets\\images\\ns-arrow-right.svg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/pattern1.png",
-      "PackagePath": "staticwebassets/images/pattern1.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\pattern1.png",
+      "PackagePath": "staticwebassets\\images\\pattern1.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/pattern2.png",
-      "PackagePath": "staticwebassets/images/pattern2.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\pattern2.png",
+      "PackagePath": "staticwebassets\\images\\pattern2.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/post-img1.jpg",
-      "PackagePath": "staticwebassets/images/post-img1.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\post-img1.jpg",
+      "PackagePath": "staticwebassets\\images\\post-img1.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/post-img2.jpg",
-      "PackagePath": "staticwebassets/images/post-img2.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\post-img2.jpg",
+      "PackagePath": "staticwebassets\\images\\post-img2.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/post-img3.jpg",
-      "PackagePath": "staticwebassets/images/post-img3.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\post-img3.jpg",
+      "PackagePath": "staticwebassets\\images\\post-img3.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/product-item1.jpg",
-      "PackagePath": "staticwebassets/images/product-item1.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\product-item1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-item1.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/product-item2.jpg",
-      "PackagePath": "staticwebassets/images/product-item2.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\product-item2.jpg",
+      "PackagePath": "staticwebassets\\images\\product-item2.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/product-item3.jpg",
-      "PackagePath": "staticwebassets/images/product-item3.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\product-item3.jpg",
+      "PackagePath": "staticwebassets\\images\\product-item3.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/product-item4.jpg",
-      "PackagePath": "staticwebassets/images/product-item4.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\product-item4.jpg",
+      "PackagePath": "staticwebassets\\images\\product-item4.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/product-item5.jpg",
-      "PackagePath": "staticwebassets/images/product-item5.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\product-item5.jpg",
+      "PackagePath": "staticwebassets\\images\\product-item5.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/product-item6.jpg",
-      "PackagePath": "staticwebassets/images/product-item6.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\product-item6.jpg",
+      "PackagePath": "staticwebassets\\images\\product-item6.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/product-item7.jpg",
-      "PackagePath": "staticwebassets/images/product-item7.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\product-item7.jpg",
+      "PackagePath": "staticwebassets\\images\\product-item7.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/product-item8.jpg",
-      "PackagePath": "staticwebassets/images/product-item8.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\product-item8.jpg",
+      "PackagePath": "staticwebassets\\images\\product-item8.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/single-image.jpg",
-      "PackagePath": "staticwebassets/images/single-image.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\single-image.jpg",
+      "PackagePath": "staticwebassets\\images\\single-image.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/tab-item1.jpg",
-      "PackagePath": "staticwebassets/images/tab-item1.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\tab-item1.jpg",
+      "PackagePath": "staticwebassets\\images\\tab-item1.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/tab-item2.jpg",
-      "PackagePath": "staticwebassets/images/tab-item2.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\tab-item2.jpg",
+      "PackagePath": "staticwebassets\\images\\tab-item2.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/tab-item3.jpg",
-      "PackagePath": "staticwebassets/images/tab-item3.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\tab-item3.jpg",
+      "PackagePath": "staticwebassets\\images\\tab-item3.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/tab-item4.jpg",
-      "PackagePath": "staticwebassets/images/tab-item4.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\tab-item4.jpg",
+      "PackagePath": "staticwebassets\\images\\tab-item4.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/tab-item5.jpg",
-      "PackagePath": "staticwebassets/images/tab-item5.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\tab-item5.jpg",
+      "PackagePath": "staticwebassets\\images\\tab-item5.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/tab-item6.jpg",
-      "PackagePath": "staticwebassets/images/tab-item6.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\tab-item6.jpg",
+      "PackagePath": "staticwebassets\\images\\tab-item6.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/tab-item7.jpg",
-      "PackagePath": "staticwebassets/images/tab-item7.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\tab-item7.jpg",
+      "PackagePath": "staticwebassets\\images\\tab-item7.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/images/tab-item8.jpg",
-      "PackagePath": "staticwebassets/images/tab-item8.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\images\\tab-item8.jpg",
+      "PackagePath": "staticwebassets\\images\\tab-item8.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/js/jquery-1.11.0.min.js",
-      "PackagePath": "staticwebassets/js/jquery-1.11.0.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.0.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/js/modernizr.js",
-      "PackagePath": "staticwebassets/js/modernizr.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\js\\modernizr.js",
+      "PackagePath": "staticwebassets\\js\\modernizr.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/js/plugins.js",
-      "PackagePath": "staticwebassets/js/plugins.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/js/sb-admin-2.js",
-      "PackagePath": "staticwebassets/js/sb-admin-2.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\js\\sb-admin-2.js",
+      "PackagePath": "staticwebassets\\js\\sb-admin-2.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/js/sb-admin-2.min.js",
-      "PackagePath": "staticwebassets/js/sb-admin-2.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\js\\sb-admin-2.min.js",
+      "PackagePath": "staticwebassets\\js\\sb-admin-2.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/js/script.js",
-      "PackagePath": "staticwebassets/js/script.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/js/slideNav.js",
-      "PackagePath": "staticwebassets/js/slideNav.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\js\\slideNav.js",
+      "PackagePath": "staticwebassets\\js\\slideNav.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/js/slideNav.min.js",
-      "PackagePath": "staticwebassets/js/slideNav.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\js\\slideNav.min.js",
+      "PackagePath": "staticwebassets\\js\\slideNav.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/LICENSE",
-      "PackagePath": "staticwebassets/lib/bootstrap"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/jquery-validation/LICENSE.md",
-      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/jquery-validation/dist/additional-methods.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/jquery/LICENSE.txt",
-      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/jquery/dist/jquery.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/jquery/dist/jquery.min.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/lib/jquery/dist/jquery.min.map",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/.DS_Store",
-      "PackagePath": "staticwebassets/studentAssets/.DS_Store"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\.DS_Store",
+      "PackagePath": "staticwebassets\\studentAssets\\.DS_Store"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/.gitignore",
-      "PackagePath": "staticwebassets/studentAssets/.gitignore"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\.gitignore",
+      "PackagePath": "staticwebassets\\studentAssets\\.gitignore"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/about.html",
-      "PackagePath": "staticwebassets/studentAssets/about.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\about.html",
+      "PackagePath": "staticwebassets\\studentAssets\\about.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/blog-home.html",
-      "PackagePath": "staticwebassets/studentAssets/blog-home.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\blog-home.html",
+      "PackagePath": "staticwebassets\\studentAssets\\blog-home.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/blog-single.html",
-      "PackagePath": "staticwebassets/studentAssets/blog-single.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\blog-single.html",
+      "PackagePath": "staticwebassets\\studentAssets\\blog-single.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/contacts.html",
-      "PackagePath": "staticwebassets/studentAssets/contacts.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\contacts.html",
+      "PackagePath": "staticwebassets\\studentAssets\\contacts.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/course-details.html",
-      "PackagePath": "staticwebassets/studentAssets/course-details.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\course-details.html",
+      "PackagePath": "staticwebassets\\studentAssets\\course-details.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/courses.html",
-      "PackagePath": "staticwebassets/studentAssets/courses.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\courses.html",
+      "PackagePath": "staticwebassets\\studentAssets\\courses.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/css/availability-calendar.css",
-      "PackagePath": "staticwebassets/studentAssets/css/availability-calendar.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\css\\availability-calendar.css",
+      "PackagePath": "staticwebassets\\studentAssets\\css\\availability-calendar.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/css/bootstrap.css",
-      "PackagePath": "staticwebassets/studentAssets/css/bootstrap.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\studentAssets\\css\\bootstrap.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/css/font-awesome.min.css",
-      "PackagePath": "staticwebassets/studentAssets/css/font-awesome.min.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\studentAssets\\css\\font-awesome.min.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/css/hexagons.min.css",
-      "PackagePath": "staticwebassets/studentAssets/css/hexagons.min.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\css\\hexagons.min.css",
+      "PackagePath": "staticwebassets\\studentAssets\\css\\hexagons.min.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/css/ion.rangeSlider.css",
-      "PackagePath": "staticwebassets/studentAssets/css/ion.rangeSlider.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\css\\ion.rangeSlider.css",
+      "PackagePath": "staticwebassets\\studentAssets\\css\\ion.rangeSlider.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/css/ion.rangeSlider.skinFlat.css",
-      "PackagePath": "staticwebassets/studentAssets/css/ion.rangeSlider.skinFlat.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\css\\ion.rangeSlider.skinFlat.css",
+      "PackagePath": "staticwebassets\\studentAssets\\css\\ion.rangeSlider.skinFlat.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/css/jquerysctipttop.css",
-      "PackagePath": "staticwebassets/studentAssets/css/jquerysctipttop.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\css\\jquerysctipttop.css",
+      "PackagePath": "staticwebassets\\studentAssets\\css\\jquerysctipttop.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/css/linearicons.css",
-      "PackagePath": "staticwebassets/studentAssets/css/linearicons.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\css\\linearicons.css",
+      "PackagePath": "staticwebassets\\studentAssets\\css\\linearicons.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/css/magnific-popup.css",
-      "PackagePath": "staticwebassets/studentAssets/css/magnific-popup.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\studentAssets\\css\\magnific-popup.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/css/main.css",
-      "PackagePath": "staticwebassets/studentAssets/css/main.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\css\\main.css",
+      "PackagePath": "staticwebassets\\studentAssets\\css\\main.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/css/main.css.map",
-      "PackagePath": "staticwebassets/studentAssets/css/main.css.map"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\css\\main.css.map",
+      "PackagePath": "staticwebassets\\studentAssets\\css\\main.css.map"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/css/nice-select.css",
-      "PackagePath": "staticwebassets/studentAssets/css/nice-select.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\studentAssets\\css\\nice-select.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/css/owl.carousel.css",
-      "PackagePath": "staticwebassets/studentAssets/css/owl.carousel.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\studentAssets\\css\\owl.carousel.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/css/font-awesome.min.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/css/font-awesome.min.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\css\\font-awesome.min.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/css/main.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/css/main.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\css\\main.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\css\\main.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/css/normalize.min.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/css/normalize.min.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\css\\normalize.min.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\css\\normalize.min.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/fonts/FontAwesome.otf",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/fonts/FontAwesome.otf"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/fonts/fontawesome-webfont.eot",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/fonts/fontawesome-webfont.eot"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/fonts/fontawesome-webfont.svg",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/fonts/fontawesome-webfont.svg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/fonts/fontawesome-webfont.ttf",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/fonts/fontawesome-webfont.ttf"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/fonts/fontawesome-webfont.woff",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/fonts/fontawesome-webfont.woff"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/img/logo.png",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/img/logo.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\img\\logo.png",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\img\\logo.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/index.html",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/index.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\index.html",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\index.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/js/custom.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/js/custom.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\js\\custom.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\js\\custom.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/js/jquery-1.11.0.min.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/js/jquery-1.11.0.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\js\\jquery-1.11.0.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/js/jquery.nav.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/js/jquery.nav.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\js\\jquery.nav.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\js\\jquery.nav.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shAutoloader.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shAutoloader.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shAutoloader.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shAutoloader.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushAS3.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushAS3.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushAS3.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushAS3.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushAppleScript.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushAppleScript.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushAppleScript.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushAppleScript.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushBash.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushBash.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushBash.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushBash.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushCSharp.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushCSharp.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushCSharp.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushCSharp.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushColdFusion.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushColdFusion.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushColdFusion.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushColdFusion.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushCpp.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushCpp.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushCpp.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushCpp.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushCss.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushCss.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushCss.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushCss.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushDelphi.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushDelphi.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushDelphi.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushDelphi.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushDiff.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushDiff.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushDiff.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushDiff.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushErlang.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushErlang.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushErlang.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushErlang.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushGroovy.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushGroovy.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushGroovy.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushGroovy.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushJScript.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushJScript.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushJScript.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushJScript.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushJava.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushJava.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushJava.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushJava.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushJavaFX.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushJavaFX.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushJavaFX.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushJavaFX.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushPerl.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushPerl.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushPerl.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushPerl.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushPhp.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushPhp.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushPhp.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushPhp.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushPlain.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushPlain.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushPlain.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushPlain.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushPowerShell.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushPowerShell.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushPowerShell.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushPowerShell.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushPython.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushPython.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushPython.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushPython.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushRuby.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushRuby.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushRuby.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushRuby.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushSass.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushSass.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushSass.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushSass.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushScala.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushScala.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushScala.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushScala.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushSql.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushSql.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushSql.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushSql.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushVb.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushVb.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushVb.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushVb.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushXml.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shBrushXml.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushXml.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shBrushXml.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shLegacy.js",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/scripts/shLegacy.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shLegacy.js",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\scripts\\shLegacy.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCore.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCore.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCore.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCore.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCoreDefault.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCoreDefault.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCoreDefault.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCoreDefault.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCoreDjango.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCoreDjango.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCoreDjango.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCoreDjango.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCoreEclipse.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCoreEclipse.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCoreEclipse.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCoreEclipse.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCoreEmacs.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCoreEmacs.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCoreEmacs.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCoreEmacs.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCoreFadeToGrey.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCoreFadeToGrey.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCoreFadeToGrey.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCoreFadeToGrey.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCoreMDUltra.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCoreMDUltra.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCoreMDUltra.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCoreMDUltra.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCoreMidnight.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCoreMidnight.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCoreMidnight.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCoreMidnight.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCoreRDark.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/styles/shCoreRDark.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCoreRDark.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shCoreRDark.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/styles/shThemeDefault.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/styles/shThemeDefault.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shThemeDefault.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shThemeDefault.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/styles/shThemeDjango.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/styles/shThemeDjango.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shThemeDjango.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shThemeDjango.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/styles/shThemeEclipse.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/styles/shThemeEclipse.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shThemeEclipse.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shThemeEclipse.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/styles/shThemeEmacs.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/styles/shThemeEmacs.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shThemeEmacs.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shThemeEmacs.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/styles/shThemeFadeToGrey.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/styles/shThemeFadeToGrey.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shThemeFadeToGrey.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shThemeFadeToGrey.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/styles/shThemeMDUltra.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/styles/shThemeMDUltra.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shThemeMDUltra.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shThemeMDUltra.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/styles/shThemeMidnight.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/styles/shThemeMidnight.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shThemeMidnight.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shThemeMidnight.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/eclipse education-doc/syntax-highlighter/styles/shThemeRDark.css",
-      "PackagePath": "staticwebassets/studentAssets/eclipse education-doc/syntax-highlighter/styles/shThemeRDark.css"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shThemeRDark.css",
+      "PackagePath": "staticwebassets\\studentAssets\\eclipse education-doc\\syntax-highlighter\\styles\\shThemeRDark.css"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/elements.html",
-      "PackagePath": "staticwebassets/studentAssets/elements.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\elements.html",
+      "PackagePath": "staticwebassets\\studentAssets\\elements.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/fonts/FontAwesome.otf",
-      "PackagePath": "staticwebassets/studentAssets/fonts/FontAwesome.otf"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\studentAssets\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/fonts/Linearicons-Free.eot",
-      "PackagePath": "staticwebassets/studentAssets/fonts/Linearicons-Free.eot"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\fonts\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\studentAssets\\fonts\\Linearicons-Free.eot"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/fonts/Linearicons-Free.svg",
-      "PackagePath": "staticwebassets/studentAssets/fonts/Linearicons-Free.svg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\fonts\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\studentAssets\\fonts\\Linearicons-Free.svg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/fonts/Linearicons-Free.ttf",
-      "PackagePath": "staticwebassets/studentAssets/fonts/Linearicons-Free.ttf"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\fonts\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\studentAssets\\fonts\\Linearicons-Free.ttf"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/fonts/Linearicons-Free.woff",
-      "PackagePath": "staticwebassets/studentAssets/fonts/Linearicons-Free.woff"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\fonts\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\studentAssets\\fonts\\Linearicons-Free.woff"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/fonts/Linearicons-Free.woff2",
-      "PackagePath": "staticwebassets/studentAssets/fonts/Linearicons-Free.woff2"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\fonts\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\studentAssets\\fonts\\Linearicons-Free.woff2"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/fonts/fontawesome-webfont.eot",
-      "PackagePath": "staticwebassets/studentAssets/fonts/fontawesome-webfont.eot"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\studentAssets\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/fonts/fontawesome-webfont.svg",
-      "PackagePath": "staticwebassets/studentAssets/fonts/fontawesome-webfont.svg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\studentAssets\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/fonts/fontawesome-webfont.ttf",
-      "PackagePath": "staticwebassets/studentAssets/fonts/fontawesome-webfont.ttf"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\studentAssets\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/fonts/fontawesome-webfont.woff",
-      "PackagePath": "staticwebassets/studentAssets/fonts/fontawesome-webfont.woff"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\studentAssets\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/fonts/fontawesome-webfont.woff2",
-      "PackagePath": "staticwebassets/studentAssets/fonts/fontawesome-webfont.woff2"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\studentAssets\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/about-img.png",
-      "PackagePath": "staticwebassets/studentAssets/img/about-img.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\about-img.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\about-img.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/banner-bg.png",
-      "PackagePath": "staticwebassets/studentAssets/img/banner-bg.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\banner-bg.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\banner-bg.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog-post/b1.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog-post/b1.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog-post\\b1.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog-post\\b1.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog-post/b2.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog-post/b2.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog-post\\b2.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog-post\\b2.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog-post/b3.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog-post/b3.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog-post\\b3.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog-post\\b3.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/ads-banner.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/ads-banner.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\ads-banner.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\ads-banner.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/blog-home-banner.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/blog-home-banner.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\blog-home-banner.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\blog-home-banner.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/c1.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/c1.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\c1.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\c1.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/c2.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/c2.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\c2.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\c2.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/c3.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/c3.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\c3.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\c3.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/c4.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/c4.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\c4.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\c4.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/c5.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/c5.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\c5.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\c5.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/c6.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/c6.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\c6.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\c6.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/cat-widget1.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/cat-widget1.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\cat-widget1.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\cat-widget1.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/cat-widget2.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/cat-widget2.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\cat-widget2.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\cat-widget2.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/cat-widget3.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/cat-widget3.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\cat-widget3.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\cat-widget3.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/feature-img1.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/feature-img1.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\feature-img1.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\feature-img1.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/feature-img2.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/feature-img2.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\feature-img2.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\feature-img2.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/feature-img3.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/feature-img3.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\feature-img3.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\feature-img3.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/feature-img4.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/feature-img4.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\feature-img4.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\feature-img4.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/feature-img5.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/feature-img5.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\feature-img5.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\feature-img5.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/next.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/next.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\next.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\next.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/post-img1.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/post-img1.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\post-img1.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\post-img1.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/post-img2.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/post-img2.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\post-img2.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\post-img2.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/pp1.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/pp1.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\pp1.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\pp1.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/pp2.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/pp2.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\pp2.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\pp2.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/pp3.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/pp3.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\pp3.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\pp3.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/pp4.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/pp4.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\pp4.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\pp4.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/prev.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/prev.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\prev.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\prev.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/s-img.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/s-img.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\s-img.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\s-img.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/blog/user-info.png",
-      "PackagePath": "staticwebassets/studentAssets/img/blog/user-info.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\blog\\user-info.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\blog\\user-info.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/courses/course-details.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/courses/course-details.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\courses\\course-details.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\courses\\course-details.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/courses/trainer1.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/courses/trainer1.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\courses\\trainer1.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\courses\\trainer1.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/d.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/d.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\d.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\d.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/disabled-check.png",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/disabled-check.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\disabled-check.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\disabled-check.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/disabled-radio.png",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/disabled-radio.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\disabled-radio.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\disabled-radio.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/f1.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/f1.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\f1.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\f1.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/f2.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/f2.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\f2.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\f2.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/f3.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/f3.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\f3.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\f3.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/f4.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/f4.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\f4.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\f4.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/f5.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/f5.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\f5.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\f5.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/f6.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/f6.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\f6.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\f6.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/f7.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/f7.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\f7.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\f7.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/f8.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/f8.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\f8.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\f8.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/g1.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/g1.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\g1.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\g1.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/g2.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/g2.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\g2.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\g2.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/g3.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/g3.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\g3.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\g3.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/g4.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/g4.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\g4.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\g4.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/g5.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/g5.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\g5.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\g5.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/g6.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/g6.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\g6.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\g6.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/g7.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/g7.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\g7.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\g7.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/g8.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/g8.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\g8.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\g8.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/primary-check.png",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/primary-check.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\primary-check.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\primary-check.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/primary-radio.png",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/primary-radio.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\primary-radio.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\primary-radio.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/success-check.png",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/success-check.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\success-check.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\success-check.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/elements/success-radio.png",
-      "PackagePath": "staticwebassets/studentAssets/img/elements/success-radio.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\elements\\success-radio.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\elements\\success-radio.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/fav.png",
-      "PackagePath": "staticwebassets/studentAssets/img/fav.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\fav.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\fav.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/footer-bg.png",
-      "PackagePath": "staticwebassets/studentAssets/img/footer-bg.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\footer-bg.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\footer-bg.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/header-img.png",
-      "PackagePath": "staticwebassets/studentAssets/img/header-img.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\header-img.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\header-img.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/home-banner-bg.png",
-      "PackagePath": "staticwebassets/studentAssets/img/home-banner-bg.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\home-banner-bg.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\home-banner-bg.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/i1.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/i1.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\i1.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\i1.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/i2.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/i2.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\i2.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\i2.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/i3.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/i3.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\i3.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\i3.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/i4.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/i4.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\i4.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\i4.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/i5.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/i5.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\i5.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\i5.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/i6.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/i6.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\i6.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\i6.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/i7.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/i7.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\i7.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\i7.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/i8.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/i8.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\i8.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\i8.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/logo.png",
-      "PackagePath": "staticwebassets/studentAssets/img/logo.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\logo.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/next.png",
-      "PackagePath": "staticwebassets/studentAssets/img/next.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\next.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\next.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/play-btn.png",
-      "PackagePath": "staticwebassets/studentAssets/img/play-btn.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\play-btn.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\play-btn.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/popular-course/p1.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/popular-course/p1.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\popular-course\\p1.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\popular-course\\p1.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/popular-course/p2.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/popular-course/p2.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\popular-course\\p2.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\popular-course\\p2.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/popular-course/p3.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/popular-course/p3.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\popular-course\\p3.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\popular-course\\p3.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/popular-course/p4.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/popular-course/p4.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\popular-course\\p4.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\popular-course\\p4.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/prev.png",
-      "PackagePath": "staticwebassets/studentAssets/img/prev.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\prev.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\prev.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/quote.png",
-      "PackagePath": "staticwebassets/studentAssets/img/quote.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\quote.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\quote.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/registration-bg.png",
-      "PackagePath": "staticwebassets/studentAssets/img/registration-bg.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\registration-bg.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\registration-bg.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/testimonial/t1.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/testimonial/t1.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\testimonial\\t1.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\testimonial\\t1.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/video-area-bg.png",
-      "PackagePath": "staticwebassets/studentAssets/img/video-area-bg.png"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\video-area-bg.png",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\video-area-bg.png"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/img/video-img.jpg",
-      "PackagePath": "staticwebassets/studentAssets/img/video-img.jpg"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\img\\video-img.jpg",
+      "PackagePath": "staticwebassets\\studentAssets\\img\\video-img.jpg"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/index.html",
-      "PackagePath": "staticwebassets/studentAssets/index.html"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\index.html",
+      "PackagePath": "staticwebassets\\studentAssets\\index.html"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/js/hexagons.min.js",
-      "PackagePath": "staticwebassets/studentAssets/js/hexagons.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\js\\hexagons.min.js",
+      "PackagePath": "staticwebassets\\studentAssets\\js\\hexagons.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/js/ion.rangeSlider.js",
-      "PackagePath": "staticwebassets/studentAssets/js/ion.rangeSlider.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\js\\ion.rangeSlider.js",
+      "PackagePath": "staticwebassets\\studentAssets\\js\\ion.rangeSlider.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/js/jquery.ajaxchimp.min.js",
-      "PackagePath": "staticwebassets/studentAssets/js/jquery.ajaxchimp.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\js\\jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\studentAssets\\js\\jquery.ajaxchimp.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/js/jquery.counterup.min.js",
-      "PackagePath": "staticwebassets/studentAssets/js/jquery.counterup.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\studentAssets\\js\\jquery.counterup.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/js/jquery.magnific-popup.min.js",
-      "PackagePath": "staticwebassets/studentAssets/js/jquery.magnific-popup.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\studentAssets\\js\\jquery.magnific-popup.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/js/jquery.nice-select.min.js",
-      "PackagePath": "staticwebassets/studentAssets/js/jquery.nice-select.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\studentAssets\\js\\jquery.nice-select.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/js/jquery.sticky.js",
-      "PackagePath": "staticwebassets/studentAssets/js/jquery.sticky.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\studentAssets\\js\\jquery.sticky.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/js/main.js",
-      "PackagePath": "staticwebassets/studentAssets/js/main.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\js\\main.js",
+      "PackagePath": "staticwebassets\\studentAssets\\js\\main.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/js/owl.carousel.min.js",
-      "PackagePath": "staticwebassets/studentAssets/js/owl.carousel.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\studentAssets\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/js/parallax.min.js",
-      "PackagePath": "staticwebassets/studentAssets/js/parallax.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\js\\parallax.min.js",
+      "PackagePath": "staticwebassets\\studentAssets\\js\\parallax.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/js/vendor/bootstrap.min.js",
-      "PackagePath": "staticwebassets/studentAssets/js/vendor/bootstrap.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\js\\vendor\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\studentAssets\\js\\vendor\\bootstrap.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/js/vendor/jquery-2.2.4.min.js",
-      "PackagePath": "staticwebassets/studentAssets/js/vendor/jquery-2.2.4.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\js\\vendor\\jquery-2.2.4.min.js",
+      "PackagePath": "staticwebassets\\studentAssets\\js\\vendor\\jquery-2.2.4.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/js/waypoints.min.js",
-      "PackagePath": "staticwebassets/studentAssets/js/waypoints.min.js"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\studentAssets\\js\\waypoints.min.js"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/mail.php",
-      "PackagePath": "staticwebassets/studentAssets/mail.php"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\mail.php",
+      "PackagePath": "staticwebassets\\studentAssets\\mail.php"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/scss/main.scss",
-      "PackagePath": "staticwebassets/studentAssets/scss/main.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\scss\\main.scss",
+      "PackagePath": "staticwebassets\\studentAssets\\scss\\main.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/scss/theme/_banner.scss",
-      "PackagePath": "staticwebassets/studentAssets/scss/theme/_banner.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\scss\\theme\\_banner.scss",
+      "PackagePath": "staticwebassets\\studentAssets\\scss\\theme\\_banner.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/scss/theme/_blog.scss",
-      "PackagePath": "staticwebassets/studentAssets/scss/theme/_blog.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\scss\\theme\\_blog.scss",
+      "PackagePath": "staticwebassets\\studentAssets\\scss\\theme\\_blog.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/scss/theme/_elements.scss",
-      "PackagePath": "staticwebassets/studentAssets/scss/theme/_elements.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\scss\\theme\\_elements.scss",
+      "PackagePath": "staticwebassets\\studentAssets\\scss\\theme\\_elements.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/scss/theme/_flexbox.scss",
-      "PackagePath": "staticwebassets/studentAssets/scss/theme/_flexbox.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\scss\\theme\\_flexbox.scss",
+      "PackagePath": "staticwebassets\\studentAssets\\scss\\theme\\_flexbox.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/scss/theme/_footer.scss",
-      "PackagePath": "staticwebassets/studentAssets/scss/theme/_footer.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\scss\\theme\\_footer.scss",
+      "PackagePath": "staticwebassets\\studentAssets\\scss\\theme\\_footer.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/scss/theme/_header.scss",
-      "PackagePath": "staticwebassets/studentAssets/scss/theme/_header.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\scss\\theme\\_header.scss",
+      "PackagePath": "staticwebassets\\studentAssets\\scss\\theme\\_header.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/scss/theme/_home.scss",
-      "PackagePath": "staticwebassets/studentAssets/scss/theme/_home.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\scss\\theme\\_home.scss",
+      "PackagePath": "staticwebassets\\studentAssets\\scss\\theme\\_home.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/scss/theme/_mixins.scss",
-      "PackagePath": "staticwebassets/studentAssets/scss/theme/_mixins.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\scss\\theme\\_mixins.scss",
+      "PackagePath": "staticwebassets\\studentAssets\\scss\\theme\\_mixins.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/scss/theme/_predefined.scss",
-      "PackagePath": "staticwebassets/studentAssets/scss/theme/_predefined.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\scss\\theme\\_predefined.scss",
+      "PackagePath": "staticwebassets\\studentAssets\\scss\\theme\\_predefined.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/scss/theme/_reset.scss",
-      "PackagePath": "staticwebassets/studentAssets/scss/theme/_reset.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\scss\\theme\\_reset.scss",
+      "PackagePath": "staticwebassets\\studentAssets\\scss\\theme\\_reset.scss"
     },
     {
-      "Id": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/wwwroot/studentAssets/scss/theme/_variables.scss",
-      "PackagePath": "staticwebassets/studentAssets/scss/theme/_variables.scss"
+      "Id": "C:\\Assignment\\StudentSync\\wwwroot\\studentAssets\\scss\\theme\\_variables.scss",
+      "PackagePath": "staticwebassets\\studentAssets\\scss\\theme\\_variables.scss"
     },
     {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.StudentSync.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
-    },
-    {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.StudentSync.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.StudentSync.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.StudentSync.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.StudentSync.props",
       "PackagePath": "build\\StudentSync.props"
     },
     {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.StudentSync.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.StudentSync.props",
       "PackagePath": "buildMultiTargeting\\StudentSync.props"
     },
     {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.StudentSync.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.StudentSync.props",
       "PackagePath": "buildTransitive\\StudentSync.props"
     }
   ],

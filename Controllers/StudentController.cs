@@ -3,6 +3,7 @@ using StudentSync.Interfaces;
 using StudentSync.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace StudentSync.Controllers
 {
@@ -21,6 +22,7 @@ namespace StudentSync.Controllers
            
 
         }
+        [Authorize(Roles = "Admin")]
         public IActionResult Index(string sortOrder, string currentFilter, string searchString, int? pageNumber)
         {
             pageNumber = pageNumber ?? 1;
@@ -55,6 +57,9 @@ namespace StudentSync.Controllers
 
             return viewResult;
         }
+        
+
+
         public IActionResult Details(string id)
         {
             ViewResult viewDetail = View();
@@ -70,13 +75,13 @@ namespace StudentSync.Controllers
 
             return viewDetail;
         }
-
+        [Authorize(Roles = "User")]
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
-
+        [Authorize(Roles = "User")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create([Bind("StudentNumber, FirstName, Surname, EnrollmentDate")] Student student)
@@ -94,7 +99,7 @@ namespace StudentSync.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
-
+        [Authorize(Roles = "User")]
         [HttpGet]
         public IActionResult Edit(string id)
         {
@@ -109,7 +114,7 @@ namespace StudentSync.Controllers
             }
             return viewDetail;
         }
-
+        [Authorize(Roles = "User")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Student student)
@@ -128,7 +133,44 @@ namespace StudentSync.Controllers
 
             return RedirectToAction(nameof(Index));
         }//End Method
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        public IActionResult Delete(string id)
+        {
+            ViewResult viewDetail = View();
+            try
+            {
+                var student = _studentRepo.Details(id);
+                if (student == null)
+                {
+                    return NotFound();
+                }
 
+                viewDetail = View(student);
+            }
+            catch (Exception)
+            {
+                throw new Exception("Student detail not found");
+            }
+            return viewDetail;
+        }
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteConfirmed(string id)
+        {
+            try
+            {
+                _studentRepo.Delete(id);
+                TempData["SuccessMessage"] = "Student successfully deleted.";
+            }
+            catch (Exception)
+            {
+                throw new Exception("Student could not be deleted.");
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
 
         [HttpGet]
         public IActionResult Login()

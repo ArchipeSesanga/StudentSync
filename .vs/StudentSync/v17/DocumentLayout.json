@@ -1,120 +1,133 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\",
+  "WorkspaceRootPath": "C:\\Assignment\\StudentSync\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125712_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\SQLiteDB\\20250502125712_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125310_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\SQLiteDB\\20250502125310_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250502125026_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250502125026_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\repositories\\consumerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:repositories\\consumerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\repositories\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:repositories\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\interfaces\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:interfaces\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\views\\shared\\customerror.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\shared\\customerror.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\models\\customexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:models\\customexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\repositories\\dbinitializerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:repositories\\dbinitializerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\repositories\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:repositories\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\interfaces\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:interfaces\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\repositories\\adminrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:repositories\\adminrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\views\\student\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\student\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\views\\consumer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\consumer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\views\\consumer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\consumer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125712_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125310_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250502125026_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\repositories\\consumerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:repositories\\consumerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\views\\shared\\customerror.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\shared\\customerror.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\models\\customexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:models\\customexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\repositories\\dbinitializerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:repositories\\dbinitializerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\data\\logindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:data\\logindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\interfaces\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\assignment\\studentsync\\interfaces\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:interfaces\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Archipe Sesanga\\Downloads\\ASPNETCore_DB\\Models\\Student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250429155321_CreateIdentitySchema.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250429155321_CreateIdentitySchema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Migrations\\20250502105137_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\dintle\\videos\\assignment\\studentsync\\data\\sqlitedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:data\\sqlitedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Data\\SQLiteDBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Data\\LoginDBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -124,382 +137,422 @@
       "DocumentGroups": [
         {
           "DockedWidth": 255,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-29T17:45:35.545Z",
               "IsPinned": true
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250502125712_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125712_Initial.cs",
-              "RelativeDocumentMoniker": "Migrations\\SQLiteDB\\20250502125712_Initial.cs",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125712_Initial.cs",
-              "RelativeToolTip": "Migrations\\SQLiteDB\\20250502125712_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T12:57:12.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250502125310_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125310_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\SQLiteDB\\20250502125310_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125310_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\SQLiteDB\\20250502125310_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T12:53:11.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250502125026_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250502125026_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250502125026_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250502125026_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20250502125026_InitialCreate.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T12:50:28.059Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{7f075f9f-1e1a-4ee8-9ce8-b8451fb61ec8}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConsumerRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Repositories\\ConsumerRepo.cs",
-              "RelativeDocumentMoniker": "Repositories\\ConsumerRepo.cs",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Repositories\\ConsumerRepo.cs",
-              "RelativeToolTip": "Repositories\\ConsumerRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T11:14:52.785Z",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Views\\Student\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Delete.cshtml",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Views\\Student\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Student\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T16:28:27.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IStudent.cs",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Interfaces\\IStudent.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IStudent.cs",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Interfaces\\IStudent.cs",
-              "RelativeToolTip": "Interfaces\\IStudent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T12:23:38.916Z"
+              "WhenOpened": "2025-05-05T18:10:34.525Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T12:21:49.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PaginatedList.cs",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\PaginatedList.cs",
-              "RelativeDocumentMoniker": "PaginatedList.cs",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\PaginatedList.cs",
-              "RelativeToolTip": "PaginatedList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:56:10.764Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Views\\Student\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Views\\Student\\Create.cshtml",
-              "RelativeToolTip": "Views\\Student\\Create.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAABcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T11:45:48.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Views\\Student\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Views\\Student\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Student\\Edit.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T11:44:16.199Z"
+              "WhenOpened": "2025-05-01T11:22:13.648Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Views\\Student\\Index.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T11:36:48.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Program.cs",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Program.cs",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAlwDwAAAAIAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAqwEYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T17:49:35.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CustomExceptionFilter.cs",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Models\\CustomExceptionFilter.cs",
-              "RelativeDocumentMoniker": "Models\\CustomExceptionFilter.cs",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Models\\CustomExceptionFilter.cs",
-              "RelativeToolTip": "Models\\CustomExceptionFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "StudentRepo.cs",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Repositories\\StudentRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\StudentRepo.cs",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Repositories\\StudentRepo.cs",
+              "RelativeToolTip": "Repositories\\StudentRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T12:28:02.173Z"
+              "WhenOpened": "2025-04-29T18:06:33.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "20250502105137_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Migrations\\20250502105137_InitialCreate.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Babalwa\\Documents\\GitHub\\StudentSync\\Migrations\\20250502105137_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Migrations\\20250502105137_InitialCreate.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Babalwa\\Documents\\GitHub\\StudentSync\\Migrations\\20250502105137_InitialCreate.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T10:51:38.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CustomError.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Views\\Shared\\CustomError.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\CustomError.cshtml",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Views\\Shared\\CustomError.cshtml",
-              "RelativeToolTip": "Views\\Shared\\CustomError.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T12:33:56.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Views\\Student\\Details.cshtml",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Views\\Student\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Views\\Student\\Details.cshtml",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Views\\Student\\Details.cshtml",
               "RelativeToolTip": "Views\\Student\\Details.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-01T11:42:53.951Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Views\\Student\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Views\\Student\\Index.cshtml",
-              "RelativeToolTip": "Views\\Student\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T11:36:48.719Z"
+              "Title": "IStudent.cs",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Interfaces\\IStudent.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IStudent.cs",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Interfaces\\IStudent.cs",
+              "RelativeToolTip": "Interfaces\\IStudent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:23:38.916Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "Controllers\\StudentController.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAYwIMAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "AdminRepo.cs",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Repositories\\AdminRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\AdminRepo.cs",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Repositories\\AdminRepo.cs",
+              "RelativeToolTip": "Repositories\\AdminRepo.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:34:56.612Z"
+              "WhenOpened": "2025-05-05T15:24:01.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Views\\Student\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Dashboard.cshtml",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Views\\Student\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Student\\Dashboard.cshtml",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T15:22:23.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Views\\Consumer\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Consumer\\Dashboard.cshtml",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Views\\Consumer\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Consumer\\Dashboard.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T15:20:52.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Views\\Consumer\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Consumer\\Create.cshtml",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Views\\Consumer\\Create.cshtml",
+              "RelativeToolTip": "Views\\Consumer\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T15:20:21.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250502125712_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125712_Initial.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125712_Initial.cs",
+              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125712_Initial.cs",
+              "RelativeToolTip": "..\\..\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125712_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:57:12.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250502125310_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125310_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125310_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125310_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125310_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:53:11.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250502125026_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250502125026_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250502125026_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250502125026_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250502125026_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:50:28.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ConsumerRepo.cs",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Repositories\\ConsumerRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\ConsumerRepo.cs",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Repositories\\ConsumerRepo.cs",
+              "RelativeToolTip": "Repositories\\ConsumerRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T11:14:52.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:21:49.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "PaginatedList.cs",
+              "ToolTip": "C:\\Assignment\\StudentSync\\PaginatedList.cs",
+              "RelativeToolTip": "PaginatedList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:56:10.764Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAASAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "Views\\Student\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T11:22:13.648Z"
+              "WhenOpened": "2025-05-01T11:45:48.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Edit.cshtml",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Student\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T11:44:16.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CustomExceptionFilter.cs",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Models\\CustomExceptionFilter.cs",
+              "RelativeDocumentMoniker": "Models\\CustomExceptionFilter.cs",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Models\\CustomExceptionFilter.cs",
+              "RelativeToolTip": "Models\\CustomExceptionFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:28:02.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250502105137_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Migrations\\20250502105137_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Migrations\\20250502105137_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Migrations\\20250502105137_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Migrations\\20250502105137_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T10:51:38.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CustomError.cshtml",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Views\\Shared\\CustomError.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\CustomError.cshtml",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Views\\Shared\\CustomError.cshtml",
+              "RelativeToolTip": "Views\\Shared\\CustomError.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T12:33:56.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "DBInitializerRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Repositories\\DBInitializerRepo.cs",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Repositories\\DBInitializerRepo.cs",
               "RelativeDocumentMoniker": "Repositories\\DBInitializerRepo.cs",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Repositories\\DBInitializerRepo.cs",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Repositories\\DBInitializerRepo.cs",
               "RelativeToolTip": "Repositories\\DBInitializerRepo.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwB8AAAAJAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T18:02:14.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "SQLiteDBContext.cs",
               "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Data\\SQLiteDBContext.cs",
-              "RelativeDocumentMoniker": "Data\\SQLiteDBContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Data\\SQLiteDBContext.cs",
               "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Data\\SQLiteDBContext.cs",
-              "RelativeToolTip": "Data\\SQLiteDBContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Data\\SQLiteDBContext.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T18:04:04.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\appsettings.json",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\appsettings.json",
+              "ToolTip": "C:\\Assignment\\StudentSync\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-29T17:54:38.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Models\\Student.cs",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Models\\Student.cs",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Models\\Student.cs",
               "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T18:05:15.597Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "LoginDBContext.cs",
               "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Data\\LoginDBContext.cs",
-              "RelativeDocumentMoniker": "Data\\LoginDBContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Data\\LoginDBContext.cs",
               "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Data\\LoginDBContext.cs",
-              "RelativeToolTip": "Data\\LoginDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Data\\LoginDBContext.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T18:38:02.987Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StudentRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Repositories\\StudentRepo.cs",
-              "RelativeDocumentMoniker": "Repositories\\StudentRepo.cs",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Repositories\\StudentRepo.cs",
-              "RelativeToolTip": "Repositories\\StudentRepo.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T18:06:33.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "IDBInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Interfaces\\IDBInitializer.cs",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Interfaces\\IDBInitializer.cs",
               "RelativeDocumentMoniker": "Interfaces\\IDBInitializer.cs",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Interfaces\\IDBInitializer.cs",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Interfaces\\IDBInitializer.cs",
               "RelativeToolTip": "Interfaces\\IDBInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T18:06:03.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Assignment\\StudentSync\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Assignment\\StudentSync\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T17:47:05.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\Archipe Sesanga\\Downloads\\ASPNETCore_DB\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Archipe Sesanga\\Downloads\\ASPNETCore_DB\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\Archipe Sesanga\\Downloads\\ASPNETCore_DB\\Models\\Student.cs",
               "ToolTip": "C:\\Users\\Archipe Sesanga\\Downloads\\ASPNETCore_DB\\Models\\Student.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Archipe Sesanga\\Downloads\\ASPNETCore_DB\\Models\\Student.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\Users\\Archipe Sesanga\\Downloads\\ASPNETCore_DB\\Models\\Student.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T18:05:07.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "20250429155321_CreateIdentitySchema.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.Designer.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250429155321_CreateIdentitySchema.Designer.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.Designer.cs",
               "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.Designer.cs",
-              "RelativeToolTip": "Migrations\\20250429155321_CreateIdentitySchema.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.Designer.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T17:46:52.103Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "20250429155321_CreateIdentitySchema.cs",
               "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250429155321_CreateIdentitySchema.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.cs",
               "ToolTip": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.cs",
-              "RelativeToolTip": "Migrations\\20250429155321_CreateIdentitySchema.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T17:46:19.311Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 55,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
