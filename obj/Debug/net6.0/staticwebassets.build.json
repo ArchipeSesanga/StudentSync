@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fTuiO24K9LtDVLry0XGCXv+BBVb5isUCncMAiSvVP3E=",
+  "Hash": "RPkx3x9wMgEEEy2vOM8QUQieVlIVN9zGoMJhpaQDpbk=",
   "Source": "StudentSync",
   "BasePath": "_content/StudentSync",
   "Mode": "Default",
@@ -1252,12 +1252,12 @@
       "OriginalItemSpec": "wwwroot\\images\\32e08dd2-e7ad-46bc-ac21-f5949b64ce12.jpg"
     },
     {
-      "Identity": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\wwwroot\\images\\DefaultPic.png",
+      "Identity": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\wwwroot\\images\\39d166b7-bde1-483b-b388-4fb20080d4b4.jpg",
       "SourceId": "StudentSync",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\wwwroot\\",
       "BasePath": "_content/StudentSync",
-      "RelativePath": "images/DefaultPic.png",
+      "RelativePath": "images/39d166b7-bde1-483b-b388-4fb20080d4b4.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1268,7 +1268,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\DefaultPic.png"
+      "OriginalItemSpec": "wwwroot\\images\\39d166b7-bde1-483b-b388-4fb20080d4b4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\wwwroot\\images\\c7285563-22fc-4a2c-b04a-24c1ed4a0662.jpg",
+      "SourceId": "StudentSync",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\wwwroot\\",
+      "BasePath": "_content/StudentSync",
+      "RelativePath": "images/c7285563-22fc-4a2c-b04a-24c1ed4a0662.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\c7285563-22fc-4a2c-b04a-24c1ed4a0662.jpg"
     },
     {
       "Identity": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\wwwroot\\js\\site.js",
