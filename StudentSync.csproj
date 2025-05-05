@@ -24,4 +24,17 @@
       <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.18" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\adminElements\img\undraw_posting_photo.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\adminElements\img\undraw_profile.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\adminElements\img\undraw_profile_1.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\adminElements\img\undraw_profile_2.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\adminElements\img\undraw_profile_3.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\adminElements\img\undraw_rocket.svg" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="wwwroot\studentAssets\.DS_Store" />
+    </ItemGroup>
+
 </Project>

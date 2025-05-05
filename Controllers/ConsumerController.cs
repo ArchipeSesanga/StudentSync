@@ -1,4 +1,5 @@
-﻿using StudentSync.Interfaces;
+﻿using Microsoft.AspNetCore.Identity;
+using StudentSync.Interfaces;
 using StudentSync.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -8,10 +9,14 @@ namespace StudentSync.Controllers
     public class ConsumerController : Controller
     {
         private readonly IConsumer _consumerRepo;
-
-        public ConsumerController(IConsumer consumerRepo)
+        private readonly UserManager<IdentityUser> _userManager;
+        private readonly SignInManager<IdentityUser> _signInManager;
+        
+        public ConsumerController(IConsumer consumerRepo,SignInManager<IdentityUser> signInManager, UserManager<IdentityUser> userManager)
         {
             _consumerRepo = consumerRepo ?? throw new ArgumentNullException(nameof(consumerRepo), "Constructor not initialized - IConsumer consumerRepo");
+            _signInManager = signInManager;
+            _userManager = userManager;
         }
 
         public IActionResult Index(string sortOrder, string currentFilter, string searchString, int? pageNumber)
@@ -45,7 +50,81 @@ namespace StudentSync.Controllers
 
             var paginatedList = PaginatedList<Consumer>.Create(consumers.AsNoTracking(), pageNumber.Value, pageSize);
             return View(paginatedList);
+        }//End Method
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(LoginViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            // Attempt login
+            var result = await _signInManager.PasswordSignInAsync(
+                model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
+
+            if (result.Succeeded)
+            {
+                // Redirect to Consumer's Dashboard
+                return RedirectToAction("Dashboard", "Consumer");
+            }
+
+            // If login fails
+            ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+            return View(model);
+        }
+
+
+        [HttpGet]
+        public IActionResult Register()
+        { //Handles registration view
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Register(RegisterViewModel model)
+        {
+            //Handles registration action from the user
+            if (ModelState.IsValid)
+            {
+                var existingUser = await _userManager.FindByEmailAsync(model.Email);
+                if (existingUser != null)
+                {
+                    ModelState.AddModelError("", "Email is already in use.");
+                    return View(model);
+                }
+
+                var user = new IdentityUser { UserName = model.Email, Email = model.Email };
+                var result = await _userManager.CreateAsync(user, model.Password);
+        
+                if (result.Succeeded)
+                {
+                    // Automatically assign "Consumer" role
+                    await _userManager.AddToRoleAsync(user, "Consumer");
+
+                    await _signInManager.SignInAsync(user, isPersistent: false);
+                    return RedirectToAction("Dashboard", "Consumer");
+                }
+
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+                
+
+                return View(model);
+            }
+
+
+            return View(model);
+        } //End REgister()
 
         public IActionResult Details(string id)
         {
@@ -114,5 +193,12 @@ namespace StudentSync.Controllers
             _consumerRepo.Delete(consumer);
             return RedirectToAction(nameof(Index));
         }
+
+        public IActionResult Dashboard()
+        {
+            return View();
+        }
     }
+
+   
 }
