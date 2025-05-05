@@ -1,8 +1,8 @@
-﻿using StudentSync.Interfaces;
+﻿using Microsoft.AspNetCore.Identity;
+using StudentSync.Interfaces;
 using StudentSync.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Hosting;
 
 namespace StudentSync.Controllers
 {
@@ -10,24 +10,16 @@ namespace StudentSync.Controllers
     public class StudentController : Controller
     {
         private readonly IStudent _studentRepo;
-        private readonly IHttpContextAccessor _httpContextAccessor;
-        private readonly IWebHostEnvironment _webHostEnvironment;
-        public StudentController(IStudent studentRepo, IHttpContextAccessor httpContextAccessor,
-            IWebHostEnvironment webHostEnvironment)
+        private readonly UserManager<IdentityUser> _userManager;
+        private readonly SignInManager<IdentityUser> _signInManager;
+        public StudentController(IStudent studentRepo, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
         {
-            try
-            {
+            
                 _studentRepo = studentRepo;
-                _httpContextAccessor = httpContextAccessor;
-                _webHostEnvironment = webHostEnvironment;
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Constructor not initialized - IStudent studentRepo");
-            }
+                _userManager = userManager;
+                _signInManager = signInManager;
+           
 
-            _httpContextAccessor = httpContextAccessor;
-            _webHostEnvironment = webHostEnvironment;
         }
         public IActionResult Index(string sortOrder, string currentFilter, string searchString, int? pageNumber)
         {
@@ -50,7 +42,7 @@ namespace StudentSync.Controllers
 
             ViewData["CurrentFilter"] = searchString;
 
-            ViewResult viewResult = View();
+            ViewResult viewResult;
 
             try
             {
@@ -82,30 +74,13 @@ namespace StudentSync.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            Student student = new Student();
-            string fileName = "default.PNG";
-            student.Photo = fileName;
-            return View(student);
+            return View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create( Student student)
+        public IActionResult Create([Bind("StudentNumber, FirstName, Surname, EnrollmentDate")] Student student)
         {
-
-            var files = HttpContext.Request.Form.Files;
-            string webRootPath = _webHostEnvironment.WebRootPath;
-            string upload = webRootPath + WebConstants.ImagePath;
-            string fileName = Guid.NewGuid().ToString();
-            string extension = Path.GetExtension(files[0].FileName);
-
-            using (var fileStream = new FileStream(Path.Combine(upload, fileName + extension),
-                FileMode.Create))
-            {
-                files[0].CopyTo(fileStream);
-            }
-            student.Photo = fileName + extension;
-
             try
             {
                 if (ModelState.IsValid)
@@ -117,7 +92,7 @@ namespace StudentSync.Controllers
             {
                 throw new Exception("Student could not be created");
             }
-            return RedirectToAction("Index");
+            return RedirectToAction(nameof(Index));
         }
 
         [HttpGet]
@@ -139,49 +114,72 @@ namespace StudentSync.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Student student)
         {
-            string photoName = HttpContext.Request.Form["photoName"];
-
-            if (HttpContext.Request.Form.Files.Count > 0)
-            {
-                var files = HttpContext.Request.Form.Files;
-                string webRootPath = _webHostEnvironment.WebRootPath;
-                string upload = webRootPath + WebConstants.ImagePath;
-                string fileName = Guid.NewGuid().ToString();
-                string extension = Path.GetExtension(files[0].FileName);
-
-                var oldFile = Path.Combine(upload, photoName);
-
-                if (System.IO.File.Exists(oldFile))
-                {
-                    System.IO.File.Delete(oldFile);
-                }
-
-                using (var fileStream = new FileStream(Path.Combine(upload, fileName + extension),
-                FileMode.Create))
-                {
-                    files[0].CopyTo(fileStream);
-                }
-
-                student.Photo = fileName + extension;
-            }
-            else
-            {
-                student.Photo = photoName;
-            }
-
             try
             {
-                _studentRepo.Edit(student);
+                if (ModelState.IsValid)
+                {
+                    _studentRepo.Edit(student);
+                }
             }
             catch (Exception ex)
             {
-                throw new Exception("Student record not saved.");
+                throw new Exception("Student detail could not be edited");
             }
-            return RedirectToAction("Index");
+
+            return RedirectToAction(nameof(Index));
+        }//End Method
+
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Register(Student student)
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(LoginViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var user = await _userManager.FindByEmailAsync(model.Email);
+
+            if (user == null)
+            {
+                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                return View(model);
+            }
+
+            // ✅ Check if user is in the Student role
+            if (!await _userManager.IsInRoleAsync(user, "Student"))
+            {
+                ModelState.AddModelError(string.Empty, "Access denied. Only students can log in here.");
+                return View(model);
+            }
+
+            var result = await _signInManager.PasswordSignInAsync(user.UserName, model.Password, model.RememberMe, false);
+
+            if (result.Succeeded)
+            {
+                return RedirectToAction("Dashboard", "Student");
+            }
+
+            ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+            return View(model);
+        }
+
+
+
+        public IActionResult Dashboard()
+        {
+           // throw new NotImplementedException();
+           return View();
         }
     }
-
-       
-
-    
 }

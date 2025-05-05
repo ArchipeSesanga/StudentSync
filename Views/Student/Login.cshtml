@@ -1,0 +1,51 @@
+@model StudentSync.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Student Login";
+   // Layout = "~/Views/Shared/_Layout.cshtml"; // Make sure this is your layout path
+}
+
+<section class="main-content center">
+    <div class="content-header">
+        <h1>Student Login</h1>
+    </div>
+
+    <div class="welcome">
+        <p>Please enter your login details below.</p>
+    </div>
+
+    <div class="center" style="margin-top: 30px;">
+        <form asp-action="Login" method="post">
+            <div class="form-group fifteen">
+                <label asp-for="Email"></label><br />
+                <input asp-for="Email" class="form-control" style="width: 300px; padding: 8px;" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group fifteen">
+                <label asp-for="Password"></label><br />
+                <input asp-for="Password" class="form-control" type="password" style="width: 300px; padding: 8px;" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group twenty">
+                <label>
+                    <input asp-for="RememberMe" />
+                    @Html.DisplayNameFor(model => model.RememberMe)
+                </label>
+            </div>
+
+            <div class="text-center">
+                <a class="small" asp-controller="Student" asp-action="Register">Create an Account!</a>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn" style="background-color: #7c32ff; color: white; padding: 10px 25px; border: none; cursor: pointer;">Login</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
