@@ -3,6 +3,7 @@ using StudentSync.Interfaces;
 using StudentSync.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace StudentSync.Controllers
 {
@@ -18,7 +19,7 @@ namespace StudentSync.Controllers
             _signInManager = signInManager;
             _userManager = userManager;
         }
-
+       
         public IActionResult Index(string sortOrder, string currentFilter, string searchString, int? pageNumber)
         {
             pageNumber ??= 1;
@@ -125,7 +126,7 @@ namespace StudentSync.Controllers
 
             return View(model);
         } //End REgister()
-
+      
         public IActionResult Details(string id)
         {
             var consumer = _consumerRepo.Details(id);
@@ -135,6 +136,7 @@ namespace StudentSync.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Consumer")]
         public IActionResult Create()
         {
             return View();
@@ -142,6 +144,7 @@ namespace StudentSync.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Consumer")]
         public IActionResult Create([Bind("ConsumerID, FirstName, Surname, EnrollmentDate, Email")] Consumer consumer)
         {
             if (ModelState.IsValid)
@@ -154,6 +157,7 @@ namespace StudentSync.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Comsumer")]
         public IActionResult Edit(string id)
         {
             var consumer = _consumerRepo.Details(id);
@@ -177,6 +181,7 @@ namespace StudentSync.Controllers
         }
 
         [HttpGet]
+        
         public IActionResult Delete(string id)
         {
             var consumer = _consumerRepo.Details(id);
@@ -188,6 +193,7 @@ namespace StudentSync.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        
         public IActionResult Delete([Bind("ConsumerID, FirstName, Surname, EnrollmentDate, Email")] Consumer consumer)
         {
             _consumerRepo.Delete(consumer);

@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using StudentSync.Data;
@@ -22,6 +23,7 @@ public class AdminController : Controller
         _context = context;
     }
     [HttpGet]
+    
     public IActionResult Register()
     {
         return View();

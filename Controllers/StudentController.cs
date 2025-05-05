@@ -3,6 +3,7 @@ using StudentSync.Interfaces;
 using StudentSync.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace StudentSync.Controllers
 {
@@ -72,6 +73,7 @@ namespace StudentSync.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Student")]
         public IActionResult Create()
         {
             return View();
@@ -79,6 +81,7 @@ namespace StudentSync.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Student")]
         public IActionResult Create([Bind("StudentNumber, FirstName, Surname, EnrollmentDate")] Student student)
         {
             try
@@ -96,6 +99,7 @@ namespace StudentSync.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Student")]
         public IActionResult Edit(string id)
         {
             ViewResult viewDetail = View();
@@ -112,6 +116,7 @@ namespace StudentSync.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Student")]
         public IActionResult Edit(Student student)
         {
             try

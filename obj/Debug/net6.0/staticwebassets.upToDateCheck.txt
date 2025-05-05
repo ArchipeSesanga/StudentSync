@@ -1,6 +1,132 @@
-wwwroot\css\site.css
+wwwroot\adminElements\.browserslistrc
+wwwroot\adminElements\.gitignore
+wwwroot\adminElements\.travis.yml
+wwwroot\adminElements\404.html
+wwwroot\adminElements\blank.html
+wwwroot\adminElements\buttons.html
+wwwroot\adminElements\cards.html
+wwwroot\adminElements\charts.html
+wwwroot\adminElements\css\sb-admin-2.css
+wwwroot\adminElements\css\sb-admin-2.min.css
+wwwroot\adminElements\forgot-password.html
+wwwroot\adminElements\gulpfile.js
+wwwroot\adminElements\index.html
+wwwroot\adminElements\js\demo\chart-area-demo.js
+wwwroot\adminElements\js\demo\chart-bar-demo.js
+wwwroot\adminElements\js\demo\chart-pie-demo.js
+wwwroot\adminElements\js\demo\datatables-demo.js
+wwwroot\adminElements\js\sb-admin-2.js
+wwwroot\adminElements\js\sb-admin-2.min.js
+wwwroot\adminElements\LICENSE
+wwwroot\adminElements\login.html
+wwwroot\adminElements\package.json
+wwwroot\adminElements\package-lock.json
+wwwroot\adminElements\PRO_UPGRADE.txt
+wwwroot\adminElements\README.md
+wwwroot\adminElements\register.html
+wwwroot\adminElements\scss\_buttons.scss
+wwwroot\adminElements\scss\_cards.scss
+wwwroot\adminElements\scss\_charts.scss
+wwwroot\adminElements\scss\_dropdowns.scss
+wwwroot\adminElements\scss\_error.scss
+wwwroot\adminElements\scss\_footer.scss
+wwwroot\adminElements\scss\_global.scss
+wwwroot\adminElements\scss\_login.scss
+wwwroot\adminElements\scss\_mixins.scss
+wwwroot\adminElements\scss\_navs.scss
+wwwroot\adminElements\scss\_utilities.scss
+wwwroot\adminElements\scss\_variables.scss
+wwwroot\adminElements\scss\navs\_global.scss
+wwwroot\adminElements\scss\navs\_sidebar.scss
+wwwroot\adminElements\scss\navs\_topbar.scss
+wwwroot\adminElements\scss\sb-admin-2.scss
+wwwroot\adminElements\scss\utilities\_animation.scss
+wwwroot\adminElements\scss\utilities\_background.scss
+wwwroot\adminElements\scss\utilities\_border.scss
+wwwroot\adminElements\scss\utilities\_display.scss
+wwwroot\adminElements\scss\utilities\_progress.scss
+wwwroot\adminElements\scss\utilities\_rotate.scss
+wwwroot\adminElements\scss\utilities\_text.scss
+wwwroot\adminElements\tables.html
+wwwroot\adminElements\utilities-animation.html
+wwwroot\adminElements\utilities-border.html
+wwwroot\adminElements\utilities-color.html
+wwwroot\adminElements\utilities-other.html
+wwwroot\css\Admin-Login.css
+wwwroot\css\ajax-loader.gif
+wwwroot\css\consumer-style.css
+wwwroot\css\normalize.css
+wwwroot\css\vendor.css
 wwwroot\favicon.ico
-wwwroot\js\site.js
+wwwroot\icomoon\fonts\icomoon.eot
+wwwroot\icomoon\fonts\icomoon.svg
+wwwroot\icomoon\fonts\icomoon.ttf
+wwwroot\icomoon\fonts\icomoon.woff
+wwwroot\icomoon\icomoon.css
+wwwroot\icomoon\Read Me.txt
+wwwroot\icomoon\selection.json
+wwwroot\images\app-store.jpg
+wwwroot\images\chocolat\close.png
+wwwroot\images\chocolat\fullscreen.png
+wwwroot\images\chocolat\fullscreen-black.png
+wwwroot\images\chocolat\left.png
+wwwroot\images\chocolat\loader.gif
+wwwroot\images\chocolat\right.png
+wwwroot\images\client-image1.png
+wwwroot\images\client-image2.png
+wwwroot\images\client-image3.png
+wwwroot\images\client-image4.png
+wwwroot\images\client-image5.png
+wwwroot\images\curly-divider.svg
+wwwroot\images\default.png
+wwwroot\images\device.png
+wwwroot\images\google-play.jpg
+wwwroot\images\img\undraw_posting_photo.svg
+wwwroot\images\img\undraw_profile.svg
+wwwroot\images\img\undraw_profile_1.svg
+wwwroot\images\img\undraw_profile_2.svg
+wwwroot\images\img\undraw_profile_3.svg
+wwwroot\images\img\undraw_rocket.svg
+wwwroot\images\item.png
+wwwroot\images\item1.png
+wwwroot\images\item3.png
+wwwroot\images\item4.png
+wwwroot\images\item5.png
+wwwroot\images\leaf.png
+wwwroot\images\main-banner1.jpg
+wwwroot\images\main-banner2.jpg
+wwwroot\images\main-logo.png
+wwwroot\images\ns-arrow-right.svg
+wwwroot\images\pattern1.png
+wwwroot\images\pattern2.png
+wwwroot\images\post-img1.jpg
+wwwroot\images\post-img2.jpg
+wwwroot\images\post-img3.jpg
+wwwroot\images\product-item1.jpg
+wwwroot\images\product-item2.jpg
+wwwroot\images\product-item3.jpg
+wwwroot\images\product-item4.jpg
+wwwroot\images\product-item5.jpg
+wwwroot\images\product-item6.jpg
+wwwroot\images\product-item7.jpg
+wwwroot\images\product-item8.jpg
+wwwroot\images\single-image.jpg
+wwwroot\images\tab-item1.jpg
+wwwroot\images\tab-item2.jpg
+wwwroot\images\tab-item3.jpg
+wwwroot\images\tab-item4.jpg
+wwwroot\images\tab-item5.jpg
+wwwroot\images\tab-item6.jpg
+wwwroot\images\tab-item7.jpg
+wwwroot\images\tab-item8.jpg
+wwwroot\js\jquery-1.11.0.min.js
+wwwroot\js\modernizr.js
+wwwroot\js\plugins.js
+wwwroot\js\sb-admin-2.js
+wwwroot\js\sb-admin-2.min.js
+wwwroot\js\script.js
+wwwroot\js\slideNav.js
+wwwroot\js\slideNav.min.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
@@ -58,3 +184,201 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\studentAssets\.DS_Store
+wwwroot\studentAssets\.gitignore
+wwwroot\studentAssets\about.html
+wwwroot\studentAssets\blog-home.html
+wwwroot\studentAssets\blog-single.html
+wwwroot\studentAssets\contacts.html
+wwwroot\studentAssets\course-details.html
+wwwroot\studentAssets\courses.html
+wwwroot\studentAssets\css\availability-calendar.css
+wwwroot\studentAssets\css\bootstrap.css
+wwwroot\studentAssets\css\font-awesome.min.css
+wwwroot\studentAssets\css\hexagons.min.css
+wwwroot\studentAssets\css\ion.rangeSlider.css
+wwwroot\studentAssets\css\ion.rangeSlider.skinFlat.css
+wwwroot\studentAssets\css\jquerysctipttop.css
+wwwroot\studentAssets\css\linearicons.css
+wwwroot\studentAssets\css\magnific-popup.css
+wwwroot\studentAssets\css\main.css
+wwwroot\studentAssets\css\main.css.map
+wwwroot\studentAssets\css\nice-select.css
+wwwroot\studentAssets\css\owl.carousel.css
+wwwroot\studentAssets\eclipse education-doc\css\font-awesome.min.css
+wwwroot\studentAssets\eclipse education-doc\css\main.css
+wwwroot\studentAssets\eclipse education-doc\css\normalize.min.css
+wwwroot\studentAssets\eclipse education-doc\fonts\FontAwesome.otf
+wwwroot\studentAssets\eclipse education-doc\fonts\fontawesome-webfont.eot
+wwwroot\studentAssets\eclipse education-doc\fonts\fontawesome-webfont.svg
+wwwroot\studentAssets\eclipse education-doc\fonts\fontawesome-webfont.ttf
+wwwroot\studentAssets\eclipse education-doc\fonts\fontawesome-webfont.woff
+wwwroot\studentAssets\eclipse education-doc\img\logo.png
+wwwroot\studentAssets\eclipse education-doc\index.html
+wwwroot\studentAssets\eclipse education-doc\js\custom.js
+wwwroot\studentAssets\eclipse education-doc\js\jquery.nav.js
+wwwroot\studentAssets\eclipse education-doc\js\jquery-1.11.0.min.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shAutoloader.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushAppleScript.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushAS3.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushBash.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushColdFusion.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushCpp.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushCSharp.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushCss.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushDelphi.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushDiff.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushErlang.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushGroovy.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushJava.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushJavaFX.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushJScript.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushPerl.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushPhp.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushPlain.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushPowerShell.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushPython.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushRuby.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushSass.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushScala.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushSql.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushVb.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shBrushXml.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\scripts\shLegacy.js
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\styles\shCore.css
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\styles\shCoreDefault.css
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\styles\shCoreDjango.css
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\styles\shCoreEclipse.css
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\styles\shCoreEmacs.css
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\styles\shCoreFadeToGrey.css
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\styles\shCoreMDUltra.css
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\styles\shCoreMidnight.css
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\styles\shCoreRDark.css
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\styles\shThemeDefault.css
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\styles\shThemeDjango.css
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\styles\shThemeEclipse.css
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\styles\shThemeEmacs.css
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\styles\shThemeFadeToGrey.css
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\styles\shThemeMDUltra.css
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\styles\shThemeMidnight.css
+wwwroot\studentAssets\eclipse education-doc\syntax-highlighter\styles\shThemeRDark.css
+wwwroot\studentAssets\elements.html
+wwwroot\studentAssets\fonts\FontAwesome.otf
+wwwroot\studentAssets\fonts\fontawesome-webfont.eot
+wwwroot\studentAssets\fonts\fontawesome-webfont.svg
+wwwroot\studentAssets\fonts\fontawesome-webfont.ttf
+wwwroot\studentAssets\fonts\fontawesome-webfont.woff
+wwwroot\studentAssets\fonts\fontawesome-webfont.woff2
+wwwroot\studentAssets\fonts\Linearicons-Free.eot
+wwwroot\studentAssets\fonts\Linearicons-Free.svg
+wwwroot\studentAssets\fonts\Linearicons-Free.ttf
+wwwroot\studentAssets\fonts\Linearicons-Free.woff
+wwwroot\studentAssets\fonts\Linearicons-Free.woff2
+wwwroot\studentAssets\img\about-img.png
+wwwroot\studentAssets\img\banner-bg.png
+wwwroot\studentAssets\img\blog\ads-banner.jpg
+wwwroot\studentAssets\img\blog\blog-home-banner.jpg
+wwwroot\studentAssets\img\blog\c1.jpg
+wwwroot\studentAssets\img\blog\c2.jpg
+wwwroot\studentAssets\img\blog\c3.jpg
+wwwroot\studentAssets\img\blog\c4.jpg
+wwwroot\studentAssets\img\blog\c5.jpg
+wwwroot\studentAssets\img\blog\c6.jpg
+wwwroot\studentAssets\img\blog\cat-widget1.jpg
+wwwroot\studentAssets\img\blog\cat-widget2.jpg
+wwwroot\studentAssets\img\blog\cat-widget3.jpg
+wwwroot\studentAssets\img\blog\feature-img1.jpg
+wwwroot\studentAssets\img\blog\feature-img2.jpg
+wwwroot\studentAssets\img\blog\feature-img3.jpg
+wwwroot\studentAssets\img\blog\feature-img4.jpg
+wwwroot\studentAssets\img\blog\feature-img5.jpg
+wwwroot\studentAssets\img\blog\next.jpg
+wwwroot\studentAssets\img\blog\post-img1.jpg
+wwwroot\studentAssets\img\blog\post-img2.jpg
+wwwroot\studentAssets\img\blog\pp1.jpg
+wwwroot\studentAssets\img\blog\pp2.jpg
+wwwroot\studentAssets\img\blog\pp3.jpg
+wwwroot\studentAssets\img\blog\pp4.jpg
+wwwroot\studentAssets\img\blog\prev.jpg
+wwwroot\studentAssets\img\blog\s-img.jpg
+wwwroot\studentAssets\img\blog\user-info.png
+wwwroot\studentAssets\img\blog-post\b1.jpg
+wwwroot\studentAssets\img\blog-post\b2.jpg
+wwwroot\studentAssets\img\blog-post\b3.jpg
+wwwroot\studentAssets\img\courses\course-details.jpg
+wwwroot\studentAssets\img\courses\trainer1.jpg
+wwwroot\studentAssets\img\elements\d.jpg
+wwwroot\studentAssets\img\elements\disabled-check.png
+wwwroot\studentAssets\img\elements\disabled-radio.png
+wwwroot\studentAssets\img\elements\f1.jpg
+wwwroot\studentAssets\img\elements\f2.jpg
+wwwroot\studentAssets\img\elements\f3.jpg
+wwwroot\studentAssets\img\elements\f4.jpg
+wwwroot\studentAssets\img\elements\f5.jpg
+wwwroot\studentAssets\img\elements\f6.jpg
+wwwroot\studentAssets\img\elements\f7.jpg
+wwwroot\studentAssets\img\elements\f8.jpg
+wwwroot\studentAssets\img\elements\g1.jpg
+wwwroot\studentAssets\img\elements\g2.jpg
+wwwroot\studentAssets\img\elements\g3.jpg
+wwwroot\studentAssets\img\elements\g4.jpg
+wwwroot\studentAssets\img\elements\g5.jpg
+wwwroot\studentAssets\img\elements\g6.jpg
+wwwroot\studentAssets\img\elements\g7.jpg
+wwwroot\studentAssets\img\elements\g8.jpg
+wwwroot\studentAssets\img\elements\primary-check.png
+wwwroot\studentAssets\img\elements\primary-radio.png
+wwwroot\studentAssets\img\elements\success-check.png
+wwwroot\studentAssets\img\elements\success-radio.png
+wwwroot\studentAssets\img\fav.png
+wwwroot\studentAssets\img\footer-bg.png
+wwwroot\studentAssets\img\header-img.png
+wwwroot\studentAssets\img\home-banner-bg.png
+wwwroot\studentAssets\img\i1.jpg
+wwwroot\studentAssets\img\i2.jpg
+wwwroot\studentAssets\img\i3.jpg
+wwwroot\studentAssets\img\i4.jpg
+wwwroot\studentAssets\img\i5.jpg
+wwwroot\studentAssets\img\i6.jpg
+wwwroot\studentAssets\img\i7.jpg
+wwwroot\studentAssets\img\i8.jpg
+wwwroot\studentAssets\img\logo.png
+wwwroot\studentAssets\img\next.png
+wwwroot\studentAssets\img\play-btn.png
+wwwroot\studentAssets\img\popular-course\p1.jpg
+wwwroot\studentAssets\img\popular-course\p2.jpg
+wwwroot\studentAssets\img\popular-course\p3.jpg
+wwwroot\studentAssets\img\popular-course\p4.jpg
+wwwroot\studentAssets\img\prev.png
+wwwroot\studentAssets\img\quote.png
+wwwroot\studentAssets\img\registration-bg.png
+wwwroot\studentAssets\img\testimonial\t1.jpg
+wwwroot\studentAssets\img\video-area-bg.png
+wwwroot\studentAssets\img\video-img.jpg
+wwwroot\studentAssets\index.html
+wwwroot\studentAssets\js\hexagons.min.js
+wwwroot\studentAssets\js\ion.rangeSlider.js
+wwwroot\studentAssets\js\jquery.ajaxchimp.min.js
+wwwroot\studentAssets\js\jquery.counterup.min.js
+wwwroot\studentAssets\js\jquery.magnific-popup.min.js
+wwwroot\studentAssets\js\jquery.nice-select.min.js
+wwwroot\studentAssets\js\jquery.sticky.js
+wwwroot\studentAssets\js\main.js
+wwwroot\studentAssets\js\owl.carousel.min.js
+wwwroot\studentAssets\js\parallax.min.js
+wwwroot\studentAssets\js\vendor\bootstrap.min.js
+wwwroot\studentAssets\js\vendor\jquery-2.2.4.min.js
+wwwroot\studentAssets\js\waypoints.min.js
+wwwroot\studentAssets\mail.php
+wwwroot\studentAssets\scss\main.scss
+wwwroot\studentAssets\scss\theme\_banner.scss
+wwwroot\studentAssets\scss\theme\_blog.scss
+wwwroot\studentAssets\scss\theme\_elements.scss
+wwwroot\studentAssets\scss\theme\_flexbox.scss
+wwwroot\studentAssets\scss\theme\_footer.scss
+wwwroot\studentAssets\scss\theme\_header.scss
+wwwroot\studentAssets\scss\theme\_home.scss
+wwwroot\studentAssets\scss\theme\_mixins.scss
+wwwroot\studentAssets\scss\theme\_predefined.scss
+wwwroot\studentAssets\scss\theme\_reset.scss
+wwwroot\studentAssets\scss\theme\_variables.scss
