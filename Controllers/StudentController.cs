@@ -13,15 +13,18 @@ namespace StudentSync.Controllers
         private readonly IStudent _studentRepo;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
-        public StudentController(IStudent studentRepo, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
+
+        public StudentController(IStudent studentRepo, UserManager<IdentityUser> userManager,
+            SignInManager<IdentityUser> signInManager)
         {
-            
-                _studentRepo = studentRepo;
-                _userManager = userManager;
-                _signInManager = signInManager;
-           
+
+            _studentRepo = studentRepo;
+            _userManager = userManager;
+            _signInManager = signInManager;
+
 
         }
+
         public IActionResult Index(string sortOrder, string currentFilter, string searchString, int? pageNumber)
         {
             pageNumber = pageNumber ?? 1;
@@ -47,7 +50,8 @@ namespace StudentSync.Controllers
 
             try
             {
-                viewResult = View(PaginatedList<Student>.Create(_studentRepo.GetStudents(searchString, sortOrder).AsNoTracking(), pageNumber ?? 1, pageSize));
+                viewResult = View(PaginatedList<Student>.Create(
+                    _studentRepo.GetStudents(searchString, sortOrder).AsNoTracking(), pageNumber ?? 1, pageSize));
             }
             catch (Exception ex)
             {
@@ -56,9 +60,10 @@ namespace StudentSync.Controllers
 
             return viewResult;
         }
+
         public IActionResult Details(string id)
         {
-            ViewResult viewDetail = View();
+            ViewResult viewDetail;
             try
             {
                 viewDetail = View(_studentRepo.Details(id));
@@ -95,6 +100,7 @@ namespace StudentSync.Controllers
             {
                 throw new Exception("Student could not be created");
             }
+
             return RedirectToAction(nameof(Index));
         }
 
@@ -111,6 +117,7 @@ namespace StudentSync.Controllers
             {
                 throw new Exception("Student detail not found");
             }
+
             return viewDetail;
         }
 
@@ -132,7 +139,7 @@ namespace StudentSync.Controllers
             }
 
             return RedirectToAction(nameof(Index));
-        }//End Method
+        } //End Method
 
 
         [HttpGet]
@@ -141,11 +148,7 @@ namespace StudentSync.Controllers
             return View();
         }
 
-        [HttpGet]
-        public IActionResult Register(Student student)
-        {
-            return View();
-        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginViewModel model)
@@ -168,7 +171,8 @@ namespace StudentSync.Controllers
                 return View(model);
             }
 
-            var result = await _signInManager.PasswordSignInAsync(user.UserName, model.Password, model.RememberMe, false);
+            var result =
+                await _signInManager.PasswordSignInAsync(user.UserName, model.Password, model.RememberMe, false);
 
             if (result.Succeeded)
             {
@@ -179,12 +183,75 @@ namespace StudentSync.Controllers
             return View(model);
         }
 
+        [HttpGet]
+        // [Authorize(Roles = "Student")]
+        public IActionResult Register()
+        {
+            return View();
+        }
 
+        public async Task<IActionResult> Register(RegisterViewModel model)
+        {
+            //Handles registration action from the user
+            if (ModelState.IsValid)
+            {
+                var existingUser = await _userManager.FindByEmailAsync(model.Email);
+                if (existingUser != null)
+                {
+                    ModelState.AddModelError("", "Email is already in use.");
+                    return View(model);
+                }
+
+                var user = new IdentityUser { UserName = model.Email, Email = model.Email };
+                var result = await _userManager.CreateAsync(user, model.Password);
+
+                if (result.Succeeded)
+                {
+                    // Automatically assign "Student" role
+                    await _userManager.AddToRoleAsync(user, "Student");
+
+                    await _signInManager.SignInAsync(user, isPersistent: false);
+                    return RedirectToAction("Dashboard", "Student");
+                }
+
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+                return View(model);
+            }
+
+            return View(model);
+        }
 
         public IActionResult Dashboard()
         {
-           // throw new NotImplementedException();
+            return View();
+        }
+
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Contacts()
+        {
+            return View();
+        }
+
+        public IActionResult Courses()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IActionResult Elements()
+        {
            return View();
+        }
+
+        public IActionResult CourseDetails()
+        {
+            throw new NotImplementedException();
         }
     }
 }

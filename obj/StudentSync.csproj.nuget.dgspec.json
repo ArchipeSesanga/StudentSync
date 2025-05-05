@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\StudentSync.csproj": {}
+    "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/StudentSync.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\StudentSync.csproj": {
+    "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/StudentSync.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\StudentSync.csproj",
+        "projectUniqueName": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/StudentSync.csproj",
         "projectName": "StudentSync",
-        "projectPath": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\StudentSync.csproj",
-        "packagesPath": "C:\\Users\\sphes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\obj\\",
+        "projectPath": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/StudentSync.csproj",
+        "packagesPath": "/Users/archipesesanga/.nuget/packages/",
+        "outputPath": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sphes\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/archipesesanga/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -110,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/archipesesanga/.dotnet/sdk/9.0.200/RuntimeIdentifierGraph.json"
         }
       }
     }

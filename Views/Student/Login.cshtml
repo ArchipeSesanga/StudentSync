@@ -1,8 +1,8 @@
-@model StudentSync.Models.LoginViewModel
+@model LoginViewModel
 
 @{
     ViewData["Title"] = "Student Login";
-   // Layout = "~/Views/Shared/_Layout.cshtml"; // Make sure this is your layout path
+    //Layout = "_StudentLayout";
 }
 
 <section class="main-content center">
@@ -34,10 +34,14 @@
                     @Html.DisplayNameFor(model => model.RememberMe)
                 </label>
             </div>
+            <div class="form-group twenty">
+                <div class="text-center">
+                    <a class="small" asp-controller="Student" asp-action="Register">Create an Account!</a>
+                </div>
 
-            <div class="text-center">
-                <a class="small" asp-controller="Student" asp-action="Register">Create an Account!</a>
             </div>
+
+            
 
             <div class="form-group">
                 <button type="submit" class="btn" style="background-color: #7c32ff; color: white; padding: 10px 25px; border: none; cursor: pointer;">Login</button>
@@ -46,6 +50,7 @@
     </div>
 </section>
 
+
 @section Scripts {
-    <partial name="_ValidationScriptsPartial" />
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
