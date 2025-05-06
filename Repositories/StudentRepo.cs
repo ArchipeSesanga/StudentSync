@@ -21,7 +21,12 @@ namespace StudentSync.Repositories
             return student;
         }
 
-
+        public bool Delete(Student student)
+        {
+            _context.Remove(student);
+            _context.SaveChanges();
+            return IsExist(student.StudentNumber);
+        }
 
         public Student Details(string id)
         {

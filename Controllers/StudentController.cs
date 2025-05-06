@@ -141,6 +141,38 @@ namespace StudentSync.Controllers
             return RedirectToAction(nameof(Index));
         } //End Method
 
+        [HttpGet]
+        public IActionResult Delete(string id)
+        {
+            ViewResult viewDetail = View();
+            try
+            {
+                viewDetail = View(_studentRepo.Details(id));
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Student detail not found");
+            }
+            return viewDetail;
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete([Bind("StudentNumber, FirstName, Surname, EnrollmentDate")] Student student)
+        {
+            try
+            {
+                _studentRepo.Delete(student);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Student could not be deleted");
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+        //end mothod
+
 
         [HttpGet]
         public IActionResult Login()
