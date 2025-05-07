@@ -148,17 +148,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-<<<<<<< Updated upstream
-[/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/Views/Student/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9EZXRhaWxzLmNzaHRtbA==
-=======
-[C:/Users/sphes/Documents/GitHub/StudentSync/Views/Student/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/sphes/Documents/GitHub/StudentSync/Views/Student/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxzLmNzaHRtbA==
->>>>>>> Stashed changes
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sphes/Documents/GitHub/StudentSync/Views/Student/Edit.cshtml]

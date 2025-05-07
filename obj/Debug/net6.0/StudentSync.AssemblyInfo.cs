@@ -11,14 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentSync")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< Updated upstream
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f846952b957050c03d9cb29ba2ef565585735804")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dabf58711989cc1b412f3aee26775c0a1f363bdc")]
->>>>>>> Stashed changes
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67d4f522e4b8575d306e7338641d6b4a8cf15ee0")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentSync")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentSync")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
