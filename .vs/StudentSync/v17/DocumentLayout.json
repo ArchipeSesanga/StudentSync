@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,10 +16,79 @@
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\controllers\\consumercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:controllers\\consumercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
+=======
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\views\\consumer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\consumer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\interfaces\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:interfaces\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\views\\consumer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\consumer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\views\\consumer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\consumer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\views\\consumer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\consumer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\repositories\\dbinitializerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:repositories\\dbinitializerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\repositories\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:repositories\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -37,6 +107,7 @@
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\repositories\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:repositories\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -65,6 +136,8 @@
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\views\\shared\\customerror.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\shared\\customerror.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -85,10 +158,13 @@
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\repositories\\dbinitializerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:repositories\\dbinitializerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -113,20 +189,36 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Data\\LoginDBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|c:\\users\\sphes\\documents\\github\\studentsync\\migrations\\20250506190759_addstudentemailandphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE8EE44-7FB8-D908-9F6F-46F678A6AE7F}|StudentSync.csproj|solutionrelative:migrations\\20250506190759_addstudentemailandphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 114,
+      "VerticalTabListWidth": 106,
       "DocumentGroups": [
         {
+<<<<<<< Updated upstream
           "DockedWidth": 255,
           "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
+=======
+          "DockedWidth": 244,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+>>>>>>> Stashed changes
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -135,11 +227,28 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-29T17:45:35.545Z",
+<<<<<<< Updated upstream
               "IsPinned": true,
+=======
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Consumer\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Consumer\\Details.cshtml",
+              "ToolTip": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Consumer\\Details.cshtml",
+              "RelativeToolTip": "Views\\Consumer\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T15:02:20.696Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 0,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Controllers\\AdminController.cs",
@@ -162,6 +271,17 @@
               "ViewState": "AgIAAIgAAAAAAAAAAAAAAIoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T11:50:13.974Z",
+=======
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Consumer\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Consumer\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Consumer\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Consumer\\Delete.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T14:28:21.799Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
@@ -178,7 +298,88 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
+=======
+              "DocumentIndex": 10,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Consumer\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Consumer\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Consumer\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Consumer\\Dashboard.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T20:23:49.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Consumer\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Consumer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Consumer\\Index.cshtml",
+              "RelativeToolTip": "Views\\Consumer\\Index.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T20:22:47.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250506190759_AddStudentEmailAndPhoto.cs",
+              "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Migrations\\20250506190759_AddStudentEmailAndPhoto.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250506190759_AddStudentEmailAndPhoto.cs",
+              "ToolTip": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Migrations\\20250506190759_AddStudentEmailAndPhoto.cs",
+              "RelativeToolTip": "Migrations\\20250506190759_AddStudentEmailAndPhoto.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA5wAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:08:01.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Student\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Student\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Student\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T17:12:35.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAHIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:50:17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsumerController.cs",
+              "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Controllers\\ConsumerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConsumerController.cs",
+              "ToolTip": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Controllers\\ConsumerController.cs",
+              "RelativeToolTip": "Controllers\\ConsumerController.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAAAMkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:50:13.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+>>>>>>> Stashed changes
               "Title": "20250502125310_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125310_InitialCreate.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\SQLiteDB\\20250502125310_InitialCreate.cs",
@@ -190,7 +391,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 6,
+=======
+              "DocumentIndex": 19,
+>>>>>>> Stashed changes
               "Title": "20250502125026_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250502125026_InitialCreate.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250502125026_InitialCreate.cs",
@@ -202,7 +407,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 7,
+=======
+              "DocumentIndex": 20,
+>>>>>>> Stashed changes
               "Title": "ConsumerRepo.cs",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Repositories\\ConsumerRepo.cs",
               "RelativeDocumentMoniker": "Repositories\\ConsumerRepo.cs",
@@ -214,7 +423,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 10,
+=======
+              "DocumentIndex": 2,
+>>>>>>> Stashed changes
               "Title": "IStudent.cs",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Interfaces\\IStudent.cs",
               "RelativeDocumentMoniker": "Interfaces\\IStudent.cs",
@@ -226,7 +439,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 18,
+=======
+              "DocumentIndex": 24,
+>>>>>>> Stashed changes
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -238,7 +455,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 19,
+=======
+              "DocumentIndex": 25,
+>>>>>>> Stashed changes
               "Title": "PaginatedList.cs",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\PaginatedList.cs",
               "RelativeDocumentMoniker": "PaginatedList.cs",
@@ -250,7 +471,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 14,
+=======
+              "DocumentIndex": 13,
+>>>>>>> Stashed changes
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Student\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\Create.cshtml",
@@ -259,6 +484,7 @@
               "ViewState": "AgIAABgAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-01T11:45:48.575Z"
+<<<<<<< Updated upstream
             },
             {
               "$type": "Document",
@@ -275,6 +501,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
+=======
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T11:44:16.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+>>>>>>> Stashed changes
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -286,7 +530,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 17,
+=======
+              "DocumentIndex": 23,
+>>>>>>> Stashed changes
               "Title": "CustomExceptionFilter.cs",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Models\\CustomExceptionFilter.cs",
               "RelativeDocumentMoniker": "Models\\CustomExceptionFilter.cs",
@@ -298,7 +546,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 27,
+=======
+              "DocumentIndex": 32,
+>>>>>>> Stashed changes
               "Title": "20250502105137_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Babalwa\\Documents\\GitHub\\StudentSync\\Migrations\\20250502105137_InitialCreate.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Babalwa\\Documents\\GitHub\\StudentSync\\Migrations\\20250502105137_InitialCreate.cs",
@@ -310,7 +562,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 16,
+=======
+              "DocumentIndex": 22,
+>>>>>>> Stashed changes
               "Title": "CustomError.cshtml",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Shared\\CustomError.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\CustomError.cshtml",
@@ -322,7 +578,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 13,
+=======
+              "DocumentIndex": 11,
+>>>>>>> Stashed changes
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Student\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\Details.cshtml",
@@ -331,6 +591,7 @@
               "ViewState": "AgIAABgAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-01T11:42:53.951Z"
+<<<<<<< Updated upstream
             },
             {
               "$type": "Document",
@@ -347,19 +608,46 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+=======
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T11:36:48.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+>>>>>>> Stashed changes
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
               "ToolTip": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Controllers\\StudentController.cs",
               "RelativeToolTip": "Controllers\\StudentController.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAmAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAAJYAAAAAAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T11:34:56.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 20,
+=======
+              "DocumentIndex": 26,
+>>>>>>> Stashed changes
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -371,7 +659,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 21,
+=======
+              "DocumentIndex": 12,
+>>>>>>> Stashed changes
               "Title": "DBInitializerRepo.cs",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Repositories\\DBInitializerRepo.cs",
               "RelativeDocumentMoniker": "Repositories\\DBInitializerRepo.cs",
@@ -383,7 +675,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 28,
+=======
+              "DocumentIndex": 33,
+>>>>>>> Stashed changes
               "Title": "SQLiteDBContext.cs",
               "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Data\\SQLiteDBContext.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Dintle\\Videos\\Assignment\\StudentSync\\Data\\SQLiteDBContext.cs",
@@ -395,7 +691,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 22,
+=======
+              "DocumentIndex": 27,
+>>>>>>> Stashed changes
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -419,7 +719,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 29,
+=======
+              "DocumentIndex": 34,
+>>>>>>> Stashed changes
               "Title": "LoginDBContext.cs",
               "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Data\\LoginDBContext.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Dintle\\Videos\\Assignment\\StudentSync\\Data\\LoginDBContext.cs",
@@ -431,7 +735,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 9,
+=======
+              "DocumentIndex": 16,
+>>>>>>> Stashed changes
               "Title": "StudentRepo.cs",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Repositories\\StudentRepo.cs",
               "RelativeDocumentMoniker": "Repositories\\StudentRepo.cs",
@@ -443,7 +751,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 23,
+=======
+              "DocumentIndex": 28,
+>>>>>>> Stashed changes
               "Title": "IDBInitializer.cs",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Interfaces\\IDBInitializer.cs",
               "RelativeDocumentMoniker": "Interfaces\\IDBInitializer.cs",
@@ -455,7 +767,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
+=======
+              "DocumentIndex": 9,
+>>>>>>> Stashed changes
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -468,7 +784,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 24,
+=======
+              "DocumentIndex": 29,
+>>>>>>> Stashed changes
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\Archipe Sesanga\\Downloads\\ASPNETCore_DB\\Models\\Student.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Archipe Sesanga\\Downloads\\ASPNETCore_DB\\Models\\Student.cs",
@@ -480,7 +800,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 25,
+=======
+              "DocumentIndex": 30,
+>>>>>>> Stashed changes
               "Title": "20250429155321_CreateIdentitySchema.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.Designer.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.Designer.cs",
@@ -492,7 +816,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 26,
+=======
+              "DocumentIndex": 31,
+>>>>>>> Stashed changes
               "Title": "20250429155321_CreateIdentitySchema.cs",
               "DocumentMoniker": "C:\\Users\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Dintle\\Videos\\Assignment\\StudentSync\\Migrations\\20250429155321_CreateIdentitySchema.cs",
