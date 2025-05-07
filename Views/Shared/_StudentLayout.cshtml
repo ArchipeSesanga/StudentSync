@@ -17,7 +17,10 @@
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="lnr lnr-menu"></span>
             </button>
+            <div class="text-white">
+                <partial name="_LoginPartial"/>
 
+            </div>
             <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li><a asp-controller="Student" asp-action="Dashboard">Home</a></li>
@@ -34,7 +37,6 @@
                         </div>
                     </li>
                     <li><a asp-controller="Contact" asp-action="Contact">Contacts</a></li>
-
                     <li>
                         <button class="search">
                             <span class="lnr lnr-magnifier" id="search"></span>
@@ -53,7 +55,9 @@
             </form>
         </div>
     </div>
+    
 </header>
+
 <!-- ================ End Header Area ================= -->
 @RenderBody()
 <footer class="footer-area section-gap">
