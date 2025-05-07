@@ -1,0 +1,20 @@
+@{
+    ViewData["Title"] = "Message Sent";
+    //Layout = "_StudentLayout"; // Uncomment this if you're using a layout
+}
+
+<section class="main-content center">
+    <div class="content-header">
+        <h1>Thank You!</h1>
+    </div>
+
+    <div class="welcome" style="margin-top: 30px;">
+        <div class="alert alert-success" style="background-color: #d4edda; color: #155724; padding: 15px 25px; border: 1px solid #c3e6cb; width: 350px; margin: auto; border-radius: 8px; text-align: center;">
+            Your message has been sent successfully.
+        </div>
+
+        <div style="text-align: center; margin-top: 20px;">
+            <a asp-controller="Home" asp-action="Index" style="color: #7c32ff; text-decoration: underline;">Return to Home</a>
+        </div>
+    </div>
+</section>

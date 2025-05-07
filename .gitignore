@@ -94,3 +94,9 @@ appsettings.*.json
 Thumbs.db
 desktop.ini
 ehthumbs.db
+*.db-shm
+*.db-shm
+studentsync.db-shm
+studentsync.db-wal
+studentsync.db-shm
+studentsync.db-wal

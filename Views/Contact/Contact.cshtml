@@ -1,0 +1,55 @@
+@model StudentSync.Models.ContactViewModel
+
+@{
+    ViewData["Title"] = "Contact Us";
+     // Layout = "_StudentLayout";
+}
+
+<section class="main-content center">
+    <div class="content-header">
+        <h1>Contact Us</h1>
+    </div>
+
+    <div class="welcome">
+        <p>Have a question or feedback? We'd love to hear from you.</p>
+    </div>
+
+    <div class="center" style="margin-top: 30px;">
+        <form asp-action="SendMessage" method="post">
+            <div class="form-group fifteen">
+                <label asp-for="FullName"></label><br />
+                <input asp-for="FullName" class="form-control" style="width: 300px; padding: 8px;" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group fifteen">
+                <label asp-for="Email"></label><br />
+                <input asp-for="Email" class="form-control" style="width: 300px; padding: 8px;" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group fifteen">
+                <label asp-for="Subject"></label><br />
+                <input asp-for="Subject" class="form-control" style="width: 300px; padding: 8px;" />
+                <span asp-validation-for="Subject" class="text-danger"></span>
+            </div>
+
+            <div class="form-group fifteen">
+                <label asp-for="Message"></label><br />
+                <textarea asp-for="Message" rows="5" class="form-control" style="width: 300px; padding: 8px;"></textarea>
+                <span asp-validation-for="Message" class="text-danger"></span>
+            </div>
+
+            <div class="form-group" style="margin-top: 20px;">
+                <button type="submit" class="btn" style="background-color: #7c32ff; color: white; padding: 10px 25px; border: none; cursor: pointer;">
+                    Send Message
+                </button>
+            </div>
+        </form>
+    </div>
+    
+</section>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
