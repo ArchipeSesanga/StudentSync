@@ -11241,24 +11241,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/archipesesanga/.nuget/packages/": {}
+    "C:\\Users\\sphes\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/StudentSync.csproj",
+      "projectUniqueName": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\StudentSync.csproj",
       "projectName": "StudentSync",
-      "projectPath": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/StudentSync.csproj",
-      "packagesPath": "/Users/archipesesanga/.nuget/packages/",
-      "outputPath": "/Users/archipesesanga/Development/ArkepiosRepos/StudentSync/obj/",
+      "projectPath": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\StudentSync.csproj",
+      "packagesPath": "C:\\Users\\sphes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sphes\\Documents\\GitHub\\StudentSync\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/archipesesanga/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\sphes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11343,7 +11350,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/archipesesanga/.dotnet/sdk/9.0.200/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -79,6 +79,7 @@ wwwroot\images\client-image4.png
 wwwroot\images\client-image5.png
 wwwroot\images\curly-divider.svg
 wwwroot\images\default.png
+wwwroot\images\DefaultPic.png
 wwwroot\images\device.png
 wwwroot\images\google-play.jpg
 wwwroot\images\img\undraw_posting_photo.svg
