@@ -972,6 +972,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s4hib5dqej"},{"Name":"integrity","Value":"sha256-PJbM2qMyZG11lBNjdAVSHFfc6YsLtjRq639AN5/pvlM="},{"Name":"label","Value":"_content/StudentSync/images/default.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13632"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022PJbM2qMyZG11lBNjdAVSHFfc6YsLtjRq639AN5/pvlM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 09:39:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/StudentSync/images/DefaultPic.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\DefaultPic.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/Q2sAdlge3nL\u002BPfP8UTXoyKH0J1v2dojWuD2oojjx/E="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5032"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022/Q2sAdlge3nL\u002BPfP8UTXoyKH0J1v2dojWuD2oojjx/E=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 07:57:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/StudentSync/images/DefaultPic.zc348kz04f.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\DefaultPic.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zc348kz04f"},{"Name":"integrity","Value":"sha256-/Q2sAdlge3nL\u002BPfP8UTXoyKH0J1v2dojWuD2oojjx/E="},{"Name":"label","Value":"_content/StudentSync/images/DefaultPic.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5032"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022/Q2sAdlge3nL\u002BPfP8UTXoyKH0J1v2dojWuD2oojjx/E=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 07:57:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/StudentSync/images/device.5u06r0zo4l.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\device.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
