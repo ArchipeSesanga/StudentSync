@@ -1,0 +1,96 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+TestResults/
+*.log
+*.tlog
+*.cache
+*.pdb
+*.mdb
+
+## ASP.NET temporary files
+**/App_Data/*
+!**/App_Data/*.md   # Allow README.md or similar in App_Data
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+
+## Ignore Rider IDE files
+.idea/
+
+## Ignore Web.config transforms and secrets
+**/Web.Debug.config
+**/Web.Release.config
+**/secrets.json
+
+## Ignore .NET Core / SDK specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nuget.props
+*.nuget.targets
+.nuget/
+
+## Ignore packages (can be restored)
+packages/
+*.nupkg
+*.snupkg
+
+## Ignore npm, Yarn, and Node.js dependencies
+node_modules/
+bower_components/
+yarn.lock
+package-lock.json
+
+## Ignore client-side cache and artifacts
+dist/
+tmp/
+temp/
+*.tsbuildinfo
+
+## Ignore publish output
+publish/
+wwwroot/lib/
+
+## Logs
+*.log
+logs/
+
+## Rider / JetBrains specific
+.idea/
+*.sln.iml
+
+## Ignore configuration files containing credentials
+appsettings.*.json
+!appsettings.json     # Keep the base config
+
+## Ignore EF Core Migrations snapshot if not needed
+**/Migrations/*ModelSnapshot.cs
+
+## Misc
+*.dbmdl
+*.dbproj.schemaview
+*.sql
+*.bak
+*.sqlproj.user
+*.vscode/
+
+## OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
