@@ -278,7 +278,7 @@ namespace StudentSync.Controllers
 
         public IActionResult Elements()
         {
-           return View();
+            throw new NotImplementedException();
         }
 
         public IActionResult CourseDetails()

@@ -204,6 +204,11 @@ namespace StudentSync.Controllers
         {
             return View();
         }
+
+        public IActionResult OurStore()
+        {
+            throw new NotImplementedException();
+        }
     }
 
    

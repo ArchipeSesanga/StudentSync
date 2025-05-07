@@ -4,8 +4,6 @@ namespace StudentSync.Models;
 
 public class RegisterViewModel
 {
-   
-
     [Required]
     public string FirstName { get; set; }
 
