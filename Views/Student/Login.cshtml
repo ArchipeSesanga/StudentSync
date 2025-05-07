@@ -28,28 +28,28 @@
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
 
-            <div class="form-group twenty">
+            <div class="form-group twenty" style="margin-bottom: 15px;">
                 <label>
                     <input asp-for="RememberMe" />
                     @Html.DisplayNameFor(model => model.RememberMe)
                 </label>
             </div>
-            <div class="form-group twenty">
-                <div class="text-center">
-                    <a class="small" asp-controller="Student" asp-action="Register">Create an Account!</a>
-                </div>
 
+            <div class="form-group" style="margin-bottom: 20px;">
+                <button type="submit" class="btn" style="background-color: #7c32ff; color: white; padding: 10px 25px; border: none; cursor: pointer;">
+                    Login
+                </button>
             </div>
 
-            
-
-            <div class="form-group">
-                <button type="submit" class="btn" style="background-color: #7c32ff; color: white; padding: 10px 25px; border: none; cursor: pointer;">Login</button>
+            <div class="form-group text-center" style="margin-top: 10px;">
+                <p>Don't have an account?</p>
+                <a class="small" asp-controller="Student" asp-action="Register" style="color: #7c32ff; text-decoration: underline;">
+                    Create an Account!
+                </a>
             </div>
         </form>
     </div>
 </section>
-
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
