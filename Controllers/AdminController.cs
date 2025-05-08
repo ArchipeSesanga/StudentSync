@@ -111,29 +111,25 @@ public class AdminController : Controller
 
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> ForgotPassword(string email)
+    public async Task<IActionResult> ForgotPassword(ForgotPasswordViewModel model)
     {
-        if (string.IsNullOrEmpty(email))
-        {
-            ModelState.AddModelError("", "Email is required.");
-            return View();
-        }
+        if (!ModelState.IsValid)
+            return View(model);
 
-        var user = await _userManager.FindByEmailAsync(email);
-        if (user == null || !(await _userManager.IsInRoleAsync(user, "Admin")))
+        var user = await _userManager.FindByEmailAsync(model.Email);
+        if (user == null)
         {
-            // Do not reveal that the user does not exist or is not an Admin
+            // Don't reveal that the user doesn't exist
             return RedirectToAction("ForgotPasswordConfirmation");
         }
 
         var token = await _userManager.GeneratePasswordResetTokenAsync(user);
-        var callbackUrl = Url.Action("ResetPassword", "Admin", new { token, email = user.Email }, Request.Scheme);
+        var callbackUrl = Url.Action("ResetPassword", "Admin", new { token, email = user.Email }, protocol: HttpContext.Request.Scheme);
 
-        // For now, just show it on screen (in real app, email it)
-        ViewBag.Link = callbackUrl;
-
-        return View("DisplayResetLink"); // Create this view to display the reset link
+  
+        return Content($"Reset link: <a href='{callbackUrl}'>Click here to reset your password</a>", "text/html");
     }
+
 
 }
 

@@ -66,6 +66,7 @@ wwwroot\icomoon\icomoon.css
 wwwroot\icomoon\Read Me.txt
 wwwroot\icomoon\selection.json
 wwwroot\images\app-store.jpg
+wwwroot\images\bd1d586f-ad49-4e4c-92a7-8ff93523f611.jpeg
 wwwroot\images\chocolat\close.png
 wwwroot\images\chocolat\fullscreen.png
 wwwroot\images\chocolat\fullscreen-black.png
@@ -77,10 +78,13 @@ wwwroot\images\client-image2.png
 wwwroot\images\client-image3.png
 wwwroot\images\client-image4.png
 wwwroot\images\client-image5.png
+wwwroot\images\Create the perfect design by customizing easy to….jpeg
 wwwroot\images\curly-divider.svg
+wwwroot\images\ddbc0f5c-420d-43de-8130-786c4275acd4.jpeg
 wwwroot\images\default.png
 wwwroot\images\DefaultPic.png
 wwwroot\images\device.png
+wwwroot\images\ed721b15-6812-4cc4-8c71-219c0b71894b.jpeg
 wwwroot\images\google-play.jpg
 wwwroot\images\img\undraw_posting_photo.svg
 wwwroot\images\img\undraw_profile.svg
