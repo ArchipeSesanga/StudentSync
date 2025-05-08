@@ -4,6 +4,8 @@ using StudentSync.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
+using StudentSync.Repositories;
+using Microsoft.AspNetCore.Hosting;
 
 namespace StudentSync.Controllers
 {
@@ -12,14 +14,24 @@ namespace StudentSync.Controllers
         private readonly IConsumer _consumerRepo;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
-        
-        public ConsumerController(IConsumer consumerRepo,SignInManager<IdentityUser> signInManager, UserManager<IdentityUser> userManager)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly IWebHostEnvironment _webHostEnvironment;
+
+        public ConsumerController(IConsumer consumerRepo, UserManager<IdentityUser> userManager,
+             SignInManager<IdentityUser> signInManager, IHttpContextAccessor httpContextAccessor,
+             IWebHostEnvironment webHostEnvironment)
         {
-            _consumerRepo = consumerRepo ?? throw new ArgumentNullException(nameof(consumerRepo), "Constructor not initialized - IConsumer consumerRepo");
-            _signInManager = signInManager;
+
+            _consumerRepo = consumerRepo;
             _userManager = userManager;
+            _signInManager = signInManager;
+            _httpContextAccessor = httpContextAccessor;
+            _webHostEnvironment = webHostEnvironment;
+
+
         }
-       
+
+
         public IActionResult Index(string sortOrder, string currentFilter, string searchString, int? pageNumber)
         {
             pageNumber ??= 1;
@@ -136,24 +148,41 @@ namespace StudentSync.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Consumer")]
         public IActionResult Create()
         {
-            return View();
+            Consumer consumer = new Consumer();
+            string fileName = "Default.PNG";
+            consumer.Photo = fileName;
+            return View(consumer);
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Consumer")]
-        public IActionResult Create([Bind("ConsumerID, FirstName, Surname, EnrollmentDate, Email")] Consumer consumer)
-        {
-            if (ModelState.IsValid)
-            {
-                _consumerRepo.Create(consumer);
-                return RedirectToAction(nameof(Index));
-            }
 
-            return View(consumer);
+        [HttpPost]
+        public IActionResult Create(Consumer consumer)
+        {
+            var files = HttpContext.Request.Form.Files;
+            string webRootPath = _webHostEnvironment.WebRootPath;
+            string upload = webRootPath + WebConstants.ImagePath;
+            string fileName = Guid.NewGuid().ToString();
+            string extension = Path.GetExtension(files[0].FileName);
+            using (var fileStream = new FileStream(Path.Combine(upload, fileName + extension),
+            FileMode.Create))
+            {
+                files[0].CopyTo(fileStream);
+            }
+            consumer.Photo = fileName + extension;
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    _consumerRepo.Create(consumer);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Consumer record not saved.");
+            }
+            return RedirectToAction("Index");
         }
 
         [HttpGet]
@@ -167,7 +196,7 @@ namespace StudentSync.Controllers
             return View(consumer);
         }
 
-        [HttpPost]
+       [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Consumer consumer)
         {
@@ -181,24 +210,37 @@ namespace StudentSync.Controllers
         }
 
         [HttpGet]
-        
+
         public IActionResult Delete(string id)
         {
-            var consumer = _consumerRepo.Details(id);
-            if (consumer == null)
-                return NotFound("Consumer detail not found");
-
-            return View(consumer);
+            ViewResult viewDetail = View();
+            try
+            {
+                viewDetail = View(_consumerRepo.Details(id));
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Consumer detail not found");
+            }
+            return viewDetail;
         }
-
-        [HttpPost]
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        
-        public IActionResult Delete([Bind("ConsumerID, FirstName, Surname, EnrollmentDate, Email")] Consumer consumer)
+        public IActionResult DeleteConfirmed(string id)
         {
-            _consumerRepo.Delete(consumer);
+            try
+            {
+                _consumerRepo.Delete(id);
+            }
+            catch (Exception ex)
+            {
+                // You can log the actual error message here for debugging
+                throw new Exception("Consumer could not be deleted");
+            }
+
             return RedirectToAction(nameof(Index));
         }
+
 
         public IActionResult Dashboard()
         {

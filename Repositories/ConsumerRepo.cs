@@ -22,12 +22,27 @@ namespace StudentSync.Repositories
             return consumer;
         }
 
-        public bool Delete(Consumer consumer)
+        public void Delete(string id)
         {
-            _context.Remove(consumer);
-            _context.SaveChanges();
-            return IsExist(consumer.ConsumerId);
+            var consumer = _context.Consumers.Find(id);
+            if (consumer != null)
+            {
+                _context.Consumers.Remove(consumer);
+                _context.SaveChanges();
+            }
+            else
+            {
+                throw new Exception("Consumer not found");
+            }
         }
+
+
+        //public bool Delete(Consumer consumer)
+        //{
+        //    _context.Remove(consumer);
+        //    _context.SaveChanges();
+        //    return IsExist(consumer.ConsumerId);
+        //}
 
         private bool IsExist(int consumerId)
         {

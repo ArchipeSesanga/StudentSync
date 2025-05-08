@@ -101,10 +101,19 @@
         </dd>
 
     </dl>
-    <form asp-action="Delete" asp-route-id="@Model.ConsumerId" method="post" onsubmit="return confirm('Are you sure you want to delete this Consumer?');">
+
+    <form asp-action="Delete" method="post" onsubmit="return confirm('Are you sure you want to delete this consumer?');">
+
         @Html.AntiForgeryToken()
+
+        <input type="hidden" asp-for="ConsumerId" />
+
         <input type="submit" value="Delete" class="btn btn-danger" />
+
+        |
+
         <a asp-action="Index">Back to List</a>
+
     </form>
 </div>
 

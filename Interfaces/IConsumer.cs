@@ -10,5 +10,6 @@ namespace StudentSync.Interfaces
         Consumer Edit(Consumer consumer);
         bool Delete(Consumer consumer);
         bool IsExist(string id);
+        void Delete(string id);
     }
 }
