@@ -31,9 +31,9 @@ namespace StudentSync.Repositories
             {
                 var consumers = new Consumer[]
                 {
-                    new Consumer { ConsumerId = "0123456789", Name = "Ethan", Surname = "Williams", EnrollmentDate = DateTime.Parse("2021-02-03"), Email = "Qwe@gmail.com"},
-                    new Consumer { ConsumerId = "0223456789", Name = "Ava", Surname = "Brown", EnrollmentDate = DateTime.Parse("2021-02-01"), Email = "tyu@gmail.com" },
-                    new Consumer { ConsumerId = "0333456789", Name = "Mason", Surname = "Nguyen", EnrollmentDate = DateTime.Parse("2021-02-04"), Email = "asd@gmail.com" }
+                    new Consumer { ConsumerId = "0123456789", Name = "Ethan", Surname = "Williams", EnrollmentDate = DateTime.Parse("2021-02-03"),Photo = "Default.png", Email = "Qwe@gmail.com"},
+                    new Consumer { ConsumerId = "0223456789", Name = "Ava", Surname = "Brown", EnrollmentDate = DateTime.Parse("2021-02-01"),Photo = "Default.png", Email = "tyu@gmail.com" },
+                    new Consumer { ConsumerId = "0333456789", Name = "Mason", Surname = "Nguyen", EnrollmentDate = DateTime.Parse("2021-02-04"),Photo = "Default.png", Email = "asd@gmail.com" }
                 };
                 foreach (Consumer c in consumers)
                 {
