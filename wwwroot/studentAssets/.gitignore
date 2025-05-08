@@ -1,2 +1,59 @@
-/.sass-cache
-.sass-cache
+## Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore build results
+bin/
+obj/
+out/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+## Ignore NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.psmdcp
+project.lock.json
+project.fragment.lock.json
+
+## Ignore Rider files
+.idea/
+
+## Ignore ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Ignore config transforms
+*.transform*
+
+## Ignore logs
+*.log
+logs/
+*.tlog
+
+## Ignore secrets
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+## Ignore SQLite DB and related files
+*.db
+*.db-shm
+*.db-wal
+
+## Ignore environment-specific files
+.env
+.env.*
+
+## Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+## Ignore JetBrains Rider IDE
+.idea/
+*.sln.iml
