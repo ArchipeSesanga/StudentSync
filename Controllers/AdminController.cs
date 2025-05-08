@@ -102,6 +102,72 @@ public class AdminController : Controller
     {
         return View();
     }
+
+    [HttpGet]
+
+    public IActionResult ForgotPassword()
+
+    {
+
+        return View();
+
+    }
+
+
+
+    [HttpPost]
+
+    [ValidateAntiForgeryToken]
+
+    public async Task<IActionResult> ForgotPassword(string email)
+
+    {
+
+        if (string.IsNullOrEmpty(email))
+
+        {
+
+            ModelState.AddModelError("", "Email is required.");
+
+            return View();
+
+        }
+
+
+
+        var user = await _userManager.FindByEmailAsync(email);
+
+        if (user == null || !(await _userManager.IsInRoleAsync(user, "Admin")))
+
+        {
+
+            // Do not reveal that the user does not exist or is not an Admin 
+
+            return RedirectToAction("ForgotPasswordConfirmation");
+
+        }
+
+
+
+        var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+        var callbackUrl = Url.Action("ResetPassword", "Admin", new { token, email = user.Email }, Request.Scheme);
+
+
+
+        // For now, just show it on screen (in real app, email it) 
+
+        ViewBag.Link = callbackUrl;
+
+
+
+        return View("DisplayResetLink"); // Create this view to display the reset link 
+
+    }
+
+
+
+
 }
 
 internal interface IAdmin
