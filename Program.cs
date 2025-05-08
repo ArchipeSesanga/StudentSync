@@ -24,6 +24,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 builder.Services.AddScoped<IStudent, StudentRepo>();
 builder.Services.AddScoped<IDBInitializer, DBInitializerRepo>();
 builder.Services.AddScoped<IConsumer, ConsumerRepo>();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 
 var app = builder.Build();
