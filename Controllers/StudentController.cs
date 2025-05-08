@@ -4,6 +4,7 @@ using StudentSync.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 
 namespace StudentSync.Controllers
 {
@@ -13,14 +14,19 @@ namespace StudentSync.Controllers
         private readonly IStudent _studentRepo;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
         public StudentController(IStudent studentRepo, UserManager<IdentityUser> userManager,
-            SignInManager<IdentityUser> signInManager)
+            SignInManager<IdentityUser> signInManager, IHttpContextAccessor httpContextAccessor,
+            IWebHostEnvironment webHostEnvironment)
         {
 
             _studentRepo = studentRepo;
             _userManager = userManager;
             _signInManager = signInManager;
+            _httpContextAccessor = httpContextAccessor;
+            _webHostEnvironment = webHostEnvironment;
 
 
         }
@@ -81,27 +87,47 @@ namespace StudentSync.Controllers
         [Authorize(Roles = "Student")]
         public IActionResult Create()
         {
-            return View();
+            Student student = new Student();
+            string fileName = "default.PNG";
+            student.Photo = fileName;
+            return View(student);
+
         }
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Student")]
-        public IActionResult Create([Bind("StudentNumber, FirstName, Surname, EnrollmentDate")] Student student)
+        public IActionResult Create(Student student)
         {
+            var files = HttpContext.Request.Form.Files;
+            string webRootPath = _webHostEnvironment.WebRootPath;
+            string upload = webRootPath + WebConstants.ImagePath;
+            string fileName = Guid.NewGuid().ToString();
+            string extension = Path.GetExtension(files[0].FileName);
+
+            using (var fileStream = new FileStream(Path.Combine(upload, fileName + extension),
+            FileMode.Create))
+            {
+                files[0].CopyTo(fileStream);
+            }
+
+            student.Photo = fileName + extension;
+
             try
             {
                 if (ModelState.IsValid)
                 {
                     _studentRepo.Create(student);
+
                 }
+
             }
             catch (Exception ex)
             {
-                throw new Exception("Student could not be created");
+                throw new Exception("Student record not saved.");
             }
-
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index");
         }
 
         [HttpGet]
@@ -123,7 +149,7 @@ namespace StudentSync.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Student")]
+       [Authorize(Roles = "Student")]
         public IActionResult Edit(Student student)
         {
             try
