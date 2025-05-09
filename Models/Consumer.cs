@@ -36,9 +36,9 @@ namespace StudentSync.Models
 
         [Display(Name = "Email")]
         [Required(ErrorMessage = "Email is required")]
-        [StringLength(50, MinimumLength = 2, ErrorMessage = "The Email may not be" +
-            " shorter 2 characters or more than 50 characters")]
-        [RegularExpression("^[a-zA-Z]+$", ErrorMessage = "Only characters are allowed")]
+        //[StringLength(50, MinimumLength = 2, ErrorMessage = "The Email may not be" +
+        //    " shorter 2 characters or more than 50 characters")]
+        //[RegularExpression("^[a-zA-Z]+$", ErrorMessage = "Only characters are allowed")]
         public string? Email { get; set; }
 
         [Display(Name = "Profile Image")]

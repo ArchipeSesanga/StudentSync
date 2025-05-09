@@ -42,9 +42,9 @@ appsettings.Local.json
 appsettings.*.json
 
 ## Ignore SQLite DB and related files
- ##*.db
-##.db-shm
-##.db-wal
+ *.db
+ *.db-shm
+ *.db-wal
 
 ## Ignore environment-specific files
 .env

@@ -168,6 +168,7 @@ namespace StudentSync.Controllers
         } //End Method
 
         [HttpGet]
+        [Authorize(Roles ="Admin")]
         public IActionResult Delete(string id)
         {
             ViewResult viewDetail = View();
@@ -184,6 +185,7 @@ namespace StudentSync.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles ="Admin")]
         public IActionResult Delete([Bind("StudentNumber, FirstName, Surname, EnrollmentDate")] Student student)
         {
             try
