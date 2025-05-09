@@ -1,11 +1,12 @@
 ﻿@model PaginatedList<StudentSync.Models.Student>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Student Registration";
     Layout = "_AdminLayout";
 }
 
 <h1>Student List</h1>
+<h3>Please fill in your details to create a new account</h3>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -52,6 +53,7 @@
         @foreach (var item in Model)
         {
             <tr>
+
                 <td>
                     @Html.DisplayFor(modelItem => item.StudentNumber)
                 </td>
@@ -69,6 +71,7 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Email)
                 </td>
+             
 
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.StudentNumber">Edit</a> |

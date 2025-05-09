@@ -37,5 +37,7 @@ namespace StudentSync.Models
         [Display(Name = "Contact Mail")]
         [Required(ErrorMessage = "Contact Mail")]
         public string? Email { get; set; }
+
+  
     }
 }

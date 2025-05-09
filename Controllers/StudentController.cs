@@ -100,6 +100,7 @@ namespace StudentSync.Controllers
         [Authorize(Roles = "Student")]
         public IActionResult Create(Student student)
         {
+
             var files = HttpContext.Request.Form.Files;
             string webRootPath = _webHostEnvironment.WebRootPath;
             string upload = webRootPath + WebConstants.ImagePath;
@@ -127,8 +128,10 @@ namespace StudentSync.Controllers
             {
                 throw new Exception("Student record not saved.");
             }
+
             return RedirectToAction("Index");
         }
+
 
         [HttpGet]
         [Authorize(Roles = "Student")]
@@ -150,24 +153,53 @@ namespace StudentSync.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
        [Authorize(Roles = "Student")]
-        public IActionResult Edit(Student student)
+        public IActionResult Edit(Student student, string photoName)
         {
+
+            if (HttpContext.Request.Form.Files.Count > 0)
+            {
+                var files = HttpContext.Request.Form.Files;
+                string webRootPath = _webHostEnvironment.WebRootPath;
+                string upload = webRootPath + WebConstants.ImagePath;
+                string fileName = Guid.NewGuid().ToString();
+                string extension = Path.GetExtension(files[0].FileName);
+
+                var oldFile = Path.Combine(upload, photoName);
+
+                if (System.IO.File.Exists(oldFile))
+                {
+                    System.IO.File.Delete(oldFile);
+                }
+
+                using (var fileStream = new FileStream(Path.Combine(upload, fileName + extension),
+                FileMode.Create))
+                {
+                    files[0].CopyTo(fileStream);
+                }
+
+                student.Photo = fileName + extension;
+            }
+            else
+            {
+                student.Photo = photoName;
+            }
+
             try
             {
-                if (ModelState.IsValid)
-                {
-                    _studentRepo.Edit(student);
-                }
+                _studentRepo.Edit(student);
             }
             catch (Exception ex)
             {
-                throw new Exception("Student detail could not be edited");
+                throw new Exception("Student record not saved.");
             }
+            return RedirectToAction("Index");
 
-            return RedirectToAction(nameof(Index));
+
+       
         } //End Method
 
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(string id)
         {
             ViewResult viewDetail = View();
@@ -184,6 +216,7 @@ namespace StudentSync.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete([Bind("StudentNumber, FirstName, Surname, EnrollmentDate")] Student student)
         {
             try
