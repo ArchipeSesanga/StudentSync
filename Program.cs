@@ -84,7 +84,7 @@ using (var scope = app.Services.CreateScope())
         await userManager.AddToRoleAsync(user, "Admin");
     }
 
-    // Seed Students and Consumers
+    // Seed Students and Consumer
     var dbContext = services.GetRequiredService<ApplicationDbContext>();
     var dbInitializer = services.GetRequiredService<IDBInitializer>();
     dbInitializer.Initialize(dbContext);
