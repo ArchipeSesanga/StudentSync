@@ -1,7 +1,7 @@
 ﻿@model dynamic
 
 @{
-    Layout = "~/Views/Shared/_ConsumerLayout.cshtml"; 
+    Layout = "~/Views/Shared/_ConsumerLayout.cshtml";
     ViewData["Title"] = "Consumer Dashboard";
 }
 
@@ -26,19 +26,23 @@
                                 <li class="menu-item active"><a href="#home">Home</a></li>
                                 <li class="menu-item has-sub">
                                     <a href="#pages" class="nav-link">Pages</a>
-                                   
+
                                     <ul>
                                         <li class="active"><a href="index.html">Home</a></li>
                                         <li><a href="index.html">About</a></li>
-                                        <li><a asp-controller="Consumer" asp-action="ourStore" >Our Store</a></li>
+                                        <li><a href="index.html">Styles</a></li>
+                                        <li><a href="index.html">Blog</a></li>
+                                        <li><a href="index.html">Post Single</a></li>
+                                        <li><a href="index.html">Our Store</a></li>
                                         <li><a href="index.html">Product Single</a></li>
                                         <li><a href="index.html">Contact</a></li>
                                         <li><a href="index.html">Thank You</a></li>
                                     </ul>
-                                  </li>
-                                  <li class="menu-item"><a href="#popular-books" class="nav-link">Popular</a></li>
-                                <a asp-controller="Consumer" asp-action="Create"> ENROLL NOW!!</a>
-                                <a asp-controller="Consumer" asp-action="Create">Details</a>
+
+                                </li>
+                                <li class="menu-item"><a href="#popular-books" class="nav-link">Popular</a></li>
+                                <li class="menu-item"><a href="#special-offer" class="nav-link">Offer</a></li>
+                                <li class="menu-item"><a href="#download-app" class="nav-link">Download App</a></li>
                             </ul>
 
                             <!-- ✅ Carousel with captions, fade effect, and buttons -->
@@ -47,7 +51,7 @@
                                     <div class="carousel-item active">
                                         <img src="/images/main-banner1.jpg" class="d-block w-100" style="height: 400px; object-fit: fill;" alt="Product 1">
                                         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
-                                          <p>Subscribe to get update on new books.</p>
+                                            <p>Subscribe to get update on new books.</p>
 
                                             <a href="Subscribe" class="btn btn-warning">Subscribe</a>
                                         </div>
@@ -66,7 +70,7 @@
                                             <h5>Subscribe</h5>
                                             <p>Subscribe to get full access to all the available book.</p>
                                             <a href="Subscribe" class="btn btn-warning">Subscribe</a>
-                                          
+
 
                                         </div>
                                     </div>
@@ -100,17 +104,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    
+
                     <div class="main-slider pattern-overlay">
                         <div class="slider-item">
                             <div class="banner-content">
                                 <h2 class="banner-title">Life of the Wild</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero
                                     ipsum enim pharetra hac. Urna commodo, lacus ut magna velit eleifend. Amet, quis
-                                    urna, a eu.</p>
+                                    urna, a eu.
+                                </p>
                                 <div class="btn-wrap">
-                                     <a href="#"  class="btn btn-outline-accent btn-accent-arrow">Read More<i
-                                                                                                             class="icon icon-ns-arrow-right"></i></a>
+                                    <a href="#" class="btn btn-outline-accent btn-accent-arrow">
+                                        Read More<i class="icon icon-ns-arrow-right"></i>
+                                    </a>
                                 </div>
                             </div><!--banner-content-->
                             <img src="/images/main-banner1.jpg" alt="banner" class="banner-image">
@@ -119,18 +126,65 @@
                         <div class="slider-item">
                             <div class="banner-content">
                                 <h2 class="banner-title">Birds gonna be Happy</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero
                                     ipsum enim pharetra hac. Urna commodo, lacus ut magna velit eleifend. Amet, quis
-                                    urna, a eu.</p>
+                                    urna, a eu.
+                                </p>
                                 <div class="btn-wrap">
-                                     <a href="#"  class="btn btn-outline-accent btn-accent-arrow">Read More<i
-                                                                                                             class="icon icon-ns-arrow-right"></i></a>
+                                    <a href="#" class="btn btn-outline-accent btn-accent-arrow">
+                                        Read More<i class="icon icon-ns-arrow-right"></i>
+                                    </a>
                                 </div>
                             </div><!--banner-content-->
                             <img src="/images/main-banner2.jpg" alt="banner" class="banner-image">
                         </div><!--slider-item-->
 
                     </div><!--slider-->
+                    <!-- Floating Ad -->
+                    <!-- Floating Ad -->
+                    <div id="floating" style="
+                     position: center;
+                     bottom: 20px;
+                       right: 20px;
+                     width: 250px;
+                      background: #fff;
+                      border-radius: 8px;
+                          padding: 10px;
+                           box-shadow: 0 0 10px rgba(0,0,0,0.2);
+                                z-index: 9999;
+                                ">
+                        <button onclick="document.getElementById('floating').style.display='none'"
+                                style="position:absolute;top:2px;right:5px;background:none;border:none;font-size:18px;cursor:pointer;">
+                            ×
+                        </button>
+
+                        <!-- Image as clickable link -->
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#eventModal">
+                            <img src="/images/booksale.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Ad">
+                        </a>
+                    </div>
+                    <!-- Bootstrap Modal -->
+                    <div class="modal fade" id="eventModal" tabindex="-1" aria-labelledby="eventModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="eventModalLabel">📚 Book Fair 2025</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/images/Becoming.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Ad">
+                                    <p><strong>Date:</strong> June 12–14, 2025</p>
+                                    <p><strong>Time:</strong> 9:00 AM – 4:00 PM</p>
+                                    <p><strong>Location:</strong> City Library, Hall B</p>
+                                    <p><strong>Activities:</strong> Author talks, signings, kid workshops, book giveaways.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
 
                 </div>
             </div>
@@ -144,11 +198,11 @@
                 <div class="inner-content">
                     <div class="logo-wrap">
                         <div class="grid">
-                             <a asp-area="" asp-controller="" asp-action=""><img src="/images/client-image1.png" alt="client"></a>
-                             <a asp-area="" asp-controller="" asp-action=""><img src="/images/client-image2.png" alt="client"></a>
-                             <a asp-area="" asp-controller="" asp-action=""><img src="/images/client-image3.png" alt="client"></a>
-                             <a asp-area="" asp-controller="" asp-action=""><img src="/images/client-image4.png" alt="client"></a>
-                             <a asp-area="" asp-controller="" asp-action=""><img src="/images/client-image5.png" alt="client"></a>
+                            <a asp-area="" asp-controller="" asp-action=""><img src="/images/client-image1.png" alt="client"></a>
+                            <a asp-area="" asp-controller="" asp-action=""><img src="/images/client-image2.png" alt="client"></a>
+                            <a asp-area="" asp-controller="" asp-action=""><img src="/images/client-image3.png" alt="client"></a>
+                            <a asp-area="" asp-controller="" asp-action=""><img src="/images/client-image4.png" alt="client"></a>
+                            <a asp-area="" asp-controller="" asp-action=""><img src="/images/client-image5.png" alt="client"></a>
                         </div>
                     </div><!--image-holder-->
                 </div>
@@ -180,17 +234,52 @@
                                 <div class="products-content">
                                     <div class="author-name">By Timbur Hood</div>
                                     <h3 class="item-title">Birds gonna be happy</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet,
-                                        libero ipsum enim pharetra hac.</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet,
+                                        libero ipsum enim pharetra hac.
+                                    </p>
                                     <div class="item-price">R 45.00</div>
                                     <div class="btn-wrap">
-                                         <a asp-area="" asp-controller="" asp-action="" class="btn-accent-arrow">shop it now <i
-                                                                                             class="icon icon-ns-arrow-right"></i></a>
+                                        <a asp-area="" asp-controller="" asp-action="" class="btn-accent-arrow">
+                                            shop it now <i class="icon icon-ns-arrow-right"></i>
+                                        </a>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
+
+                    </div>
+                    <!-- Floating Ad Container -->
+                    <div id="content" style="
+                                    position: page;
+                                       bottom: 20px;
+                                       right: 20px;
+                                           width: 200px;
+                                      border: 0px solid #ccc;
+                                       border-radius: 8px;
+                                 box-shadow: 0 0 10px rgba(0,0,0,0.2);
+                                  z-index: 9999;
+                                   background-color: white;
+                                      padding: 5px;
+                                         ">
+                        <!-- Close Button -->
+                        <button onclick="document.getElementById('content').style.display='none'"
+                                style="
+                                     position: absolute;
+                                          top: 2px;
+                                              right: 5px;
+                                          background: none;
+                                          border: none;
+                                    font-size: 18px;
+                                       cursor: pointer;
+                                             ">
+                            ×
+                        </button>
+
+
+                        <img src="/images/bookfair.jpg" alt="Ad" style="width: 100%; border-radius: 8px;" />
+
 
                     </div>
                     <!-- / row -->
@@ -229,8 +318,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item1.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Portrait photography</h3>
@@ -244,8 +335,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item2.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Once upon a time</h3>
@@ -259,8 +352,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item3.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Tips of simple lifestyle</h3>
@@ -274,8 +369,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item4.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Just felt from outside</h3>
@@ -292,8 +389,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item5.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Peaceful Enlightment</h3>
@@ -307,8 +406,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item6.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Great travel at desert</h3>
@@ -322,8 +423,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item7.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Life among the pirates</h3>
@@ -337,8 +440,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item8.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Simple way of piece life</h3>
@@ -357,8 +462,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item2.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Peaceful Enlightment</h3>
@@ -372,8 +479,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item4.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Great travel at desert</h3>
@@ -387,8 +496,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item6.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Life among the pirates</h3>
@@ -402,8 +513,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item8.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Simple way of piece life</h3>
@@ -422,8 +535,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item1.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Peaceful Enlightment</h3>
@@ -437,8 +552,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item3.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Great travel at desert</h3>
@@ -452,8 +569,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item5.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Life among the pirates</h3>
@@ -467,8 +586,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item7.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Simple way of piece life</h3>
@@ -486,8 +607,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item1.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Peaceful Enlightment</h3>
@@ -501,8 +624,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item3.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Great travel at desert</h3>
@@ -516,8 +641,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item5.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Life among the pirates</h3>
@@ -531,8 +658,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item7.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Simple way of piece life</h3>
@@ -550,8 +679,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item5.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Life among the pirates</h3>
@@ -565,8 +696,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item7.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Simple way of piece life</h3>
@@ -584,8 +717,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item5.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Life among the pirates</h3>
@@ -599,8 +734,10 @@
                                     <div class="product-item">
                                         <figure class="product-style">
                                             <img src="/images/tab-item7.jpg" alt="Books" class="product-item">
-                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-                                                Cart</button>
+                                            <button type="button" class="add-to-cart" data-product-tile="add-to-cart">
+                                                Add to
+                                                Cart
+                                            </button>
                                         </figure>
                                         <figcaption>
                                             <h3>Simple way of piece life</h3>
@@ -616,8 +753,79 @@
 
                 </div><!--inner-tabs-->
 
+
+            </div>
+
+        </div>
+    </section>
+    <section id="subscribe">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-md-8">
+                    <div class="row">
+
+                        <div class="col-md-6">
+
+                            <div class="title-element">
+                                <h2 class="section-title divider">Subscribe to our newsletter</h2>
+                            </div>
+                            <!-- Floating Ad Container -->
+                            <div id="floatingAd" style="
+                                    position: fixed;
+                                       bottom: 20px;
+                                       right: 20px;
+                                           width: 200px;
+                                      border: 2px solid #ccc;
+                                       border-radius: 8px;
+                                 box-shadow: 0 0 10px rgba(0,0,0,0.2);
+                                  z-index: 9999;
+                                   background-color: white;
+                                      padding: 5px;
+                                         ">
+                                <!-- Close Button -->
+                                <button onclick="document.getElementById('floatingAd').style.display='none'"
+                                        style="
+                                     position: absolute;
+                                          top: 2px;
+                                              right: 5px;
+                                          background: none;
+                                          border: none;
+                                    font-size: 18px;
+                                       cursor: pointer;
+                                             ">
+                                    ×
+                                </button>
+
+                                <!-- Ad Image -->
+                                <img src="/images/blackwhite.jpg" alt="Ad" style="width: 100%; border-radius: 5px;" />
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class="subscribe-content" data-aos="fade-up">
+                                <p>
+                                    Sed eu feugiat amet, libero ipsum enim pharetra hac dolor sit amet, consectetur. Elit
+                                    adipiscing enim pharetra hac.
+                                </p>
+                                <form id="form">
+                                    <input type="text" name="email" placeholder="Enter your email addresss here">
+                                    <button class="btn-subscribe">
+                                        <span>send</span>
+                                        <i class="icon icon-send"></i>
+                                    </button>
+                                </form>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
-    
+
 </div>
