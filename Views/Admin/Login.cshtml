@@ -1,7 +1,7 @@
 @model StudentSync.Models.LoginViewModel
 
 @{
-    Layout = null;
+    //Layout = null;
     ViewBag.Title = "Admin Login";
 }
 
@@ -60,7 +60,8 @@
 
                                 <hr>
                                 <div class="text-center">
-                                    <a class="small" href="#">Forgot Password?</a>
+                                        <a asp-action="ForgotPassword" asp-controller="Admin">Forgot your password?</a>
+
                                 </div>
                                 <div class="text-center">
                                     <a class="small" asp-controller="Admin" asp-action="Register">Create an Account!</a>
@@ -81,3 +82,8 @@
 <script src="/adminElements/js/sb-admin-2.min.js"></script>
 </body>
 </html>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

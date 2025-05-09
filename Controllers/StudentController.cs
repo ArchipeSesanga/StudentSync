@@ -344,5 +344,10 @@ namespace StudentSync.Controllers
         {
             throw new NotImplementedException();
         }
+
+        public IActionResult Enroll()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
