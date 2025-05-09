@@ -65,7 +65,9 @@
                     @Html.DisplayFor(modelItem => item.EnrollmentDate)
                 </td>
 
-                <td width="25%"><img src="@WebConstants.ImagePath@item.Photo" width="100" style="border-radius:5px; border:1px solid #bbb" /></td>
+                <td width="25%">
+                    <img src="@WebConstants.ImagePath@item.Photo" width="100" style="border-radius:5px; border:1px solid #bbb" alt=""/>
+                </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Email)
                 </td>
