@@ -33,8 +33,4 @@
       <_ContentIncludedByDefault Remove="wwwroot\adminElements\img\undraw_rocket.svg" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Content Include="wwwroot\studentAssets\.DS_Store" />
-    </ItemGroup>
-
 </Project>
