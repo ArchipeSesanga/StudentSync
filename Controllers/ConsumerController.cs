@@ -67,7 +67,14 @@ namespace StudentSync.Controllers
         [HttpGet]
         public IActionResult Login()
         {
+            if (User.Identity != null && User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Dashboard", "Consumer");
+                
+            }
+            
             return View();
+           
         }
 
         [HttpPost]

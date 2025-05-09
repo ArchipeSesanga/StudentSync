@@ -2,7 +2,19 @@
 
 @{
     ViewData["Title"] = "Index";
-    Layout = "_AdminLayout";
+    if (User.IsInRole("Admin"))
+    {
+        Layout = "_AdminLayout";
+    }
+    else if (User.IsInRole("Student"))
+    {
+        Layout = "_StudentLayout";
+    }
+    else
+    {
+        Layout = "_ConsumerLayout";
+    }
+ 
 }
 
 <h1>Student List</h1>
