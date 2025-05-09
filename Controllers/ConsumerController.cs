@@ -148,6 +148,7 @@ namespace StudentSync.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles ="Consumer")]
         public IActionResult Create()
         {
             Consumer consumer = new Consumer();
@@ -158,6 +159,7 @@ namespace StudentSync.Controllers
 
 
         [HttpPost]
+        [Authorize(Roles = "Consumer")]
         public IActionResult Create(Consumer consumer)
         {
             var files = HttpContext.Request.Form.Files;
@@ -198,6 +200,7 @@ namespace StudentSync.Controllers
 
        [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Consumer")]
         public IActionResult Edit(Consumer consumer)
         {
             if (ModelState.IsValid)
@@ -210,7 +213,7 @@ namespace StudentSync.Controllers
         }
 
         [HttpGet]
-
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(string id)
         {
             ViewResult viewDetail = View();
@@ -226,6 +229,7 @@ namespace StudentSync.Controllers
         }
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public IActionResult DeleteConfirmed(string id)
         {
             try
