@@ -84,7 +84,7 @@ namespace StudentSync.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Student")]
+        [Authorize(Roles = "Student, Consumer")]
         public IActionResult Create()
         {
             Student student = new Student();
@@ -97,7 +97,7 @@ namespace StudentSync.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Student")]
+        [Authorize(Roles = "Student, Consumer")]
         public IActionResult Create(Student student)
         {
             var files = HttpContext.Request.Form.Files;

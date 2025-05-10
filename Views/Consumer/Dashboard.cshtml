@@ -24,67 +24,30 @@
                         <div class="main-menu stellarnav">
                             <ul class="menu-list">
                                 <li class="menu-item active"><a href="#home">Home</a></li>
-                                <li class="menu-item has-sub">
-                                    <a href="#pages" class="nav-link">Pages</a>
-
-                                    <ul>
-                                        <li class="active"><a href="index.html">Home</a></li>
-                                        <li><a href="index.html">About</a></li>
-                                        <li><a href="index.html">Styles</a></li>
-                                        <li><a href="index.html">Blog</a></li>
-                                        <li><a href="index.html">Post Single</a></li>
-                                        <li><a href="index.html">Our Store</a></li>
-                                        <li><a href="index.html">Product Single</a></li>
-                                        <li><a href="index.html">Contact</a></li>
-                                        <li><a href="index.html">Thank You</a></li>
-                                    </ul>
-
+                                <li class="menu-item active"><a href="#popular-books" class="nav-link">Popular</a></li>
+                                <li class="menu-item active"><a class ="nav-link" asp-controller="Student" asp-action="Index"> Consumers</a></li>
+                                <li class="menu-item active"><a class="nav-link" asp-controller="Student" asp-action="Create"> Enroll</a>
                                 </li>
-                                <li class="menu-item"><a href="#popular-books" class="nav-link">Popular</a></li>
-                                <li class="menu-item"><a href="#special-offer" class="nav-link">Offer</a></li>
-                                @* <li class="menu-item"><a href="#download-app" class="nav-link">Download App</a></li> *@
-                                <a asp-controller="Student" asp-action="Index"> Consumers</a>
+                                @* <li class="menu-item has-sub"> *@
+                                @*     <a href="#pages" class="nav-link">Pages</a> *@
+
+                                @*     <ul> *@
+                                @*         <li class="active"><a href="index.html">Home</a></li> *@
+                                @*         <li><a href="index.html">About</a></li> *@
+                                @*         <li><a href="index.html">Styles</a></li> *@
+                                @*         <li><a href="index.html">Blog</a></li> *@
+                                @*         <li><a href="index.html">Post Single</a></li> *@
+                                @*         <li><a href="index.html">Our Store</a></li> *@
+                                @*         <li><a href="index.html">Product Single</a></li> *@
+                                @*         <li><a href="index.html">Contact</a></li> *@
+                                @*         <li><a href="index.html">Thank You</a></li> *@
+                                @*     </ul> *@
+                                @* </li> *@
+                               
+                               
+
+                                
                             </ul>
-                            <a asp-controller="Consumer" asp-action="Index">Consumers</a>
-                            <!-- ✅ Carousel with captions, fade effect, and buttons -->
-                            <div id="productCarousel" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="/images/main-banner1.jpg" class="d-block w-100" style="height: 400px; object-fit: fill;" alt="Product 1">
-                                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
-                                            <p>Subscribe to get update on new books.</p>
-
-                                            <a href="Subscribe" class="btn btn-warning">Subscribe</a>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="/images/tab-item8.jpg" class="d-block w-100" style="height: 400px; object-fit: fill;" alt="Product 2">
-                                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
-                                            <p>Join a network of peers  to stay motivated about your studies.</p>
-                                            <a href="Subscribe" class="btn btn-warning">Subscribe</a>
-
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="/images/product-item7.jpg" class="d-block w-100" style="height: 400px; object-fit: fill;" alt="Product 3">
-                                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
-                                            <h5>Subscribe</h5>
-                                            <p>Subscribe to get full access to all the available book.</p>
-                                            <a href="Subscribe" class="btn btn-warning">Subscribe</a>
-
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon"></span>
-                                </button>
-                            </div>
-
-
                             <div class="hamburger">
                                 <span class="bar"></span>
                                 <span class="bar"></span>
@@ -99,6 +62,43 @@
             </div>
         </div>
     </header>
+    <!-- ✅ Carousel with captions, fade effect, and buttons -->
+    <div id="productCarousel" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/main-banner1.jpg" class="d-block w-100" style="height: 400px; object-fit: fill;" alt="Product 1">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+                    <p>Subscribe to get update on new books.</p>
+
+                    <a href="Subscribe" class="btn btn-warning">Subscribe</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/tab-item8.jpg" class="d-block w-100" style="height: 400px; object-fit: fill;" alt="Product 2">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+                    <p>Join a network of peers  to stay motivated about your studies.</p>
+                    <a href="Subscribe" class="btn btn-warning">Subscribe</a>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/product-item7.jpg" class="d-block w-100" style="height: 400px; object-fit: fill;" alt="Product 3">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+                    <h5>Subscribe</h5>
+                    <p>Subscribe to get full access to all the available book.</p>
+                    <a href="Subscribe" class="btn btn-warning">Subscribe</a>
+
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
 
     <section id="billboard">
 
@@ -124,7 +124,7 @@
                             <img src="/images/main-banner1.jpg" alt="banner" class="banner-image">
                         </div><!--slider-item-->
 
-                        <div class="slider-item">
+                        <div class="slider-item p-5">
                             <div class="banner-content">
                                 <h2 class="banner-title">Birds gonna be Happy</h2>
                                 <p>
@@ -251,42 +251,8 @@
                         </div>
 
                     </div>
-                    <!-- Floating Ad Container -->
-                    <div id="content" style="
-                                    position: page;
-                                       bottom: 20px;
-                                       right: 20px;
-                                           width: 200px;
-                                      border: 0px solid #ccc;
-                                       border-radius: 8px;
-                                 box-shadow: 0 0 10px rgba(0,0,0,0.2);
-                                  z-index: 9999;
-                                   background-color: white;
-                                      padding: 5px;
-                                         ">
-                        <!-- Close Button -->
-                        <button onclick="document.getElementById('content').style.display='none'"
-                                style="
-                                     position: absolute;
-                                          top: 2px;
-                                              right: 5px;
-                                          background: none;
-                                          border: none;
-                                    font-size: 18px;
-                                       cursor: pointer;
-                                             ">
-                            ×
-                        </button>
-
-
-                        <img src="/images/bookfair.jpg" alt="Ad" style="width: 100%; border-radius: 8px;" />
-
-
-                    </div>
                     <!-- / row -->
-
                 </div>
-
             </div>
         </div>
     </section>
@@ -762,15 +728,9 @@
     <section id="subscribe">
         <div class="container">
             <div class="row justify-content-center">
-
                 <div class="col-md-8">
                     <div class="row">
-
                         <div class="col-md-6">
-
-                            <div class="title-element">
-                                <h2 class="section-title divider">Subscribe to our newsletter</h2>
-                            </div>
                             <!-- Floating Ad Container -->
                             <div id="floatingAd" style="
                                     position: fixed;
@@ -804,24 +764,6 @@
 
 
                         </div>
-                        <div class="col-md-6">
-
-                            <div class="subscribe-content" data-aos="fade-up">
-                                <p>
-                                    Sed eu feugiat amet, libero ipsum enim pharetra hac dolor sit amet, consectetur. Elit
-                                    adipiscing enim pharetra hac.
-                                </p>
-                                <form id="form">
-                                    <input type="text" name="email" placeholder="Enter your email addresss here">
-                                    <button class="btn-subscribe">
-                                        <span>send</span>
-                                        <i class="icon icon-send"></i>
-                                    </button>
-                                </form>
-                            </div>
-
-                        </div>
-
                     </div>
                 </div>
 
