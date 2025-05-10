@@ -131,41 +131,81 @@ namespace StudentSync.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Student")]
         public IActionResult Edit(string id)
         {
-            ViewResult viewDetail = View();
             try
             {
-                viewDetail = View(_studentRepo.Details(id));
+                var student = _studentRepo.Details(id);
+                if (student == null)
+                {
+                    return NotFound("Student not found.");
+                }
+                return View(student);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw new Exception("Student detail not found");
+                return StatusCode(500, "An error occurred while retrieving the student details.");
             }
-
-            return viewDetail;
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-       [Authorize(Roles = "Student")]
-        public IActionResult Edit(Student student)
+        public IActionResult Edit(Student student, string photoName)
         {
+            if (student == null)
+            {
+                return BadRequest("Invalid student data.");
+            }
+
             try
             {
+                if (HttpContext.Request.Form.Files.Count > 0)
+                {
+                    var files = HttpContext.Request.Form.Files;
+                    string webRootPath = _webHostEnvironment.WebRootPath;
+                    string upload = Path.Combine(webRootPath, WebConstants.ImagePath);
+                    string fileName = Guid.NewGuid().ToString();
+                    string extension = Path.GetExtension(files[0].FileName);
+
+                    // Delete the old file if it exists
+                    if (!string.IsNullOrEmpty(photoName))
+                    {
+                        var oldFile = Path.Combine(upload, photoName);
+                        if (System.IO.File.Exists(oldFile))
+                        {
+                            System.IO.File.Delete(oldFile);
+                        }
+                    }
+
+                    // Save the new file
+                    using (var fileStream = new FileStream(Path.Combine(upload, fileName + extension), FileMode.Create))
+                    {
+                        files[0].CopyTo(fileStream);
+                    }
+
+                    student.Photo = fileName + extension;
+                }
+                else
+                {
+                    student.Photo = photoName;
+                }
+
                 if (ModelState.IsValid)
                 {
                     _studentRepo.Edit(student);
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return View(student);
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw new Exception("Student detail could not be edited");
+                return StatusCode(500, "An error occurred while updating the student record.");
             }
+        }
 
-            return RedirectToAction(nameof(Index));
-        } //End Method
 
         [HttpGet]
         [Authorize(Roles ="Admin")]
