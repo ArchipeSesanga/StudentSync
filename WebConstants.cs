@@ -2,5 +2,5 @@ namespace StudentSync;
 
 public static class WebConstants
 {
-    public static string ImagePath = @"\images\";
+    public const string ImagePath = "images";
 }

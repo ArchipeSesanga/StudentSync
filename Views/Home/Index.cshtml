@@ -3,79 +3,81 @@
     Layout = "_Layout";
 }
 
-
 <div class="container text-center mt-5">
     <h2>Welcome! Choose an App to Continue</h2>
     <div class="row justify-content-center mt-4">
-        <div class="col-md-4">
-            <a asp-controller="Consumer" asp-action="Login" class="btn btn-primary btn-lg w-100 mb-3">BookkSaw</a>
+        <div class="col-md-4 mb-3">
+            <a asp-controller="Consumer" asp-action="Login" class="btn btn-primary btn-lg w-100">BookkSaw</a>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
             <a asp-controller="Student" asp-action="Login" class="btn btn-success btn-lg w-100">StudentSync</a>
         </div>
-        <div class="col-md-4">
-            <a asp-controller="Admin" asp-action="Login" class="btn btn-outline-danger btn-lg text-center  w-100">Login as an Admin</a>
+        <div class="col-md-4 mb-3">
+            <a asp-controller="Admin" asp-action="Login" class="btn btn-outline-danger btn-lg w-100">Login as an Admin</a>
         </div>
-        
-        <hr/>
-        <div class="row container-fluid justify-content-evenly">
-            <div class="card" style="width: 18rem;">
+    </div>
+
+    <hr/>
+
+    <div class="row justify-content-center">
+        <div class="card-group">
+            <div class="card m-2" style="width: 18rem;">
                 <img src="/pic/pic1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Names</h5>
                     <p class="card-text">Your Bio And What you did</p>
-                    <i class="fa-solid fa-phone"></i>        <a asp-controller="Contact" asp-action="Contact" class="btn btn-primary">Contact Me!</a>
+                    <a asp-controller="Contact" asp-action="Contact" class="btn btn-primary w-100">Contact Me!</a>
                 </div>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card m-2" style="width: 18rem;">
                 <img src="/pic/pic2.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Thapelo </h5>
+                    <h5 class="card-title">Thapelo</h5>
                     <p class="card-text">222052243</p>
-                    <a asp-controller="Contact" asp-action="Contact" class="btn btn-primary">Contact Me!</a>
+                    <a asp-controller="Contact" asp-action="Contact" class="btn btn-primary w-100">Contact Me!</a>
                 </div>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card m-2" style="width: 18rem;">
                 <img src="/pic/pic3.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Esethu Phungula</h5>
                     <p class="card-text">222052243</p>
-                    <a asp-controller="Contact" asp-action="Contact" class="btn btn-primary">Contact Me!</a>
+                    <a asp-controller="Contact" asp-action="Contact" class="btn btn-primary w-100">Contact Me!</a>
                 </div>
             </div>
         </div>
-        <div class="row container-fluid justify-content-evenly pt-3">
-            <div class="card" style="width: 18rem;">
+    </div>
+
+    <div class="row justify-content-center pt-3">
+        <div class="card-group">
+            <div class="card m-2" style="width: 18rem;">
                 <img src="/pic/pic5.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Karabo Mutlana</h5>
                     <p class="card-text">221032075</p>
-                    <a asp-controller="Contact" asp-action="Contact" class="btn btn-primary">Contact Me!</a>
+                    <a asp-controller="Contact" asp-action="Contact" class="btn btn-primary w-100">Contact Me!</a>
                 </div>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card m-2" style="width: 18rem;">
                 <img src="/pic/pic4.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Siphesihle Valane</h5>
                     <p class="card-text">221005490</p>
-                    <a asp-controller="Contact" asp-action="Contact" class="btn btn-primary">Contact Me!</a>
+                    <a asp-controller="Contact" asp-action="Contact" class="btn btn-primary w-100">Contact Me!</a>
                 </div>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card m-2" style="width: 18rem;">
                 <img src="/pic/pic6.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Dintle</h5>
                     <p class="card-text">Your Bio And What you did</p>
-                    <a asp-controller="Contact" asp-action="Contact" class="btn btn-primary">Contact Me!</a>
+                    <a asp-controller="Contact" asp-action="Contact" class="btn btn-primary w-100">Contact Me!</a>
                 </div>
             </div>
         </div>
-        
-        
-       
     </div>
 </div>

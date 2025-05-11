@@ -32,6 +32,7 @@ namespace StudentSync.Controllers
         }
 
 
+        [Authorize(Roles = "Admin, Consumer")]
         public IActionResult Index(string sortOrder, string currentFilter, string searchString, int? pageNumber)
         {
             pageNumber ??= 1;
@@ -171,7 +172,7 @@ namespace StudentSync.Controllers
         {
             var files = HttpContext.Request.Form.Files;
             string webRootPath = _webHostEnvironment.WebRootPath;
-            string upload = webRootPath + WebConstants.ImagePath;
+            string upload = Path.Combine(_webHostEnvironment.WebRootPath, WebConstants.ImagePath);
             string fileName = Guid.NewGuid().ToString();
             string extension = Path.GetExtension(files[0].FileName);
             using (var fileStream = new FileStream(Path.Combine(upload, fileName + extension),
@@ -195,7 +196,7 @@ namespace StudentSync.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Comsumer")]
+        [Authorize(Roles = "Consumer")]
         public IActionResult Edit(string id)
         {
             var consumer = _consumerRepo.Details(id);

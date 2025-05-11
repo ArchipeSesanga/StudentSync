@@ -1,7 +1,20 @@
 ﻿@model StudentSync.Models.Consumer
 
+
 @{
     ViewData["Title"] = "Edit";
+    if (User.IsInRole("Admin"))
+    {
+        Layout = "_AdminLayout";
+    }
+    else if (User.IsInRole("Student"))
+    {
+        Layout = "_StudentLayout";
+    }
+    else
+    {
+        Layout = "_ConsumerLayout";
+    }
 }
 
 <h1>Edit</h1>

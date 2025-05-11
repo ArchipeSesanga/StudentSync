@@ -102,7 +102,7 @@ namespace StudentSync.Controllers
         {
             var files = HttpContext.Request.Form.Files;
             string webRootPath = _webHostEnvironment.WebRootPath;
-            string upload = webRootPath + WebConstants.ImagePath;
+            string? upload = Path.Combine(_webHostEnvironment.WebRootPath, WebConstants.ImagePath);
             string fileName = Guid.NewGuid().ToString();
             string extension = Path.GetExtension(files[0].FileName);
 

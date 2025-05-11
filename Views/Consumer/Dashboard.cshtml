@@ -13,7 +13,7 @@
 
                 <div class="col-md-2">
                     <div class="main-logo">
-                        <a href="index.html"><img src="/images/main-logo.png" alt="logo"></a>
+                        <a asp-controller="Home" asp-action="Index"><img src="/images/main-logo.png" alt="logo"></a>
                     </div>
 
                 </div>
@@ -24,10 +24,11 @@
                         <div class="main-menu stellarnav">
                             <ul class="menu-list">
                                 <li class="menu-item active"><a href="#home">Home</a></li>
+                                <li class="menu-item active"><a class="nav-link" asp-controller="Student" asp-action="About"> About US</a></li>
                                 <li class="menu-item active"><a href="#popular-books" class="nav-link">Popular</a></li>
-                                <li class="menu-item active"><a class ="nav-link" asp-controller="Student" asp-action="Index"> Consumers</a></li>
-                                <li class="menu-item active"><a class="nav-link" asp-controller="Student" asp-action="Create"> Enroll</a>
-                                </li>
+                                <li class="menu-item active"><a class ="nav-link" asp-controller="Consumer" asp-action="Index"> Consumers</a></li>
+                                <li class="menu-item active"><a class="nav-link" asp-controller="Student" asp-action="Create"> Enrol</a></li>
+                               
                                 @* <li class="menu-item has-sub"> *@
                                 @*     <a href="#pages" class="nav-link">Pages</a> *@
 
@@ -145,9 +146,8 @@
                     <!-- Floating Ad -->
                     <!-- Floating Ad -->
                     <div id="floating" style="
-                     position: center;
                      bottom: 20px;
-                       right: 20px;
+                     right: 20px;
                      width: 250px;
                       background: #fff;
                       border-radius: 8px;
@@ -155,11 +155,6 @@
                            box-shadow: 0 0 10px rgba(0,0,0,0.2);
                                 z-index: 9999;
                                 ">
-                        <button onclick="document.getElementById('floating').style.display='none'"
-                                style="position:absolute;top:2px;right:5px;background:none;border:none;font-size:18px;cursor:pointer;">
-                            ×
-                        </button>
-
                         <!-- Image as clickable link -->
                         <a href="#" data-bs-toggle="modal" data-bs-target="#eventModal">
                             <img src="/images/booksale.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Ad">
@@ -183,10 +178,6 @@
                             </div>
                         </div>
                     </div>
-
-
-
-
                 </div>
             </div>
         </div>

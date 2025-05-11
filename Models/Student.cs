@@ -7,8 +7,8 @@ namespace StudentSync.Models
         [Key]
         [Display(Name = "Student Number")]
         [Required(ErrorMessage = "Student Number is required.")]
-        [StringLength(10, MinimumLength = 10, ErrorMessage = "The Student Number may " +
-            "only be 10 digits")]
+        [StringLength(9, MinimumLength = 9, ErrorMessage = "The Student Number may " +
+            "only be 9 digits")]
         [RegularExpression("^[0-9]+$", ErrorMessage = "Only digits are allowed")]
         public string? StudentNumber { get; set; }
 

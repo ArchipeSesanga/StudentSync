@@ -57,6 +57,7 @@ public class AdminController : Controller
     
     // GET: Admin/Login
     [HttpGet]
+    // [Authorize(Roles = "Admin")]
     public IActionResult Login()
     {
         
@@ -72,6 +73,7 @@ public class AdminController : Controller
     // POST: Admin/Login
     [HttpPost]
     [ValidateAntiForgeryToken]
+   
     public async Task<IActionResult> Login(LoginViewModel model)
     {
         if (!ModelState.IsValid)
@@ -105,6 +107,7 @@ public class AdminController : Controller
     }
 
 
+    [Authorize(Roles = "Admin")]
     public IActionResult Dashboard()
     {
         return View();
