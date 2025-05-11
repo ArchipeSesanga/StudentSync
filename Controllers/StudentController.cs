@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Data.Sqlite;
 
 namespace StudentSync.Controllers
 {
@@ -125,7 +126,8 @@ namespace StudentSync.Controllers
             }
             catch (Exception ex)
             {
-                throw new Exception("Student record not saved.");
+                if(ex.InnerException!= null && ex.InnerException.Message.Contains("SQLite Error 19") )
+                    throw new Exception("This Student already exists please enter a different one.");
             }
             return RedirectToAction("Index");
         }
